@@ -82,10 +82,10 @@ body:
       value: |
         <table>
         <tr>
-        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/msculptor.jpg?raw=true"></td>
-        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/mcarina.jpg?raw=true"></td>
-        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/mfornax.jpg?raw=true"></td>
-        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/mmessier.jpg?raw=true"></td>
+        <td><img src="https://github.com/zuckung/ES-GalaxyGenerator/blob/main/res/galaxyimages/msculptor.jpg?raw=true"></td>
+        <td><img src="https://github.com/zuckung/ES-GalaxyGenerator/blob/main/res/galaxyimages/mcarina.jpg?raw=true"></td>
+        <td><img src="https://github.com/zuckung/ES-GalaxyGenerator/blob/main/res/galaxyimages/mfornax.jpg?raw=true"></td>
+        <td><img src="https://github.com/zuckung/ES-GalaxyGenerator/blob/main/res/galaxyimages/mmessier.jpg?raw=true"></td>
         </tr>
         <tr>
         <td>sculptor</td>
