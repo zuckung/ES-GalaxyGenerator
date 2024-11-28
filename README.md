@@ -29,6 +29,38 @@ latest 5 generated galaxies:<br>
 <table>
   <tr>
     <td width=200>
+      name: Tester<br>
+      <br>
+      pos: (-10000, -10000)<br>
+      systems: 200<br>
+      planets: 300<br>
+      wormhole: Sol<br>
+      sunmax: 3<br>
+      planetmax: 5<br>
+      minablemax: 3<br>
+      image: messier<br>
+      starradius: 100<br>
+      density: 5<br>
+      tries: 15<br>
+    </td>
+    <td width=200>
+      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/Tester0.zip">Tester0.zip</a><br>
+      <br>
+      <br>
+      <a href="generated/Tester0/MapGenSystems.txt">MapGenSystems.txt</a><br>
+      <a href="generated/Tester0/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
+      <a href="generated/Tester0/MapGenStuff.txt">MapGenStuff.txt</a><br>
+    </td>
+    <td width=300>
+      <a href="generated/Tester0/MapGenMap.jpg"> <img src='generated/Tester0/miniMapGenMap.jpg' width='300'></a>
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width=200>
       name: zuckung<br>
       <br>
       pos: (10000, 10000)<br>
