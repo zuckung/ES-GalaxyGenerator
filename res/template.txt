@@ -45,7 +45,7 @@ latest 5 generated galaxies:<br>
       tries: <tries><br>
     </td>
     <td width=200>
-      plugin:<br><a href="https://github.com/zuckung/test/releases/download/Latest/<linkfolder>.zip"><linkfolder>.zip</a><br>
+      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/<linkfolder>.zip"><linkfolder>.zip</a><br>
       <br>
       <br>
       <a href="generated/<linkfolder>/MapGenSystems.txt">MapGenSystems.txt</a><br>
