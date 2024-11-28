@@ -26,6 +26,8 @@ def write_readme():
 	with open('README.md', 'w') as target:
 		target.write(headtemplate)
 		for each in folder:
+			if folder == '' or folder == '\n':
+				continue
 			each = each.strip()
 			with open('generated' + os.sep + each + os.sep + each + '.txt', 'r') as source:
 				lines = source.readlines()
