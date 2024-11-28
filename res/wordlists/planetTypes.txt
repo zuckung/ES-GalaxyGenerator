@@ -1,0 +1,386 @@
+# hashtag lines will be ignored
+aera
+# alvorada
+# asteroid base
+# asura
+browndwarf-l
+browndwarf-l-rogue
+browndwarf-t
+browndwarf-t-rogue
+browndwarf-y
+browndwarf-y-rogue
+callisto
+callisto-b
+cloud0
+cloud0-b
+cloud1
+cloud1-b
+cloud2
+cloud2-b
+cloud3
+cloud3-b
+cloud4
+cloud4-b
+cloud5
+cloud5-b
+cloud6
+cloud6-b
+cloud7
+cloud7-b
+cloud8
+cloud8-b
+desert0
+desert0-b
+desert1
+desert1-b
+desert10
+desert10-b
+desert2
+desert2-b
+desert3
+desert3-b
+desert4
+desert4-b
+desert5
+desert5-b
+desert6
+desert6-b
+desert7
+desert7-b
+desert8
+desert8-b
+desert9
+desert9-b
+dust0
+dust0-b
+dust1
+dust1-b
+dust2
+dust2-b
+dust3
+dust3-b
+dust4
+dust4-b
+dust5
+dust5-b
+dust6
+dust6-b
+dust7
+dust7-b
+# dyson1
+# dyson2
+# dyson3
+earth
+earth-b
+europa
+europa-b
+fog0
+fog0-b
+forest0
+forest0-b
+forest1
+forest1-b
+forest2
+forest2-b
+forest3
+forest3-b
+forest4
+forest4-b
+forest5
+forest5-b
+forest6
+forest6-b
+ganymede
+ganymede-b
+gas0
+gas0-b
+gas0-hot
+gas1
+gas1-b
+gas1-hot
+gas10
+gas10-b
+gas10-hot
+gas11
+gas11-b
+gas12
+gas12-b
+gas13
+gas13-b
+gas14
+gas14-b
+gas15
+gas15-b
+gas16
+gas16-b
+gas17
+gas17-b
+gas2
+gas2-b
+gas2-hot
+gas3
+gas3-b
+# gas3-c
+gas3-hot
+gas4
+gas4-b
+gas4-hot
+gas5
+gas5-b
+gas5-hot
+gas6
+gas6-b
+gas6-hot
+gas7
+gas7-b
+gas7-hot
+# gas7-r
+gas8
+gas8-b
+gas8-hot
+gas9
+gas9-b
+gas9-hot
+gliese
+ice0
+ice0-b
+ice1
+ice1-b
+ice2
+ice2-b
+ice3
+ice3-b
+ice4
+ice4-b
+ice5
+ice5-b
+ice6
+ice6-b
+ice7
+ice7-b
+ice8
+ice8-b
+io
+io-b
+jupiter
+jupiter-b
+lava0
+lava0-b
+lava1
+lava1-b
+lava2
+lava2-b
+lava3
+lava3-b
+lava4
+lava4-b
+lava5
+lava5-b
+lava6
+lava6-b
+lava7
+lava7-b
+luna
+luna-b
+mars
+mars-b
+# mendez
+mercury
+mercury-b
+miranda
+miranda-b
+nebula1
+neptune
+neptune-b
+oberon
+oberon-b
+ocean0
+ocean0-b
+ocean1
+ocean1-b
+ocean2
+ocean2-b
+ocean3
+ocean3-b
+ocean4
+ocean4-b
+ocean5
+ocean5-b
+ocean6
+ocean6-b
+ocean7
+ocean7-b
+ocean8
+ocean8-b
+ocean9
+ocean9-b
+# panels1
+# panels2
+# panels3
+# panels4
+# panels5
+# pontes
+redias
+rhea
+rhea-b
+# ringworld
+# ringworld broken debris
+# ringworld broken debris small
+# ringworld broken left
+# ringworld broken right
+# ringworld left
+# ringworld right
+rock0
+rock0-b
+rock1
+rock1-b
+rock10
+rock10-b
+rock11
+rock11-b
+rock12
+rock12-b
+rock13
+rock13-b
+rock14
+rock14-b
+rock15
+rock15-b
+rock16
+rock16-b
+rock17
+rock17-b
+rock18
+rock18-b
+rock19
+rock19-b
+rock2
+rock2-b
+rock20
+rock3
+rock3-b
+rock4
+rock4-b
+rock5
+rock5-b
+rock6
+rock6-b
+rock7
+rock7-b
+rock8
+rock8-b
+rock9
+rock9-b
+rogue-radiating
+saturn
+# sheragi_postverta
+# station hai eight geocoris
+# station hai eight geocoris dim
+# station hai geocoris
+# station successor 1
+# station successor 2
+# station successor 3
+# station successor 4
+# station-bunrodea
+# station0
+# station1
+# station10
+# station11
+# station12
+# station13
+# station14
+# station15
+# station16
+# station17
+# station18
+# station19
+# station1b
+# station1c
+# station1k
+# station1kd
+# station2
+# station2b
+# station2c
+# station2k
+# station2kd
+# station3
+# station3b
+# station3bd
+# station3c
+# station3k
+# station3kd
+# station4
+# station4b
+# station4bd
+# station4c
+# station5
+# station5c
+# station6
+# station6c
+# station7
+# station7c
+# station7cb
+# station8
+# station9
+# stationh-ancient0
+# stationh-ancient1
+# stationh-ancient2
+tethys
+tethys-b
+titan
+titan-b
+treser
+# tschyss
+uranus
+uranus-b
+venus
+venus-b
+vesvi
+vulpa
+water0
+water0-b
+water1
+water1-b
+wisp
+# wormhole
+# wormhole-red
+# wormhole-syndicate-ad-00
+# wormhole-syndicate-ad-01
+# wormhole-syndicate-ad-02
+# wormhole-syndicate-ad-03
+# wormhole-syndicate-ad-04
+# wormhole-syndicate-ad-05
+# wormhole-syndicate-ad-06
+# wormhole-syndicate-ad-07
+# wormhole-syndicate-ad-08
+# wormhole-syndicate-ad-09
+# wormhole-syndicate-ad-10
+# wormhole-syndicate-ad-11
+# wormhole-syndicate-ad-12
+# wormhole-syndicate-ad-13
+# wormhole-syndicate-ad-14
+# wormhole-syndicate-ad-15
+# wormhole-syndicate-ad-16
+# wormhole-syndicate-ad-17
+# wormhole-syndicate-ad-18
+# wormhole-syndicate-ad-19
+# wormhole-syndicate-ad-20
+# wormhole-syndicate-ad-21
+# wormhole-syndicate-ad-22
+# wormhole-syndicate-ad-23
+# wormhole-syndicate-ad-24
+# wormhole-syndicate-ad-25
+# wormhole-syndicate-ad-26
+# wormhole-syndicate-ad-27
+# wormhole-syndicate-ad-28
+# wormhole-syndicate-ad-29
+# wormhole-syndicate-ad-30
+# wormhole-syndicate-ad-31
+# wormhole-syndicate-ad-32
+# wormhole-syndicate-ad-33
+# wormhole-syndicate-ad-34
+# wormhole-syndicate-ad-35
+# yniu eiu
+# yniu ena
+# zenith cold
+# zenith hot

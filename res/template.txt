@@ -1,0 +1,60 @@
+### Welcome to the Endless Sky Galaxy Generator!<br>
+<br>
+This repo generates plugins, containing a new galaxy generated out of the following options:
+<ul>
+  <li>the center position of the new galaxy</li>
+  <li>amount of systems (between 1 and 500)</li>
+  <li>amount of landable planets (between 0 and 500)</li>
+  <li>a vanilla system for the wormhole link (choose the name)</li>
+  <li>number of suns a system can have</li>
+  <li>number of non-landable planets a system can have</li>
+  <li>number of minables a system can have</li>
+  <li>the background galaxy image (4 to choose )</li>
+  <li>radius around a star at which new systems get generated</li>
+  <li>density of systems/dead arms</li>
+  <li>re-tries of system generation to influence galaxy core density</li>
+</ul>
+Other used features are:
+<ul>
+  <li>cleaned up wordlists (system names, planet names, landing images, planet images, star images)</li>
+  <li>zip creation with correct folder structure (ready to play)</li>
+</ul>
+<br>
+To generate such a galaxy, open an issue and choose the galaxy generation template, modify the values inside the issue form, and post the issue. Between 30 seconds and 1 minute later, this readme shows the new generated galaxy, the generated files, a map of the galaxy, and a link to a zip with the complete plugin data.<br>
+<br>
+Have fun!<br>
+<br>
+<br>
+latest 5 generated galaxies:<br>
+#### tables
+<table>
+  <tr>
+    <td width=200>
+      name: <name><br>
+      <br>
+      pos: <pos><br>
+      systems: <systems><br>
+      planets: <planets><br>
+      wormhole: <wormhole><br>
+      sunmax: <sunmax><br>
+      planetmax: <planetmax><br>
+      minablemax: <minablemax><br>
+      image: <galaxyimage><br>
+      starradius: <starradius><br>
+      density: <density><br>
+      tries: <tries><br>
+    </td>
+    <td width=200>
+      plugin:<br><a href="https://github.com/zuckung/test/releases/download/Latest/<linkfolder>.zip"><linkfolder>.zip</a><br>
+      <br>
+      <br>
+      <a href="generated/<linkfolder>/MapGenSystems.txt">MapGenSystems.txt</a><br>
+      <a href="generated/<linkfolder>/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
+      <a href="generated/<linkfolder>/MapGenStuff.txt">MapGenStuff.txt</a><br>
+    </td>
+    <td width=300>
+      <a href="generated/<linkfolder>/MapGenMap.jpg"> <img src='generated/<linkfolder>/miniMapGenMap.jpg' width='300'></a>
+    </td>
+  </tr>
+</table>
+

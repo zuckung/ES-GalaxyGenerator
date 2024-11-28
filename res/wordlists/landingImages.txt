@@ -1,0 +1,506 @@
+# hashtag lines will be ignored
+aera
+asteroid0
+badlands0
+badlands1
+badlands10
+badlands11
+# badlands12
+badlands13
+badlands2
+badlands3
+badlands4
+badlands5
+badlands6
+badlands7
+badlands8
+badlands9-harro
+# beach0
+beach1
+beach10-sfiera
+beach11-harro
+beach12-harro
+beach13
+beach14
+beach15
+beach2
+beach3
+beach4
+beach5
+beach6
+beach7-sfiera
+beach8-sfiera
+beach9-sfiera
+# bwerner0
+bwerner1
+bwerner2
+bwerner3
+bwerner4
+bwerner5
+bwerner6
+bwerner7
+bwerner8
+canyon0
+canyon01
+canyon02
+canyon03
+canyon04
+canyon05
+canyon1
+canyon10-harro
+canyon11
+canyon12
+canyon13
+canyon14
+canyon15
+canyon2
+canyon3
+canyon4
+canyon5
+canyon6
+canyon7
+canyon8
+canyon9
+# city0
+# city1
+# city10
+# city11
+# city12
+# city13-sfiera
+# city14-sfiera
+# city15-sfiera
+# city16-sfiera
+# city17-sfiera
+# city18-iridium
+# city19
+# city2
+# city20
+# city21
+# city22
+# city23
+# city24
+# city25
+# city26
+# city27
+# city28
+# city3
+# city4
+# city5
+# city6
+# city7
+# city8
+# city9
+clouds10
+clouds9.
+clouds_00
+clouds_01
+clouds_02
+clouds_03
+clouds_04
+clouds_05
+clouds_06
+clouds_07
+clouds_08
+desert0
+desert1
+desert10-harro
+desert11
+desert12
+desert13
+desert14
+desert15
+desert2
+desert3
+desert4
+desert5
+desert6
+desert7
+desert8-sfiera
+# desert9-sfiera
+dmottl0
+dmottl1
+dmottl2
+dmottl3
+dmottl4
+dmottl5
+dune0
+dune1
+dune2
+dune3
+dune4
+dune5
+dune6-harro
+# earthrise
+enceladus_1
+enceladus_2
+enceladus_3
+enceladus_4
+# fields0
+# fields1
+# fields10-sfiera
+# fields11-sfiera
+# fields12-sfiera
+# fields13
+# fields13-sfiera
+# fields14
+# fields15
+# fields16
+# fields17
+# fields18
+# fields19
+# fields2
+# fields20
+# fields21
+# fields22
+# fields23
+# fields24
+# fields25
+# fields26
+# fields27
+# fields28
+# fields29
+# fields3
+# fields4
+# fields5
+# fields6
+# fields7
+# fields8
+# fields9
+fog0
+fog1
+fog10
+fog11
+fog12
+fog2
+fog3
+fog4
+fog5
+fog6
+fog7
+fog8
+fog9
+forest0
+forest1
+forest10
+forest11
+forest12
+forest2
+forest3
+forest4
+forest5
+forest6
+forest7
+forest8
+forest9
+# garden1
+gliese
+haze0
+haze1
+haze2
+hills0
+hills1
+hills10
+hills11
+hills2
+hills3
+hills4
+hills5-sfiera
+hills6-sfiera
+hills7-harro
+hills8
+humo
+igna
+# industrial0-iridium
+lava0
+lava1
+lava10
+lava11
+lava12
+lava13
+lava14
+lava2
+lava3
+lava4
+lava5
+lava6
+lava7-sfiera
+lava8
+lava9
+# loc0
+# loc1
+# loc2
+# loc3
+mars0
+mars1
+mars2
+mars3
+mars4
+mercury1
+methuselah
+# mfield0
+# mfield1
+# mfield2
+# mfield3
+# mfield4
+# mfield5
+moon0
+moon1
+mountain0
+mountain1
+mountain10-sfiera
+mountain11-sfiera
+mountain12-sfiera
+mountain13-sfiera
+# mountain14-sfiera
+mountain15-sfiera
+mountain16-striker
+mountain17-harro
+mountain18-harro
+mountain19-harro
+mountain2
+mountain20-harro
+mountain21-harro
+mountain22-spfld
+mountain23-spfld
+mountain24-spfld
+mountain25-spfld
+mountain26
+mountain27
+mountain28
+mountain29
+mountain3
+mountain30
+mountain4
+mountain5
+mountain6
+mountain7
+mountain8
+mountain9
+myrabella0
+myrabella1
+myrabella2
+myrabella3
+myrabella4
+myrabella5
+myrabella6
+myrabella7
+myrabella8
+nasa0
+# nasa1
+# nasa10
+# nasa11
+# nasa12
+# nasa13
+# nasa14
+# nasa15
+# nasa16
+# nasa17
+# nasa18
+# nasa19
+# nasa2
+# nasa20
+# nasa21
+# nasa22
+# nasa23
+# nasa24
+# nasa25
+# nasa26
+# nasa27
+# nasa28
+# nasa29
+# nasa3
+# nasa30
+# nasa4
+# nasa5
+# nasa6
+# nasa7
+nasa8
+nasa9
+occupas
+# path1
+# path2
+# path3
+# path4
+pia21553_1
+pia21553_2
+redias
+sea0
+sea1
+sea10-sfiera
+# sea11-sfiera
+# sea12-sfiera
+sea13-sfiera
+# sea14-sfiera
+sea15-harro
+sea16-harro
+sea17-harro
+# sea18
+sea19
+sea2
+# sea20
+sea21
+sea22
+sea23
+# sea24
+sea3
+sea4
+sea5
+# sea6
+sea7
+sea8
+sea9
+# sivael0
+# sivael1
+# sivael2
+# sivael3
+# sivael4
+# sivael5
+# sivael6
+# sivael7
+# sivael8
+# sivael9
+sky0
+sky1
+sky10
+sky11
+sky12
+sky13
+sky2
+sky3
+sky4
+sky5
+sky6
+sky7
+sky8
+sky9
+snow0
+snow1
+snow10
+snow10-sfiera
+snow11-sfiera
+snow12
+snow13
+snow14
+# snow15
+snow16
+snow17
+snow18
+snow19
+snow2
+snow20
+snow21
+snow22
+snow23
+snow24
+snow25
+snow3
+snow4
+snow5
+snow6
+snow7
+snow8
+snow9
+# space0
+# space1
+# space2
+# space3
+# space4
+# space5
+# space6
+# space7
+# station0
+# station1
+# station10
+# station11
+# station12
+# station13
+# station14
+# station15
+# station16
+# station17
+# station18
+# station19
+# station2
+# station20
+# station21
+# station22
+# station23
+# station24
+# station25
+# station26
+# station27
+# station28
+# station29
+# station3
+# station30
+# station31
+# station32
+# station33
+# station34
+# station35
+# station36
+# station37
+# station38
+# station39
+# station4
+# station40
+# station41
+# station42
+# station43
+# station44
+# station45
+# station46
+# station47
+# station48
+# station49
+# station5
+# station50
+# station6
+# station7
+# station8
+# station9
+treser
+turra
+valley0
+# valley1
+# valley10-sfiera
+# valley11-harro
+# valley12-harro
+# valley13-harro
+# valley14-harro
+# valley15-harro
+valley2
+valley3
+valley4
+valley5
+# valley6
+valley7
+valley8
+valley9
+vulpa
+water0
+water1
+water10-harro
+water11-harro
+water12
+water13
+# water14
+water15
+# water16
+# water17
+# water18
+water19
+water2
+# water20
+water21
+water22
+water23
+# water24
+water25
+water3
+water4
+water5
+water6
+water7
+water8
+water9

@@ -1,0 +1,136 @@
+name: GalaxyGenerationRequest
+description: Submit a new Galaxy Generation Request
+assignees: Zuckung
+labels: autoclose
+title: Galaxy Generation Request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the Galaxy Generation form.
+        Change the fields to your desired values, or just keep them like they are.
+        
+  - type: input
+    attributes:
+      label: Name
+      description: Enter your name or identifier.
+      value: Tester
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: StartPos
+      description: Enter the coordinate system pos of this galaxy. (i.e. 5000 5000)
+      value: -10000 -10000
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Systems
+      description: Enter the number of systems you want to add to theis galaxy. (1 to 500)
+      value: "300"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Planets
+      description: Enter the number of landable planets you want to add to this galaxy. (0 to 500)
+      value: "100"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: StartWormhole
+      description: Enter the name of the vanilla system the wormhole to the new galaxy should be in. (i.e Ritilicus)
+      value: Sol
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: SunMax
+      description: Enter the number of suns a system can have. (1 to 3, randomized 1 to max.)
+      value: "3"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: PlanetMax
+      description: Enter the number of non-landable planets a system can have. (1 to ~, randomized)
+      value: "5"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: MinableMax
+      description: Enter the number of different minables a system can have. (0 to ~, randomized)
+      value: "3"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: GalaxyImage
+      description: Select a background galaxy image.
+      options:
+        - sculptor
+        - carina
+        - fornax
+        - messier
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        <table>
+        <tr>
+        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/msculptor.jpg?raw=true"></td>
+        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/mcarina.jpg?raw=true"></td>
+        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/mfornax.jpg?raw=true"></td>
+        <td><img src="https://github.com/zuckung/test/blob/main/res/galaxyimages/mmessier.jpg?raw=true"></td>
+        </tr>
+        <tr>
+        <td>sculptor</td>
+        <td>carina</td>
+        <td>fornax</td>
+        <td>messier</td>
+        </tr>
+        <tr>
+        <td>5120x3840</td>
+        <td>4096x4096</td>
+        <td>4096x4096</td>
+        <td>4096x4096</td>
+        </tr>
+        </table>
+  - type: markdown
+    attributes:
+      value: |
+        <br>
+        <br>
+        The following values don't really need changes. (StarRadius, Density, Tries)
+        <br>
+        To understand how system generation work, here a short explanation: The first system will
+        get generated at <Startpos>, then a circle with <StarRadius> is drawn around and for
+        <Tries> times a system is tried to get generated on the border of that circle. Then the
+        focus moves to the first new generated system and all restarts. After <density> of
+        successful system creations, the focus system jumps back to the first system, and
+        everything restarts.
+  - type: input
+    attributes:
+      label: StarRadius
+      description: Enter a number representing the distance from current system to generated system. (max. 200, 100 looks best)
+      value: "100"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Density
+      description: Enter a number representing the amount of system generations, before restarting to try to generate more system at the first system. (max. 20, higher means more long system arms)
+      value: "5"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Tries
+      description: Enter the number for re-tries to generate a new system from the current system. (max.20, higher means a more dense core)
+      value: "15"
+    validations:
+      required: true
