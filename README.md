@@ -31,6 +31,38 @@ latest 5 generated galaxies:<br>
     <td width=200>
       name: zuckung<br>
       <br>
+      pos: (10000, 10000)<br>
+      systems: 100<br>
+      planets: 50<br>
+      wormhole: Sol<br>
+      sunmax: 3<br>
+      planetmax: 5<br>
+      minablemax: 3<br>
+      image: carina<br>
+      starradius: 100<br>
+      density: 5<br>
+      tries: 15<br>
+    </td>
+    <td width=200>
+      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/zuckung3.zip">zuckung3.zip</a><br>
+      <br>
+      <br>
+      <a href="generated/zuckung3/MapGenSystems.txt">MapGenSystems.txt</a><br>
+      <a href="generated/zuckung3/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
+      <a href="generated/zuckung3/MapGenStuff.txt">MapGenStuff.txt</a><br>
+    </td>
+    <td width=300>
+      <a href="generated/zuckung3/MapGenMap.jpg"> <img src='generated/zuckung3/miniMapGenMap.jpg' width='300'></a>
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width=200>
+      name: zuckung<br>
+      <br>
       pos: (-10000, -10000)<br>
       systems: 400<br>
       planets: 100<br>
