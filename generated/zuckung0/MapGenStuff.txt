@@ -13,7 +13,7 @@ planet "Mysterious Wormhole"
 	government "Republic"
 	wormhole "Mysterious Wormhole"
 
-galaxy "messier"
+galaxy "fornax"
 	pos -10000 -10000
-	sprite "ui/messier"
+	sprite "ui/fornax"
 

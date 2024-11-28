@@ -1,0 +1,500 @@
+planet "Arcanix"
+	attributes uninhabited sculptor
+	landscape land/water2
+	description ``
+
+planet "Xenia"
+	attributes uninhabited sculptor
+	landscape land/water7
+	description ``
+
+planet "Hyacinth"
+	attributes uninhabited sculptor
+	landscape land/mountain22-spfld
+	description ``
+
+planet "Jaran"
+	attributes uninhabited sculptor
+	landscape land/mountain13-sfiera
+	description ``
+
+planet "Jaspar"
+	attributes uninhabited sculptor
+	landscape land/mountain2
+	description ``
+
+planet "Solara"
+	attributes uninhabited sculptor
+	landscape land/fog8
+	description ``
+
+planet "Vega"
+	attributes uninhabited sculptor
+	landscape land/canyon13
+	description ``
+
+planet "Astaroth"
+	attributes uninhabited sculptor
+	landscape land/sea17-harro
+	description ``
+
+planet "Berithon"
+	attributes uninhabited sculptor
+	landscape land/lava0
+	description ``
+
+planet "Tempest"
+	attributes uninhabited sculptor
+	landscape land/mountain30
+	description ``
+
+planet "Yonder"
+	attributes uninhabited sculptor
+	landscape land/clouds_02
+	description ``
+
+planet "Heimdall"
+	attributes uninhabited sculptor
+	landscape land/dmottl4
+	description ``
+
+planet "Eonar"
+	attributes uninhabited sculptor
+	landscape land/water6
+	description ``
+
+planet "Pandora"
+	attributes uninhabited sculptor
+	landscape land/valley2
+	description ``
+
+planet "Iridium"
+	attributes uninhabited sculptor
+	landscape land/myrabella8
+	description ``
+
+planet "Wolfsbane"
+	attributes uninhabited sculptor
+	landscape land/clouds_03
+	description ``
+
+planet "Ypsilon"
+	attributes uninhabited sculptor
+	landscape land/sky13
+	description ``
+
+planet "Arkadia"
+	attributes uninhabited sculptor
+	landscape land/badlands8
+	description ``
+
+planet "Umbriel"
+	attributes uninhabited sculptor
+	landscape land/mars4
+	description ``
+
+planet "Orpheus"
+	attributes uninhabited sculptor
+	landscape land/vulpa
+	description ``
+
+planet "Delphoria"
+	attributes uninhabited sculptor
+	landscape land/desert3
+	description ``
+
+planet "Selene"
+	attributes uninhabited sculptor
+	landscape land/mountain2
+	description ``
+
+planet "Atheria"
+	attributes uninhabited sculptor
+	landscape land/mountain21-harro
+	description ``
+
+planet "Megara"
+	attributes uninhabited sculptor
+	landscape land/fog2
+	description ``
+
+planet "Cygnus Prime"
+	attributes uninhabited sculptor
+	landscape land/forest7
+	description ``
+
+planet "Themis"
+	attributes uninhabited sculptor
+	landscape land/beach5
+	description ``
+
+planet "Ulysses"
+	attributes uninhabited sculptor
+	landscape land/water22
+	description ``
+
+planet "Vertex"
+	attributes uninhabited sculptor
+	landscape land/forest10
+	description ``
+
+planet "Halara"
+	attributes uninhabited sculptor
+	landscape land/lava14
+	description ``
+
+planet "Quixia"
+	attributes uninhabited sculptor
+	landscape land/snow24
+	description ``
+
+planet "Cygnara"
+	attributes uninhabited sculptor
+	landscape land/badlands5
+	description ``
+
+planet "Zemlya"
+	attributes uninhabited sculptor
+	landscape land/clouds9.
+	description ``
+
+planet "Tethys"
+	attributes uninhabited sculptor
+	landscape land/mountain18-harro
+	description ``
+
+planet "Kraken"
+	attributes uninhabited sculptor
+	landscape land/mountain22-spfld
+	description ``
+
+planet "Nostromo"
+	attributes uninhabited sculptor
+	landscape land/canyon13
+	description ``
+
+planet "Qamar"
+	attributes uninhabited sculptor
+	landscape land/canyon01
+	description ``
+
+planet "Cervion"
+	attributes uninhabited sculptor
+	landscape land/occupas
+	description ``
+
+planet "Galaxia"
+	attributes uninhabited sculptor
+	landscape land/mountain0
+	description ``
+
+planet "Iolara"
+	attributes uninhabited sculptor
+	landscape land/sky12
+	description ``
+
+planet "Outrider"
+	attributes uninhabited sculptor
+	landscape land/myrabella4
+	description ``
+
+planet "Prisma"
+	attributes uninhabited sculptor
+	landscape land/sea19
+	description ``
+
+planet "Zelos"
+	attributes uninhabited sculptor
+	landscape land/dmottl0
+	description ``
+
+planet "Janus"
+	attributes uninhabited sculptor
+	landscape land/myrabella3
+	description ``
+
+planet "Naiad"
+	attributes uninhabited sculptor
+	landscape land/sky13
+	description ``
+
+planet "Onyxia"
+	attributes uninhabited sculptor
+	landscape land/snow2
+	description ``
+
+planet "Titan"
+	attributes uninhabited sculptor
+	landscape land/forest3
+	description ``
+
+planet "Jotunheim"
+	attributes uninhabited sculptor
+	landscape land/occupas
+	description ``
+
+planet "Chronosia"
+	attributes uninhabited sculptor
+	landscape land/canyon02
+	description ``
+
+planet "Urania"
+	attributes uninhabited sculptor
+	landscape land/valley5
+	description ``
+
+planet "Jove"
+	attributes uninhabited sculptor
+	landscape land/moon1
+	description ``
+
+planet "Zathura"
+	attributes uninhabited sculptor
+	landscape land/igna
+	description ``
+
+planet "Dantara"
+	attributes uninhabited sculptor
+	landscape land/mars0
+	description ``
+
+planet "Jardia"
+	attributes uninhabited sculptor
+	landscape land/snow0
+	description ``
+
+planet "Elarion"
+	attributes uninhabited sculptor
+	landscape land/mountain25-spfld
+	description ``
+
+planet "Solarion"
+	attributes uninhabited sculptor
+	landscape land/canyon15
+	description ``
+
+planet "Fantara"
+	attributes uninhabited sculptor
+	landscape land/mountain18-harro
+	description ``
+
+planet "Zandar"
+	attributes uninhabited sculptor
+	landscape land/canyon2
+	description ``
+
+planet "Harmonia"
+	attributes uninhabited sculptor
+	landscape land/pia21553_2
+	description ``
+
+planet "Bastionis"
+	attributes uninhabited sculptor
+	landscape land/water9
+	description ``
+
+planet "Solstice"
+	attributes uninhabited sculptor
+	landscape land/snow4
+	description ``
+
+planet "Remus"
+	attributes uninhabited sculptor
+	landscape land/mountain13-sfiera
+	description ``
+
+planet "Draculon"
+	attributes uninhabited sculptor
+	landscape land/sky4
+	description ``
+
+planet "Paladia"
+	attributes uninhabited sculptor
+	landscape land/canyon9
+	description ``
+
+planet "Mirandus"
+	attributes uninhabited sculptor
+	landscape land/sky11
+	description ``
+
+planet "Stardust"
+	attributes uninhabited sculptor
+	landscape land/mountain27
+	description ``
+
+planet "Somnium"
+	attributes uninhabited sculptor
+	landscape land/sea13-sfiera
+	description ``
+
+planet "Estoria"
+	attributes uninhabited sculptor
+	landscape land/mountain18-harro
+	description ``
+
+planet "Yulan"
+	attributes uninhabited sculptor
+	landscape land/fog10
+	description ``
+
+planet "Oceara"
+	attributes uninhabited sculptor
+	landscape land/clouds_03
+	description ``
+
+planet "Xylo"
+	attributes uninhabited sculptor
+	landscape land/sea13-sfiera
+	description ``
+
+planet "Myriad"
+	attributes uninhabited sculptor
+	landscape land/sky0
+	description ``
+
+planet "Andoria"
+	attributes uninhabited sculptor
+	landscape land/beach8-sfiera
+	description ``
+
+planet "Levitha"
+	attributes uninhabited sculptor
+	landscape land/water23
+	description ``
+
+planet "Barastra"
+	attributes uninhabited sculptor
+	landscape land/nasa8
+	description ``
+
+planet "Gamma Prime"
+	attributes uninhabited sculptor
+	landscape land/sea10-sfiera
+	description ``
+
+planet "Wildstar"
+	attributes uninhabited sculptor
+	landscape land/forest1
+	description ``
+
+planet "Mortara"
+	attributes uninhabited sculptor
+	landscape land/sea1
+	description ``
+
+planet "Tesseract"
+	attributes uninhabited sculptor
+	landscape land/myrabella2
+	description ``
+
+planet "Zorath"
+	attributes uninhabited sculptor
+	landscape land/badlands1
+	description ``
+
+planet "Kelaris"
+	attributes uninhabited sculptor
+	landscape land/badlands11
+	description ``
+
+planet "Borakar"
+	attributes uninhabited sculptor
+	landscape land/lava8
+	description ``
+
+planet "Xabia"
+	attributes uninhabited sculptor
+	landscape land/mars0
+	description ``
+
+planet "Valoria"
+	attributes uninhabited sculptor
+	landscape land/canyon1
+	description ``
+
+planet "Astraia"
+	attributes uninhabited sculptor
+	landscape land/mountain20-harro
+	description ``
+
+planet "Polymath"
+	attributes uninhabited sculptor
+	landscape land/water19
+	description ``
+
+planet "Tigris"
+	attributes uninhabited sculptor
+	landscape land/hills10
+	description ``
+
+planet "Hexagon"
+	attributes uninhabited sculptor
+	landscape land/haze1
+	description ``
+
+planet "Qyron"
+	attributes uninhabited sculptor
+	landscape land/canyon14
+	description ``
+
+planet "Blightwood"
+	attributes uninhabited sculptor
+	landscape land/mountain3
+	description ``
+
+planet "Candoria"
+	attributes uninhabited sculptor
+	landscape land/snow1
+	description ``
+
+planet "Crysalia"
+	attributes uninhabited sculptor
+	landscape land/snow5
+	description ``
+
+planet "Vex"
+	attributes uninhabited sculptor
+	landscape land/forest9
+	description ``
+
+planet "Proxima"
+	attributes uninhabited sculptor
+	landscape land/dune1
+	description ``
+
+planet "Xolotl"
+	attributes uninhabited sculptor
+	landscape land/beach9-sfiera
+	description ``
+
+planet "Yavin"
+	attributes uninhabited sculptor
+	landscape land/badlands10
+	description ``
+
+planet "Eclipsia"
+	attributes uninhabited sculptor
+	landscape land/occupas
+	description ``
+
+planet "Zephyr"
+	attributes uninhabited sculptor
+	landscape land/desert14
+	description ``
+
+planet "Gaianox"
+	attributes uninhabited sculptor
+	landscape land/snow12
+	description ``
+
+planet "Brontar"
+	attributes uninhabited sculptor
+	landscape land/badlands1
+	description ``
+
+planet "Unica"
+	attributes uninhabited sculptor
+	landscape land/sea4
+	description ``
+
