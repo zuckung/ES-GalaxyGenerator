@@ -1,13 +1,13 @@
-zuckung
+Tester
 (-10000, -10000)
-400
+300
 100
-0
+6
 Sol
 3
 5
 3
-fornax
+messier
 100
 5
 15
