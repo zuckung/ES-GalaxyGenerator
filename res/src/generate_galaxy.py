@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 # 2do
 # hang up @ > 624 landable planets, omg why?!
-# find out why backlinks get added twice (fixed in rearrange_systemtext), fix it earlier
+# find out why backlinks get added twice (fixed in rearrange_systemtext), fix it earlier!
 # moons
 # planet sprites & landing images should fit
 # planet texts
@@ -32,10 +32,10 @@ def check_local():
 	# setting variables
 	global startPos, systemAmount, starRadius, startWormhole, landPlanets, density, tries, dataFolder
 	global imageFolder, galaxyImage, starNames, planetNames, landImages, starTypes, planetTypes
-	global usedStarnames, name, newname, writetopath, iFont, sunmax, planetmax, minablemax
+	global usedStarnames, name, newname, writetopath, iFont, sunmax, planetmax, minablemax, races
 	usedStarnames = []
 	print('checking if local test or github')
-	if os.getcwd() == '/storage/emulated/0/Download/mgit/test/res/src':
+	if os.getcwd() == '/storage/emulated/0/Download/mgit/ES-GalaxyGenerator/res/src':
 		# for local
 		print('	local test detected')
 		os.chdir('../../')
@@ -47,8 +47,9 @@ def check_local():
 		dataFolder = '/storage/9C33-6BBD/endless sky/data/' # folder to the ES data (for reading star types)
 		name = 'zuckung'
 		startPos = 10000, 10000 # position of the first system
-		systemAmount = 500 # star systems amount
-		landPlanets = 500 # number of landable planets
+		systemAmount = 50 # star systems amount
+		landPlanets = 10 # number of landable planets
+		races = 6 # max 12, auto-lowers if they cant be placed
 		startWormhole = 'Sol' # empty for deactivated | vanilla system name for link: firstsystem-vanillasystem
 		galaxyImage = 'sculptor' # copy to plugin/images/ui/sculptor.jpg
 		sunmax = 3 # max number ob suns 1-3 max
@@ -71,14 +72,15 @@ def check_local():
 			startPos = int(possplit[0]), int(possplit[1])
 			systemAmount = int(splitted[10].strip())
 			landPlanets = int(splitted[14].strip())
-			startWormhole = splitted[18].strip()
-			sunmax = int(splitted[22].strip())
-			planetmax = int(splitted[26].strip())
-			minablemax = int(splitted[30].strip())
-			galaxyImage = splitted[34].strip()
-			starRadius = int(splitted[38].strip())
-			density = int(splitted[42].strip())
-			tries = int(splitted[46].strip())
+			races = int(splitted[18].strip())
+			startWormhole = splitted[22].strip()
+			sunmax = int(splitted[26].strip())
+			planetmax = int(splitted[30].strip())
+			minablemax = int(splitted[34].strip())
+			galaxyImage = splitted[38].strip()
+			starRadius = int(splitted[42].strip())
+			density = int(splitted[46].strip())
+			tries = int(splitted[50].strip())
 			download() # download ES for images & data
 		else:
 			print("		ABORTING: Newly created issue isn't a galaxy generation request.")
@@ -94,6 +96,8 @@ def check_local():
 		i +=1
 	newname = name + str(i)
 	writetopath = 'generated' + os.sep + name + str(i) + os.sep
+	# check variables
+	check_var()
 	# write text file
 	os.mkdir(writetopath)
 	with open(writetopath + name + str(i) + '.txt', 'w') as file1:
@@ -101,6 +105,7 @@ def check_local():
 		file1.writelines(str(startPos) + '\n')
 		file1.writelines(str(systemAmount) + '\n')
 		file1.writelines(str(landPlanets) + '\n')
+		file1.writelines(str(races) + '\n')
 		file1.writelines(startWormhole + '\n')
 		file1.writelines(str(sunmax) + '\n')
 		file1.writelines(str(planetmax) + '\n')
@@ -139,8 +144,23 @@ def check_var():
 	if systemAmount > 500:
 		print('error: systemAmount is higher than 500!')
 		exit()
+	elif systemAmount < 1:
+		print('error: systemAmount is lower than 1!')
+		exit()
 	if landPlanets > 500:
 		print('error: landPlanets is higher than 500!')
+		exit()
+	if races > 12:
+		print('error: Races is higher than 12!')
+		exit()
+	if sunmax > 3:
+		print('error: SunMax is higher than 3!')
+		exit()
+	elif sunmax < 1:
+		print('error: SunMax is lower than 1!')
+		exit()
+	if planetmax < 1:
+		print('error: PlanetMax is lower than 1!')
 		exit()
 	if starRadius > 200:
 		print('error: star radius is higher thab 200!')
@@ -162,7 +182,7 @@ def write_other_stuff():
 			target.writelines('wormhole "Mysterious Wormhole"\n\tlink "' + startWormhole + '" "Alcor"\n\tlink "Alcor" "' + startWormhole + '"\n\n')
 			target.writelines('planet "Mysterious Wormhole"\n\tspaceport ``\n\tgovernment "Republic"\n\twormhole "Mysterious Wormhole"\n\n')
 		# writing galaxy image script
-		target.writelines('galaxy "' + galaxyImage + '"\n\tpos ' + str(startPos[0]) + ' ' + str(startPos[1]) + '\n\tsprite "ui/' + galaxyImage + '"\n\n')
+		target.writelines('galaxy "' + galaxyImage + '"\n\tpos ' + str(startPos[0]) + ' ' + str(startPos[1]) + '\n\tsprite "ui/' + galaxyImage + '"\n')
 
 
 def create_systemtexts():
@@ -347,16 +367,16 @@ def create_landable_planets(systemtexts):
 		with open(writetopath + 'MapGenPlanets.txt', 'w') as planettxt:
 			for i in range(1, landPlanets+1):
 				# generate unique name
-				name = str(random.choice(planetNames)).replace('\n', '')
+				name = str(random.choice(planetNames))
 				while name in used_planetNames:
-					name = str(random.choice(planetNames)).replace('\n', '')
+					name = str(random.choice(planetNames))
 				used_planetNames.append(name)
-				print('	planet:', i +1, '/', landPlanets, 'added to system:', whole+1,'planetname:', name)
+				print('	planet:', i +1, '/', landPlanets, 'added to system:', whole+1,'planetname:', name.strip())
 				# planet creation planet file
-				planettxt.writelines('planet "' + name + '"\n\tattributes uninhabited sculptor\n\tlandscape land/' + random.choice(landImages) +\
-					'\n\tdescription ``\n\n')
+				planettxt.writelines('planet "' + name.strip() + '"\n\tattributes uninhabited ' + galaxyImage + '\n\tgovernment "Uninhabited"\n\tlandscape land/' +\
+					random.choice(landImages) +'\n\tdescription ``\n\n')
 				# planet creation system object
-				addObject = '\tobject "' + name + '"\n\t\tsprite planet/' + random.choice(planetTypes) + '\n' + '\t\tdistance ' + str(random.randint(600,2000))\
+				addObject = '\tobject "' + name.strip() + '"\n\t\tsprite planet/' + random.choice(planetTypes) + '\n' + '\t\tdistance ' + str(random.randint(600,2000))\
 					+ '\n\t\tperiod ' + str(random.randint(300,1500)) + '\n'
 				# choose systems
 				count += rare
@@ -367,7 +387,7 @@ def create_landable_planets(systemtexts):
 	else:
 		with open(writetopath + 'MapGenPlanets.txt', 'w') as planettxt:
 			planettxt.writelines('no planets got generated\n')
-	return systemtexts
+	return systemtexts, used_planetNames
 
 
 def create_links(systemtexts, positions):
@@ -490,6 +510,129 @@ def rearrange_systemtexts(systemtexts):
 	return systemtexts
 
 
+def create_races(positions, races, systemtexts, usedPlanetnames):
+	systemtexts2 = systemtexts.copy()
+	def distance(x1, y1, x2, y2):
+		distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+		return distance
+	racepos = []
+	usednames = []
+	if races > 0:
+		print('\ncreating races')
+		#read templates
+		with open ('res/template_plugin.txt', 'r') as source:
+			all = source.read()
+			template_plugin = all.split('####')
+			Tgovernment = template_plugin[2]
+			Tshipyard = template_plugin[4]
+			Tbigfleet = template_plugin[6]
+			Tsmallfleet = template_plugin[8]
+			Tships = template_plugin[10]
+			Toutfitter = template_plugin[12]
+		with open(writetopath + 'MapGenStuff.txt', 'a') as target:
+				target.writelines(Tshipyard)
+				target.writelines(Tships)
+		# read race names
+		with open ('res/wordlists/races.txt', 'r') as source:
+			racenames = source.readlines()
+		# get random position for race
+		racepos = []
+		print('	get system for races')
+		for i in range(0,races):
+			name = random.choice(racenames)
+			while name in usednames:
+				name = random.choice(racenames)
+			usednames.append(name)
+			# write governments and fleets
+			with open(writetopath + 'MapGenStuff.txt', 'a') as target:
+				target.writelines(Tgovernment.replace('replace me', name.strip()))
+				target.writelines(Tbigfleet.replace('replace me', name.strip()))
+				target.writelines(Tsmallfleet.replace('replace me', name.strip()))
+			if i == 0:
+				print('		placing race: 1')
+				racepos.append(random.choice(positions))
+			else:
+				loop = True
+				counter = 0
+				while loop == True:
+					newpos = random.choice(positions)
+					loop = False
+					for each in racepos:
+						x1,y1 = each
+						x2,y2 = newpos
+						if distance(x1, y1, x2, y2) < 400:
+							loop = True
+							counter +=1
+							break
+					if counter == 50:
+						loop = False
+						#races = i
+				if counter < 50:
+					print('		placing race:', i +1)
+					lasti = i
+					racepos.append(newpos)
+		if lasti+1 < races:
+			print('		not enough system space:', lasti + 1, '/', races, ' races placed')
+		# change systems
+		print('	add neighbouring systems for', len(racepos), 'systems')
+		for each in racepos:
+			index = racepos.index(each)
+			neighbouring = []
+			x,y = each
+			for system in systemtexts:
+				# change actual system
+				if str(x) + ' ' + str(y) in system:
+					sysindex = systemtexts.index(system)
+					planetname = random.choice(planetNames)
+					while planetname in usedPlanetnames:
+						planetname = random.choice(planetNames)
+					usedPlanetnames.append(planetname)
+					system = system.replace('\tgovernment "Uninhabited"\n', '\tgovernment "' + usednames[index].strip() + '"\n')
+					system += '\tobject "' + planetname.strip() + '"\n\t\tsprite planet/earth\n\t\tdistance 2500\n\t\tperiod 400\n'
+					system += '\tfleet "' + usednames[index].strip() + ' Small Fleet" ' + str(random.randint(1000,2500)) + '\n'
+					system += '\tfleet "' + usednames[index].strip() + ' Big Fleet" ' + str(random.randint(2000,3500)) + '\n\n'
+					systemtexts2[sysindex] = system
+					# add to planet file
+					with open(writetopath + 'MapGenPlanets.txt', 'a') as planettxt:
+						planettxt.writelines('planet "' + planetname.strip() + '"\n')
+						planettxt.writelines('\tattributes ' + galaxyImage + '\n')
+						planettxt.writelines('\tlandscape land/city1\n')
+						planettxt.writelines(Toutfitter + '\n')
+						planettxt.writelines('\tspaceport ``\n')
+						planettxt.writelines('\tdescription `This is the capital of ' + usednames[index].strip() + '.`\n\n')
+					sys = system
+					# get linked systems
+					while '\tlink ' in sys:
+						pos1 = sys.find('\tlink ')
+						pos2 = sys.find('\n', pos1)
+						neighbouring.append(sys[pos1+6:pos2])
+						sys = sys[pos2:len(sys)]
+					break
+			# change linked systems
+			for neighbour in neighbouring: # len = linked systems
+				for system in systemtexts:
+					if system.startswith('system ' + neighbour):
+						sysindex = systemtexts.index(system)
+						system = system.replace('\tgovernment "Uninhabited"\n', '\tgovernment "' + usednames[index].strip() + '"\n')
+						planetname = random.choice(planetNames)
+						while planetname in usedPlanetnames:
+							planetname = random.choice(planetNames)
+						usedPlanetnames.append(planetname)
+						with open(writetopath + 'MapGenPlanets.txt', 'a') as planettxt:
+							planettxt.writelines('planet "' + planetname.strip() + '"\n')
+							planettxt.writelines('\tattributes ' + galaxyImage + '\n')
+							planettxt.writelines('\tlandscape land/city1\n')
+							planettxt.writelines('\tspaceport ``\n')
+							planettxt.writelines('\tdescription `This is a colony of ' + usednames[index].strip() +  '.`\n\n')
+						system += '\tobject "' + planetname.strip() + '"\n\t\tsprite planet/earth\n\t\tdistance 2500\n\t\tperiod 400\n'
+						system += '\tfleet "' + usednames[index].strip() + ' Small Fleet" ' + str(random.randint(1000,2500)) + '\n'
+						system += '\tfleet "' + usednames[index].strip() + ' Big Fleet" ' + str(random.randint(2000,3500)) + '\n\n'
+						systemtexts2[sysindex] = system
+						break
+	return systemtexts2
+		
+
+
 def write_map_file(systemtexts):
 	print('\nwriting map file')
 	addx, addy = startPos
@@ -543,7 +686,13 @@ def create_image(systemtexts, positions):
 		x, y = findpos(system)
 		pos = [x +(width/2), y +(height/2)]
 		# draw systems
-		draw.ellipse((pos[0]-7, pos[1]-7, pos[0]+7, pos[1]+7), fill=(0,0,0,0), outline=(255,255,255), width=3)
+		pos1 = system.find('\tgovernment ')
+		pos2 = system.find('\n', pos1)
+		gov = system[pos1+12:pos2]
+		if gov == '"Uninhabited"':
+			draw.ellipse((pos[0]-7, pos[1]-7, pos[0]+7, pos[1]+7), fill=(0,0,0,0), outline=(102,102,102), width=3)
+		else:
+			draw.ellipse((pos[0]-7, pos[1]-7, pos[0]+7, pos[1]+7), fill=(0,0,0,0), outline=(255,0,0), width=3)
 		draw.text((pos[0]+15, pos[1]-14) , name.replace('"', ''), fill=(255,255,255), font=font)
 		# draw link lines
 		start = x +(width/2), y +(height/2)
@@ -576,15 +725,16 @@ def create_image(systemtexts, positions):
 
 
 def create_zip():
-	# create plugin structure
 	print('\nzipping plugin')
-	os.mkdir(newname)
+	# create plugin structure
+	shutil.copytree('res/pluginfiles', newname)
 	os.mkdir(newname + os.sep + 'data/')
-	os.mkdir(newname + os.sep + 'images/')
-	os.mkdir(newname + os.sep + 'images/ui/')
 	shutil.copy(writetopath + os.sep + 'MapGenStuff.txt', newname + os.sep + 'data/' + 'MapGenStuff.txt')
 	shutil.copy(writetopath + os.sep + 'MapGenSystems.txt', newname + os.sep + 'data/' + 'MapGenSystems.txt')
 	shutil.copy(writetopath + os.sep + 'MapGenPlanets.txt', newname + os.sep + 'data/' + 'MapGenPlanets.txt')
+	os.mkdir(newname + os.sep + 'images/')
+	shutil.copytree('res/images/ship', newname + os.sep + 'images/ship')
+	os.mkdir(newname + os.sep + 'images/ui/')
 	shutil.copy('res/galaxyimages/' + galaxyImage + '.jpg', newname + os.sep + 'images/ui/' + galaxyImage + '.jpg')
 	# create zip
 	file_paths = []
@@ -613,7 +763,8 @@ def create_zip():
 		target.writelines(newlines)
 	# delete 6th generated folder
 	if not delete == '':
-		shutil.rmtree('generated/' + delete)
+		if os.path.isdir('generated/' + delete):
+			shutil.rmtree('generated/' + delete)
 	print('	DONE')
 	
 	
@@ -621,15 +772,15 @@ def create_zip():
 
 def run():
 	check_local() # set up variables for local test or github run
-	check_var() # check if set uo is correct
 	write_other_stuff() # write generated/MapGenStuff.txt
 	systemtexts, positions = create_systemtexts() # creates system scripts
-	systemtexts = create_landable_planets(systemtexts) # updates system scripts with landable planets and writes generated/MapGenPlanets.txt
+	systemtexts, usedPlanetnames = create_landable_planets(systemtexts) # updates system scripts with landable planets and writes generated/MapGenPlanets.txt
 	systemtexts = create_links(systemtexts, positions) # updates system scripts with links
 	systemtexts = rearrange_systemtexts(systemtexts) # puts objects and links of systems in the correct order
+	systemtexts = create_races(positions, races, systemtexts, usedPlanetnames) # add races to systems
 	write_map_file(systemtexts) # writes generated/MapGenSystems.txt
 	create_image(systemtexts, positions) # creates generated/MapGenMap.jpg just for the overview
-	create_zip() # create zip for release upload
+	#create_zip() # create zip for release upload
 
 
 if __name__ == '__main__':

@@ -5,6 +5,7 @@ This repo generates plugins, containing a new galaxy generated out of the follow
   <li>the center position of the new galaxy</li>
   <li>amount of systems (between 1 and 500)</li>
   <li>amount of landable planets (between 0 and 500)</li>
+  <li>amount of races (between 0 and 12)</li>
   <li>a vanilla system for the wormhole link (choose the name)</li>
   <li>number of suns a system can have</li>
   <li>number of non-landable planets a system can have</li>
@@ -16,11 +17,16 @@ This repo generates plugins, containing a new galaxy generated out of the follow
 </ul>
 Other used features are:
 <ul>
+  <li>each race is made of a capital planet, neighbouring colony planets, 4 galactica ships and distributed fleets</li>
   <li>cleaned up wordlists (system names, planet names, landing images, planet images, star images)</li>
-  <li>zip creation with correct folder structure (ready to play)</li>
+  <li>zip creation with correct folder structure (ready to play plugin)</li>
 </ul>
 <br>
 To generate such a galaxy, open an issue and choose the galaxy generation template, modify the values inside the issue form, and post the issue. Between 30 seconds and 1 minute later, this readme shows the new generated galaxy, the generated files, a map of the galaxy, and a link to a zip with the complete plugin data.<br>
+<br>
+The generated plugins don't offer much play-worthy content, but is a great start for your own plugin creation. So feel free to modify and play around with it.<br>
+<br>
+Why is it not working? In case you change the values beyond max and min values the script stops before generating fatal errors, so try to stay within the mentioned min max. You can always check the actions tab to see at which point the generation stopped and why.<br>
 <br>
 Have fun!<br>
 <br>
@@ -35,6 +41,7 @@ latest 5 generated galaxies:<br>
       pos: <pos><br>
       systems: <systems><br>
       planets: <planets><br>
+      races: <races><br>
       wormhole: <wormhole><br>
       sunmax: <sunmax><br>
       planetmax: <planetmax><br>

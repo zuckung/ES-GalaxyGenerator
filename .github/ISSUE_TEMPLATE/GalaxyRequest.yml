@@ -13,29 +13,42 @@ body:
   - type: input
     attributes:
       label: Name
-      description: Enter your name or identifier.
+      description: Enter your name or an identifier. (the name of the zip with the plugin files)
       value: Tester
     validations:
       required: true
   - type: input
     attributes:
       label: StartPos
-      description: Enter the coordinate system pos of this galaxy. (i.e. 5000 5000)
+      description: | 
+        Enter the coordinate system pos of center of this galaxy. (i.e. 5000 5000)
+        Should be  a few thousand in any direction from - to +.
       value: -10000 -10000
     validations:
       required: true
   - type: input
     attributes:
       label: Systems
-      description: Enter the number of systems you want to add to theis galaxy. (1 to 500)
+      description: |
+        Enter the number of systems you want to add to theis galaxy. (min 1, max 500)
+        Every system is connected via hyperlane to the nearest systems.
       value: "300"
     validations:
       required: true
   - type: input
     attributes:
       label: Planets
-      description: Enter the number of landable planets you want to add to this galaxy. (0 to 500)
+      description: Enter the number of landable, uninhabited planets you want to add to this galaxy. (min 0, max 500)
       value: "100"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Races
+      description: |
+        Enter the number of races you want to add to this galaxy. (min 0, max 12)
+        Each races consists of a friendly capital planet, neighboring colony planets, some ships and fleets.
+      value: "6"
     validations:
       required: true
   - type: input
@@ -48,21 +61,21 @@ body:
   - type: input
     attributes:
       label: SunMax
-      description: Enter the number of suns a system can have. (1 to 3, randomized 1 to max.)
+      description: Enter the number of suns a system can have. (min 1, max 3, randomized 1 to max)
       value: "3"
     validations:
       required: true
   - type: input
     attributes:
       label: PlanetMax
-      description: Enter the number of non-landable planets a system can have. (1 to ~, randomized)
+      description: Enter the number of non-landable planets a system can have. (min 1, no max, randomized 1 to max)
       value: "5"
     validations:
       required: true
   - type: input
     attributes:
       label: MinableMax
-      description: Enter the number of different minables a system can have. (0 to ~, randomized)
+      description: Enter the number of different minables a system can have. (min 0, no max, randomized 1 to max)
       value: "3"
     validations:
       required: true
@@ -123,7 +136,7 @@ body:
   - type: input
     attributes:
       label: Density
-      description: Enter a number representing the amount of system generations, before restarting to try to generate more system at the first system. (max. 20, higher means more long system arms)
+      description: Enter a number representing the amount of system generations, before restarting to try to generate more system at the first system. (max. 20, higher means more long galaxy arms)
       value: "5"
     validations:
       required: true

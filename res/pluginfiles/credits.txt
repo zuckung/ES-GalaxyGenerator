@@ -1,0 +1,10 @@
+GalaxyGenerator Plugin
+author:
+	zuckung 
+	https://github.com/zuckung/ES-GalaxyGenerator
+images
+	galaxy bgs
+		https://perchance.org/ai-text-to-image-generator
+	ships
+		ai enhanced photos of physical models,
+		so no clue who has the copyright, me?
