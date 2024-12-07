@@ -7,6 +7,9 @@ jobs:
   getissue:
     name: First job
     runs-on: ubuntu-latest
+    concurrency:
+      group: push-branch-${{ github.ref }}
+      cancel-in-progress: false
     permissions: write-all
     steps:
       - uses: actions/checkout@v4
