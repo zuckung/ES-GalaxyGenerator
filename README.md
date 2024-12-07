@@ -37,6 +37,39 @@ latest 5 generated galaxies:<br>
     <td width=200>
       name: zuckung<br>
       <br>
+      pos: (-5000, 5000)<br>
+      systems: 200<br>
+      planets: 10<br>
+      races: 12<br>
+      wormhole: Sol<br>
+      sunmax: 2<br>
+      planetmax: 3<br>
+      minablemax: 2<br>
+      image: messier<br>
+      starradius: 100<br>
+      density: 5<br>
+      tries: 15<br>
+    </td>
+    <td width=200>
+      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/zuckung4.zip">zuckung4.zip</a><br>
+      <br>
+      <br>
+      <a href="generated/zuckung4/MapGenSystems.txt">MapGenSystems.txt</a><br>
+      <a href="generated/zuckung4/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
+      <a href="generated/zuckung4/MapGenStuff.txt">MapGenStuff.txt</a><br>
+    </td>
+    <td width=300>
+      <a href="generated/zuckung4/MapGenMap.jpg"> <img src='generated/zuckung4/miniMapGenMap.jpg' width='300'></a>
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width=200>
+      name: zuckung<br>
+      <br>
       pos: (-10000, -10000)<br>
       systems: 200<br>
       planets: 50<br>
@@ -159,39 +192,6 @@ latest 5 generated galaxies:<br>
     </td>
     <td width=300>
       <a href="generated/zuckung0/MapGenMap.jpg"> <img src='generated/zuckung0/miniMapGenMap.jpg' width='300'></a>
-    </td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td width=200>
-      name: zuckung<br>
-      <br>
-      pos: (-10000, -10000)<br>
-      systems: 400<br>
-      planets: 100<br>
-      races: 0<br>
-      wormhole: Sol<br>
-      sunmax: 3<br>
-      planetmax: 5<br>
-      minablemax: 3<br>
-      image: fornax<br>
-      starradius: 100<br>
-      density: 5<br>
-      tries: 15<br>
-    </td>
-    <td width=200>
-      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/zuckung2.zip">zuckung2.zip</a><br>
-      <br>
-      <br>
-      <a href="generated/zuckung2/MapGenSystems.txt">MapGenSystems.txt</a><br>
-      <a href="generated/zuckung2/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
-      <a href="generated/zuckung2/MapGenStuff.txt">MapGenStuff.txt</a><br>
-    </td>
-    <td width=300>
-      <a href="generated/zuckung2/MapGenMap.jpg"> <img src='generated/zuckung2/miniMapGenMap.jpg' width='300'></a>
     </td>
   </tr>
 </table>
