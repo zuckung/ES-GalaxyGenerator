@@ -780,7 +780,7 @@ def run():
 	systemtexts = create_races(positions, races, systemtexts, usedPlanetnames) # add races to systems
 	write_map_file(systemtexts) # writes generated/MapGenSystems.txt
 	create_image(systemtexts, positions) # creates generated/MapGenMap.jpg just for the overview
-	#create_zip() # create zip for release upload
+	create_zip() # create zip for release upload
 
 
 if __name__ == '__main__':
