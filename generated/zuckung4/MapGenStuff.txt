@@ -1,0 +1,942 @@
+system "Sol"
+	add object "Mysterious Wormhole"
+		sprite planet/wormhole-red
+		distance 1000
+		period 1
+
+wormhole "Mysterious Wormhole"
+	link "Sol" "Alcor"
+	link "Alcor" "Sol"
+
+planet "Mysterious Wormhole"
+	spaceport ``
+	government "Republic"
+	wormhole "Mysterious Wormhole"
+
+galaxy "messier"
+	pos -5000 -5000
+	sprite "ui/messier"
+
+shipyard "bsg galactica"
+	"mps_battlestar"
+	"mps_tiger"
+	"mps_raptor"
+	"mps_viper"
+
+ship "mps_battlestar"
+	"display name" "Battlestar"
+	sprite "ship/mps_battlestar"
+	attributes
+		category "Heavy Warship"
+		cost 45000000
+		shields 31400
+		hull 48000
+		"required crew" 286
+		"bunks" 1006
+		"mass" 4647
+		"drag" 55.4
+		"heat dissipation" .2
+		"fuel capacity" 1200
+		"cargo space" 600
+		"outfit space" 1295
+		"weapon capacity" 360
+		"engine capacity" 275
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile Rack" 16
+		"Sidewinder Missile" 548
+		"Heavy Laser Turret" 2
+		"Quad Blaster Turret" 8
+		"Security Station" 20
+		"Laser Rifle" 1000
+		"Fusion Reactor" 2
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator" 2
+		"Liquid Helium Cooler" 2
+		"Quantum Keystone"
+		"Catalytic Ramscoop"
+		"A865 Atomic Steering"
+		"A370 Atomic Thruster"
+		"A860 Atomic Thruster"
+		"Scram Drive"
+	engine -75 385
+	engine -30 385
+	engine 30 385
+	engine 75 385
+	"reverse engine" -121 -140
+	"reverse engine" 121 -140
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" -13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 13 -385
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	bay "Fighter" 33 -385 "back"
+		"launch effect" "human internal"
+	gun -28 -392 "Sidewinder Missile Launcher"
+	gun -10 -392 "Sidewinder Missile Launcher"
+	gun 10 -392 "Sidewinder Missile Launcher"
+	gun 28 -392 "Sidewinder Missile Launcher"
+	turret 45 -350 "Heavy Laser Turret"
+	turret -45 -350 "Heavy Laser Turret"
+	turret 70 -252 "Quad Blaster Turret"
+	turret -70 -252 "Quad Blaster Turret"
+	turret 70 -152 "Quad Blaster Turret"
+	turret -70 -152 "Quad Blaster Turret"
+	turret 120 -65 "Quad Blaster Turret"
+	turret -120 -65 "Quad Blaster Turret"
+	turret 120 152 "Quad Blaster Turret"
+	turret -120 152 "Quad Blaster Turret"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description ""
+
+ship "mps_tiger"
+	"display name" "Tiger"
+	sprite "ship/mps_tiger"
+	attributes
+		category "Heavy Warship"
+		cost 29650000
+		shields 29600
+		hull 32700
+		"required crew" 198
+		"bunks" 464
+		"mass" 3718
+		"drag" 39
+		"heat dissipation" .2
+		"fuel capacity" 800
+		"cargo space" 2
+		"outfit space" 1165
+		"weapon capacity" 375
+		"engine capacity" 280
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Heavy Laser" 4
+		"Proton Gun" 2
+		"Sidewinder Missile Launcher" 4
+		"Sidewinder Missile Rack" 8
+		"Sidewinder Missile" 364
+		"Anti-Missile Turret" 4
+		"Quad Blaster Turret" 4
+		"Security Station" 15
+		"Laser Rifle" 450
+		"Fusion Reactor" 2
+		"LP144a Battery Pack"
+		"D94-YV Shield Generator"
+		"D23-QP Shield Generator"
+		"Liquid Helium Cooler" 2
+		"Quantum Keystone"
+		"Catalytic Ramscoop"
+		"A865 Atomic Steering"
+		"A525 Atomic Steering"
+		"A860 Atomic Thruster"
+		"Hyperdrive"
+	engine 0 314
+	engine -40 311
+	engine 40 311
+	"reverse engine" -19 -303 0.5
+		over
+	"reverse engine" 0 -303 0.5
+		over
+	"reverse engine" 19 -303 0.5
+		over
+	# 4 Heavy Laser guns (wings)
+	gun -117 10 "Heavy Laser"
+	gun -101 -20 "Heavy Laser"
+	gun 101 -20 "Heavy Laser"
+	gun 117 10 "Heavy Laser"
+	# 2 Proton guns (front)
+	gun -10 -315 "Proton Gun"
+	gun 10 -315 "Proton Gun"
+	# 4 sidewinder launchers (2 front, 2 wings)
+	gun -28 -302 "Sidewinder Missile Launcher"
+	gun 28 -302 "Sidewinder Missile Launcher"
+	gun -86 -14 "Sidewinder Missile Launcher"
+	gun 86 -14 "Sidewinder Missile Launcher"
+	# 4 kleine AM Turrets (back)
+	turret -37 150 "Anti-Missile Turret"
+	turret 37 150 "Anti-Missile Turret"
+	turret -47 125 "Anti-Missile Turret"
+	turret 47 125 "Anti-Missile Turret"
+	# 4 Quad-Blaster Turrets (front)
+	turret 30 -250 "Quad Blaster Turret"
+	turret -40 -191 "Quad Blaster Turret"
+	turret 40 -191 "Quad Blaster Turret"
+	turret -30 -250 "Quad Blaster Turret"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	bay "Fighter" 0 0
+		"launch effect" "human internal"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description ""
+
+ship "mps_raptor"
+	"display name" "Raptor"
+	sprite "ship/mps_raptor"
+	attributes
+		category "Fighter"
+		"cost" 490000
+		"shields" 1800
+		"hull" 500
+		"required crew" 2
+		"bunks" 10
+		"mass" 105
+		"drag" 1.8
+		"heat dissipation" .79
+		"fuel capacity" 200
+		"outfit space" 160
+		"weapon capacity" 35
+		"engine capacity" 40
+		weapon
+			"blast radius" 24
+			"shield damage" 240
+			"hull damage" 120
+			"hit force" 360
+	outfits
+		"Energy Blaster" 2
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile" 12
+		"Gatling Gun" 2
+		"Bullet Boxes"
+		"Gatling Gun Ammo" 7500
+		"nGVF-BB Fuel Cell"
+		"LP036a Battery Pack"
+		"D14-RN Shield Generator"
+		"Small Radar Jammer" 2
+		"A120 Atomic Thruster"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -5 21
+	engine 5 21
+	gun -11 -28 "Sidewinder Missile Pod"
+	gun 11 -28 "Sidewinder Missile Pod"
+	gun -17 -19.5 "Energy Blaster"
+	gun 17 -19.5 "Energy Blaster"
+	gun -5.5 -33 "Gatling Gun"
+	gun 5.5 -33 "Gatling Gun"
+	leak "flame" 50 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	description ""
+
+ship "mps_viper"
+	"display name" "Viper"
+	sprite "ship/mps_viper"
+	attributes
+		category "Fighter"
+		"cost" 126000
+		"shields" 900
+		"hull" 400
+		"required crew" 1
+		"bunks" 1
+		"mass" 50
+		"drag" .87
+		"heat dissipation" .81
+		"ramscoop" 3
+		"fuel capacity" 100
+		"outfit space" 130 
+		"weapon capacity" 20
+		"engine capacity" 26
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Twin Blaster"
+		"Sidewinder Missile Pod" 2
+		"Sidewinder Missile Rack"
+		"Sidewinder Missile" 35
+		"nGVF-AA Fuel Cell"
+		"LP036a Battery Pack"
+		"Water Coolant System"
+		"D14-RN Shield Generator"
+		"Volcano Afterburner"
+		"A125 Atomic Steering"
+		"Hyperdrive"
+	engine -7 36.5
+	engine 7 36.5
+	gun -8 2.5 "Sidewinder Missile Pod"
+	gun 0 2.5 "Twin Blaster"
+	gun 8 2.5 "Sidewinder Missile Pod"
+	leak "flame" 13 14
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description ""
+	description "	"
+
+government "Scorpia"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Scorpia Big Fleet"
+	government "Scorpia"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Scorpia Small Fleet"
+	government "Scorpia"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Caprica"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Caprica Big Fleet"
+	government "Caprica"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Caprica Small Fleet"
+	government "Caprica"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Aquaria"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Aquaria Big Fleet"
+	government "Aquaria"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Aquaria Small Fleet"
+	government "Aquaria"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Picon"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Picon Big Fleet"
+	government "Picon"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Picon Small Fleet"
+	government "Picon"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Tauron"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Tauron Big Fleet"
+	government "Tauron"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Tauron Small Fleet"
+	government "Tauron"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Virgon"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Virgon Big Fleet"
+	government "Virgon"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Virgon Small Fleet"
+	government "Virgon"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Gemenon"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Gemenon Big Fleet"
+	government "Gemenon"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Gemenon Small Fleet"
+	government "Gemenon"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Leonis"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Leonis Big Fleet"
+	government "Leonis"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Leonis Small Fleet"
+	government "Leonis"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Sagittaron"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Sagittaron Big Fleet"
+	government "Sagittaron"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Sagittaron Small Fleet"
+	government "Sagittaron"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Canceron"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Canceron Big Fleet"
+	government "Canceron"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Canceron Small Fleet"
+	government "Canceron"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Aerilon"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Aerilon Big Fleet"
+	government "Aerilon"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Aerilon Small Fleet"
+	government "Aerilon"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Libran"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Libran Big Fleet"
+	government "Libran"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Libran Small Fleet"
+	government "Libran"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6

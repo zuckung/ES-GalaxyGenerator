@@ -1,0 +1,708 @@
+planet "Xanthe"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain24-spfld
+	description ``
+
+planet "Lyonesse"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water7
+	description ``
+
+planet "Orpheus"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water19
+	description ``
+
+planet "Sidonia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/beach5
+	description ``
+
+planet "Auralis"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/desert7
+	description ``
+
+planet "Zytan"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mars0
+	description ``
+
+planet "Quintara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/enceladus_3
+	description ``
+
+planet "Jotar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/canyon11
+	description ``
+
+planet "Quivira"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/hills4
+	description ``
+
+planet "Ryloth"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/badlands3
+	description ``
+
+planet "Typhon"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Scorpia.`
+
+planet "Zephyr"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Scorpia.`
+
+planet "Fenris"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Scorpia.`
+
+planet "Cindar"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Caprica.`
+
+planet "Azuron"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Ardinia"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Nymphaea"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Xenon"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Phaedra"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Dreon"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Jericho"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Aquaria.`
+
+planet "Nocturne"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Arkadia"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Golgotha"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Kendor"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Farion"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Ysoria"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Picon.`
+
+planet "Megara"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Picon.`
+
+planet "Baloria"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Picon.`
+
+planet "Valoria"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Tauron.`
+
+planet "Qamaris"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
+planet "Zandar"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
+planet "Exotara"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
+planet "Azimuth"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
+planet "Meridian"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Virgon.`
+
+planet "Heliades"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Virgon.`
+
+planet "Ureon"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Virgon.`
+
+planet "Infinia"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Virgon.`
+
+planet "Andoria"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Virgon.`
+
+planet "Kydonia"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Gemenon.`
+
+planet "Hathor"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Ydra"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Nomad"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Duranth"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Leonis.`
+
+planet "Nyx"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Vulcan"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Morpheus"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Naraka"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Janara"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Sagittaron.`
+
+planet "Baxus"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Draculon"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Vortexia"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Indra"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Willowmere"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Canceron.`
+
+planet "Faelum"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Canceron.`
+
+planet "Lyrae"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Canceron.`
+
+planet "Endoria"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Canceron.`
+
+planet "Grimoire"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Aerilon.`
+
+planet "Ypsilon"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aerilon.`
+
+planet "Ymir"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aerilon.`
+
+planet "Stratos"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Libran.`
+
+planet "Quasarix"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Libran.`
+
+planet "Ys"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Libran.`
+
+planet "Yulan"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Libran.`
+
