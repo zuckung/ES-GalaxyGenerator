@@ -1,6 +1,5 @@
 name: GalaxyGenerationRequest
 description: Submit a new Galaxy Generation Request
-assignees: Zuckung
 labels: autoclose
 title: Galaxy Generation Request
 body:
@@ -47,7 +46,7 @@ body:
       label: Races
       description: |
         Enter the number of races you want to add to this galaxy. (min 0, max 12)
-        Each races consists of a friendly capital planet, neighboring colony planets, some ships and fleets.
+        Each race consists of a friendly capital planet, neighboring colony planets, some ships and fleets.
       value: "6"
     validations:
       required: true
