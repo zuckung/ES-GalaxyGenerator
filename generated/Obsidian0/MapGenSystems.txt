@@ -1,0 +1,3296 @@
+system "Alcor"
+	pos 3000 2000
+	government "Gemenon"
+	arrival 996
+	habitable 593
+	belt 993
+	minables silver 14 5
+	minables uranium 9 12
+	minables titanium 22 12
+	minables titanium 17 8
+	minables iron 19 3
+	minables titanium 14 6
+	minables titanium 22 3
+	minables titanium 21 7
+	minables silicon 15 10
+	minables tungsten 11 5
+	minables platinum 24 8
+	minables silver 24 9
+	minables titanium 7 6
+	minables tungsten 19 5
+	minables aluminum 25 10
+	minables neodymium 17 12
+	minables aluminum 18 6
+	minables aluminum 18 12
+	minables copper 8 10
+	minables uranium 14 7
+	minables aluminum 17 7
+	minables tungsten 19 6
+	minables silicon 6 11
+	minables iron 11 12
+	minables neodymium 17 3
+	minables platinum 25 10
+	minables aluminum 11 11
+	minables tungsten 11 8
+	minables copper 23 8
+	minables gold 22 8
+	minables titanium 24 7
+	minables platinum 14 3
+	minables titanium 17 7
+	minables aluminum 8 9
+	minables copper 18 7
+	minables tungsten 20 3
+	minables uranium 10 5
+	minables yottrite 10 7
+	link "Sterrennacht"
+	link "Komondor"
+	link "Petra"
+	link "Alpha Piscium"
+	link "Koit"
+	object
+		sprite "star/wr"
+		period 12
+	object "Pandora"
+		sprite planet/gas4
+		distance 717
+		period 1182
+	object "Empyria"
+		sprite planet/ocean7
+		distance 899
+		period 1149
+	object "Mysterious Wormhole"
+		sprite planet/wormhole-red
+		distance 1000
+		period 1
+	object
+		sprite planet/callisto
+		distance 1549
+		period 1480
+	object "Onyxia"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Gemenon Small Fleet" 1820
+	fleet "Gemenon Big Fleet" 2293
+
+
+system "Sterrennacht"
+	pos 2968 2094
+	government "Gemenon"
+	arrival 1190
+	habitable 659
+	belt 1342
+	minables lead 17 8
+	minables silicon 6 7
+	minables neodymium 13 4
+	link "Alcor"
+	link "Komondor"
+	link "Koit"
+	link "Grumium"
+	link "Alpha Ursae Majoris"
+	object
+		sprite "star/f-supergiant"
+		period 14
+	object "Myriad"
+		sprite planet/aera
+		distance 1183
+		period 554
+	object "Ardinia"
+		sprite planet/gas10-b
+		distance 1292
+		period 360
+	object
+		sprite planet/rock3-b
+		distance 2898
+		period 1176
+	object "Jaspar"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Gemenon Small Fleet" 1300
+	fleet "Gemenon Big Fleet" 2562
+
+
+system "Komondor"
+	pos 2875 2058
+	government "Gemenon"
+	arrival 605
+	habitable 1015
+	belt 1223
+	minables titanium 24 3
+	minables gold 13 12
+	minables neodymium 20 10
+	minables silver 25 11
+	minables copper 19 7
+	minables tungsten 6 11
+	minables uranium 8 7
+	minables silver 18 9
+	minables lead 24 11
+	minables gold 11 12
+	minables aluminum 23 3
+	minables tungsten 14 7
+	minables gold 17 9
+	minables uranium 8 4
+	minables copper 18 8
+	minables tungsten 7 9
+	minables titanium 19 11
+	minables silicon 14 6
+	minables aluminum 8 11
+	minables neodymium 12 10
+	minables neodymium 18 4
+	minables platinum 16 4
+	minables silver 20 12
+	minables tungsten 12 3
+	minables iron 18 10
+	minables platinum 10 6
+	minables aluminum 17 9
+	minables titanium 19 10
+	minables iron 9 5
+	minables platinum 11 11
+	minables silver 6 4
+	minables iron 18 12
+	minables tungsten 11 12
+	minables iron 13 4
+	minables aluminum 19 3
+	minables titanium 24 12
+	minables copper 24 3
+	minables titanium 6 7
+	minables copper 18 6
+	minables yottrite 15 10
+	link "Alcor"
+	link "Sterrennacht"
+	link "Helvetios"
+	link "Petra"
+	link "Alpha Ursae Majoris"
+	link "Wurren"
+	object
+		sprite "star/g5"
+		distance 136
+		period 12
+	object
+		sprite "star/b3"
+		distance 216
+		period 12
+		offset 120
+	object "Xanterra"
+		sprite planet/ocean5-b
+		distance 695
+		period 1432
+	object "Aeternus"
+		sprite planet/rock7-b
+		distance 715
+		period 1438
+	object
+		sprite planet/gas6-hot
+		distance 1033
+		period 1053
+	object
+		sprite "star/wr"
+		distance 1087
+		period 11
+		offset 240
+	object
+		sprite planet/cloud8
+		distance 1811
+		period 731
+	object
+		sprite planet/rock3
+		distance 3342
+		period 1078
+	object
+		sprite planet/miranda-b
+		distance 3791
+		period 1364
+	object "Triton"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Gemenon Small Fleet" 1113
+	fleet "Gemenon Big Fleet" 2096
+
+
+system "Helvetios"
+	pos 2806 1987
+	government "Uninhabited"
+	arrival 1068
+	habitable 1187
+	belt 1145
+	minables uranium 16 12
+	minables silicon 18 4
+	minables silver 6 8
+	minables gold 12 6
+	minables platinum 13 3
+	minables platinum 12 3
+	minables aluminum 9 5
+	minables iron 20 7
+	minables neodymium 11 11
+	minables titanium 9 6
+	minables silver 20 11
+	minables platinum 19 10
+	link "Komondor"
+	link "Petra"
+	link "Alzirr"
+	link "Wurren"
+	object
+		sprite "star/neutron-small"
+		distance 212
+		period 12
+		offset 180
+	object
+		sprite "star/o-supergiant"
+		distance 644
+		period 14
+	object "Vulcan"
+		sprite planet/ganymede
+		distance 687
+		period 1202
+	object "Vortex"
+		sprite planet/gas6
+		distance 1615
+		period 1231
+	object
+		sprite planet/rock17
+		distance 1700
+		period 1101
+	object
+		sprite planet/cloud2
+		distance 2014
+		period 886
+	object
+		sprite planet/gas1-b
+		distance 2278
+		period 920
+	object
+		sprite planet/cloud2-b
+		distance 3739
+		period 1169
+
+system "Petra"
+	pos 2878 1918
+	government "Gemenon"
+	arrival 1120
+	habitable 673
+	belt 1356
+	minables neodymium 14 5
+	minables silver 24 7
+	minables lead 15 9
+	minables copper 25 4
+	minables silicon 20 4
+	minables iron 14 3
+	minables neodymium 18 3
+	minables silver 14 6
+	minables lead 20 9
+	minables neodymium 7 7
+	minables gold 18 11
+	minables gold 10 8
+	minables iron 14 7
+	minables aluminum 17 3
+	minables lead 10 7
+	minables tungsten 10 6
+	minables tungsten 13 7
+	minables lead 8 4
+	minables titanium 13 9
+	minables gold 22 8
+	minables lead 15 6
+	minables uranium 7 7
+	minables gold 15 12
+	minables silicon 25 7
+	minables neodymium 15 11
+	minables tungsten 23 12
+	minables tungsten 21 10
+	minables platinum 9 11
+	minables gold 16 10
+	minables silver 11 9
+	minables lead 11 8
+	minables tungsten 18 8
+	minables lead 24 10
+	minables aluminum 12 11
+	minables neodymium 18 5
+	minables tungsten 24 11
+	minables tungsten 20 8
+	minables neodymium 10 8
+	minables aluminum 21 9
+	minables copper 10 7
+	minables copper 15 11
+	minables uranium 7 12
+	minables silicon 17 3
+	minables uranium 21 8
+	minables silver 14 8
+	minables lead 9 8
+	minables silver 22 3
+	minables platinum 16 11
+	link "Alcor"
+	link "Helvetios"
+	link "Komondor"
+	link "Sadachbia"
+	link "Alpha Persei"
+	object
+		sprite "star/g0"
+		distance 119
+		period 14
+	object
+		sprite "planet/browndwarf-t-rogue"
+		distance 468
+		period 10
+		offset 180
+	object "Forsaken"
+		sprite planet/desert4
+		distance 1187
+		period 1006
+	object
+		sprite planet/luna
+		distance 1559
+		period 546
+	object "Solarion"
+		sprite planet/ice3-b
+		distance 1818
+		period 330
+	object
+		sprite planet/lava1-b
+		distance 2632
+		period 1081
+	object
+		sprite planet/lava7-b
+		distance 3845
+		period 1133
+	object "Rhea"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Gemenon Small Fleet" 1073
+	fleet "Gemenon Big Fleet" 2515
+
+
+system "Sadachbia"
+	pos 2933 1835
+	government "Uninhabited"
+	arrival 835
+	habitable 971
+	belt 868
+	minables tungsten 18 4
+	minables iron 15 4
+	minables platinum 7 3
+	minables neodymium 20 8
+	minables silver 20 9
+	minables silver 17 11
+	minables titanium 19 10
+	minables iron 8 8
+	minables silver 6 3
+	minables copper 8 11
+	minables copper 18 4
+	minables tungsten 17 3
+	minables gold 25 10
+	minables silver 11 4
+	minables copper 18 6
+	minables uranium 21 6
+	minables uranium 13 6
+	minables platinum 8 4
+	minables uranium 11 6
+	minables copper 7 7
+	minables aluminum 21 4
+	minables tungsten 15 3
+	minables iron 21 11
+	minables silver 16 4
+	minables aluminum 24 12
+	minables silicon 13 8
+	minables silicon 17 10
+	minables copper 22 6
+	minables copper 17 5
+	minables tungsten 23 12
+	minables gold 7 10
+	minables gold 13 10
+	minables tungsten 7 12
+	minables tungsten 15 4
+	minables aluminum 20 12
+	minables tungsten 24 6
+	minables copper 17 10
+	minables silver 24 5
+	minables silicon 22 4
+	minables gold 24 10
+	minables aluminum 20 9
+	minables titanium 15 9
+	minables silicon 16 3
+	minables uranium 11 11
+	minables uranium 20 4
+	minables platinum 7 11
+	link "Petra"
+	link "Sigma Sagittarii"
+	link "Alpha Piscium"
+	link "Alpha Persei"
+	object
+		sprite "star/m-dwarf"
+		distance 44
+		period 15
+		offset 120
+	object
+		sprite "star/b-dwarf"
+		distance 120
+		period 10
+		offset 240
+	object
+		sprite "star/g-giant"
+		distance 355
+		period 13
+	object "Doriax"
+		sprite planet/rock19
+		distance 794
+		period 391
+	object
+		sprite planet/rock1-b
+		distance 839
+		period 708
+	object "Hexagon"
+		sprite planet/ice3
+		distance 1163
+		period 1205
+	object
+		sprite planet/ocean0
+		distance 1658
+		period 1216
+	object
+		sprite planet/forest3-b
+		distance 1949
+		period 1088
+
+system "Sigma Sagittarii"
+	pos 3009 1771
+	government "Uninhabited"
+	arrival 836
+	habitable 997
+	belt 1428
+	minables platinum 11 10
+	minables titanium 13 9
+	minables iron 16 5
+	minables tungsten 20 9
+	minables titanium 13 11
+	minables aluminum 18 3
+	minables silicon 8 3
+	minables silver 20 9
+	minables lead 14 9
+	minables neodymium 24 6
+	minables uranium 22 12
+	minables platinum 7 10
+	minables neodymium 14 3
+	minables silicon 14 11
+	minables copper 11 8
+	minables gold 13 11
+	minables neodymium 12 5
+	minables lead 24 5
+	minables tungsten 25 12
+	minables neodymium 12 5
+	minables iron 23 3
+	minables titanium 15 6
+	minables titanium 12 3
+	link "Sadachbia"
+	link "Tianguan"
+	link "Alpha Piscium"
+	link "Eta Bootis"
+	link "17 Tauri"
+	object
+		sprite "star/b0"
+		distance 233
+		period 13
+	object
+		sprite "star/o5"
+		distance 258
+		period 13
+		offset 240
+	object
+		sprite "star/giant"
+		distance 308
+		period 13
+		offset 120
+	object "Azenoth"
+		sprite planet/rock20
+		distance 725
+		period 320
+	object
+		sprite planet/cloud4-b
+		distance 1101
+		period 507
+	object
+		sprite planet/jupiter-b
+		distance 1343
+		period 586
+	object "Ithoria"
+		sprite planet/jupiter
+		distance 1862
+		period 1153
+	object
+		sprite planet/forest1-b
+		distance 2890
+		period 708
+
+system "Tianguan"
+	pos 2990 1673
+	government "Uninhabited"
+	arrival 1089
+	habitable 585
+	belt 1625
+	minables lead 21 10
+	minables neodymium 19 6
+	minables silicon 7 4
+	minables copper 22 10
+	minables copper 14 8
+	minables gold 20 4
+	minables uranium 15 6
+	minables copper 6 4
+	minables copper 15 5
+	minables titanium 14 6
+	minables gold 20 10
+	minables aluminum 6 7
+	minables lead 13 12
+	minables copper 25 10
+	minables neodymium 11 12
+	minables neodymium 15 8
+	minables uranium 24 10
+	minables silver 8 7
+	minables uranium 19 7
+	minables uranium 9 10
+	minables titanium 15 7
+	minables silicon 6 3
+	minables silver 23 3
+	minables copper 11 9
+	minables tungsten 20 9
+	minables lead 15 9
+	minables platinum 14 9
+	minables neodymium 7 8
+	minables gold 11 7
+	minables titanium 10 6
+	minables tungsten 23 11
+	minables platinum 18 11
+	minables tungsten 10 3
+	minables platinum 17 4
+	minables aluminum 19 6
+	minables aluminum 6 5
+	minables gold 18 10
+	minables neodymium 20 6
+	minables iron 11 11
+	minables aluminum 13 5
+	minables aluminum 17 12
+	minables silver 8 9
+	minables silicon 12 8
+	minables lead 9 11
+	minables aluminum 15 10
+	minables iron 17 4
+	minables copper 13 11
+	minables neodymium 8 4
+	minables aluminum 11 10
+	link "Sigma Sagittarii"
+	link "Intercrus"
+	link "17 Tauri"
+	link "Natasha"
+	object
+		sprite "star/m3"
+		distance 119
+		period 12
+		offset 240
+	object
+		sprite "star/g-giant"
+		distance 378
+		period 14
+		offset 120
+	object
+		sprite "star/f-supergiant"
+		distance 830
+		period 15
+	object "Bionia"
+		sprite planet/jupiter
+		distance 1692
+		period 1316
+	object "Hydoria"
+		sprite planet/desert1-b
+		distance 1741
+		period 778
+	object
+		sprite planet/water0-b
+		distance 2220
+		period 1002
+
+system "Intercrus"
+	pos 2895 1643
+	government "Uninhabited"
+	arrival 935
+	habitable 1009
+	belt 1799
+	minables copper 13 12
+	minables lead 7 5
+	minables copper 24 9
+	minables iron 9 11
+	link "Tianguan"
+	link "Natasha"
+	link "Altais"
+	link "Beta Canum Venaticorum"
+	object
+		sprite "star/f-giant"
+		distance 351
+		period 12
+		offset 180
+	object
+		sprite "star/m-giant"
+		distance 831
+		period 14
+	object
+		sprite planet/ice5-b
+		distance 907
+		period 1173
+	object "Imbria"
+		sprite planet/ice5
+		distance 1558
+		period 1279
+	object "Yara-Ma"
+		sprite planet/browndwarf-y-rogue
+		distance 1687
+		period 810
+	object
+		sprite planet/rock0-b
+		distance 3727
+		period 958
+
+system "Alpha Piscium"
+	pos 3035 1907
+	government "Gemenon"
+	arrival 721
+	habitable 706
+	belt 1406
+	minables silver 25 11
+	minables gold 9 7
+	minables tungsten 22 6
+	minables platinum 15 4
+	minables silver 19 4
+	minables copper 9 8
+	minables tungsten 15 4
+	minables silicon 21 7
+	minables platinum 24 9
+	minables lead 7 4
+	minables silver 12 3
+	minables iron 9 10
+	minables gold 22 6
+	minables aluminum 12 8
+	minables platinum 6 5
+	minables neodymium 6 5
+	minables gold 23 11
+	minables silver 6 6
+	minables silver 11 4
+	minables iron 25 6
+	minables iron 18 3
+	minables copper 7 3
+	minables neodymium 19 4
+	minables tungsten 23 5
+	minables gold 9 3
+	minables tungsten 19 6
+	minables silicon 22 4
+	minables silicon 24 12
+	link "Sadachbia"
+	link "Sigma Sagittarii"
+	link "Alcor"
+	link "Eta Bootis"
+	object
+		sprite "star/k3"
+		distance 123
+		period 13
+	object
+		sprite "star/a5"
+		distance 194
+		period 13
+		offset 180
+	object "Stratos"
+		sprite planet/gas9
+		distance 832
+		period 457
+	object
+		sprite planet/cloud6-b
+		distance 879
+		period 1075
+	object "Nova Prime"
+		sprite planet/dust2-b
+		distance 987
+		period 701
+	object
+		sprite planet/ice3-b
+		distance 2190
+		period 975
+	object
+		sprite planet/cloud4
+		distance 3062
+		period 931
+	object
+		sprite planet/gas4-b
+		distance 3624
+		period 1287
+	object
+		sprite planet/ocean7-b
+		distance 3695
+		period 592
+	object "Odyssey"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Gemenon Small Fleet" 1378
+	fleet "Gemenon Big Fleet" 2091
+
+
+system "Eta Bootis"
+	pos 3113 1846
+	government "Uninhabited"
+	arrival 777
+	habitable 669
+	belt 1482
+	minables copper 23 3
+	minables silicon 18 8
+	minables silicon 12 4
+	minables tungsten 15 12
+	minables platinum 11 5
+	minables silver 11 9
+	minables iron 25 5
+	minables silver 13 10
+	minables iron 14 6
+	minables uranium 9 9
+	minables gold 9 9
+	minables neodymium 11 9
+	minables lead 7 3
+	minables aluminum 23 10
+	minables platinum 15 10
+	minables copper 19 6
+	minables silver 16 5
+	minables iron 9 8
+	minables lead 23 3
+	minables neodymium 17 10
+	minables iron 17 12
+	minables gold 17 4
+	minables platinum 6 9
+	minables silicon 7 9
+	minables lead 18 3
+	minables tungsten 16 10
+	minables neodymium 10 6
+	minables copper 23 5
+	minables neodymium 23 4
+	minables silver 13 9
+	link "Sigma Sagittarii"
+	link "Alpha Piscium"
+	link "Delta Scorpii"
+	link "Uklun"
+	object
+		sprite "star/b5"
+		distance 147
+		period 13
+		offset 180
+	object
+		sprite "star/o5"
+		distance 253
+		period 10
+	object "Merak"
+		sprite planet/lava7
+		distance 1070
+		period 366
+	object
+		sprite planet/tethys
+		distance 1223
+		period 1495
+	object "Jarvix"
+		sprite planet/gas7
+		distance 1569
+		period 1014
+	object
+		sprite planet/earth
+		distance 2727
+		period 590
+	object
+		sprite planet/gas8
+		distance 2893
+		period 1154
+
+system "Delta Scorpii"
+	pos 3190 1909
+	government "Uninhabited"
+	arrival 1187
+	habitable 688
+	belt 1074
+	minables silver 18 5
+	minables platinum 23 9
+	minables tungsten 12 7
+	minables platinum 24 5
+	minables yottrite 14 5
+	link "Eta Bootis"
+	link "Zeta Sagittarii"
+	link "Uklun"
+	object
+		sprite "star/m4"
+		distance 143
+		period 14
+	object "Luxor"
+		sprite planet/jupiter-b
+		distance 1259
+		period 1358
+	object "Haldus"
+		sprite planet/dust5
+		distance 1666
+		period 452
+	object
+		sprite planet/browndwarf-l
+		distance 1817
+		period 606
+	object
+		sprite planet/europa
+		distance 1965
+		period 1216
+	object
+		sprite planet/ocean2-b
+		distance 2096
+		period 872
+	object
+		sprite planet/ocean2-b
+		distance 2239
+		period 1182
+	object
+		sprite planet/miranda
+		distance 2650
+		period 1094
+	object
+		sprite "star/nova-old"
+		distance 3049
+		period 10
+		offset 180
+
+system "Zeta Sagittarii"
+	pos 3160 2004
+	government "Uninhabited"
+	arrival 843
+	habitable 614
+	belt 1394
+	minables silicon 12 6
+	minables titanium 22 4
+	minables uranium 24 5
+	minables gold 14 11
+	minables platinum 20 11
+	minables silicon 8 4
+	minables tungsten 12 6
+	minables tungsten 6 9
+	minables gold 23 12
+	link "Delta Scorpii"
+	link "Koit"
+	object
+		sprite "star/o-dwarf"
+		distance 121
+		period 14
+		offset 240
+	object
+		sprite "star/o8"
+		distance 200
+		period 12
+	object
+		sprite "star/giant"
+		distance 327
+		period 13
+		offset 120
+	object "Zandar"
+		sprite planet/ocean4
+		distance 1586
+		period 876
+	object "Monolith"
+		sprite planet/gas8-b
+		distance 1869
+		period 336
+	object
+		sprite planet/rock4-b
+		distance 2094
+		period 711
+	object
+		sprite planet/cloud2-b
+		distance 2140
+		period 830
+	object
+		sprite planet/rock4
+		distance 2882
+		period 1156
+	object
+		sprite planet/gas3-hot
+		distance 2948
+		period 1177
+	object
+		sprite planet/rhea-b
+		distance 3322
+		period 699
+
+system "Koit"
+	pos 3116 2093
+	government "Gemenon"
+	arrival 530
+	habitable 1041
+	belt 1294
+	minables iron 17 9
+	minables neodymium 11 6
+	minables neodymium 7 12
+	minables tungsten 8 6
+	minables gold 14 11
+	minables neodymium 24 10
+	minables silver 10 8
+	minables titanium 13 12
+	minables platinum 7 4
+	minables platinum 14 10
+	minables silver 21 8
+	minables gold 25 3
+	minables platinum 10 11
+	minables aluminum 16 4
+	minables silicon 8 9
+	minables silver 11 8
+	minables copper 24 7
+	minables aluminum 14 9
+	minables titanium 16 12
+	minables lead 15 4
+	minables silicon 11 12
+	minables gold 25 4
+	minables silver 7 12
+	minables copper 11 12
+	minables platinum 21 5
+	minables silver 14 6
+	minables silicon 20 9
+	link "Sterrennacht"
+	link "Zeta Sagittarii"
+	link "Alcor"
+	link "Wouri"
+	object
+		sprite "star/neutron"
+		period 14
+	object
+		sprite planet/gas15-b
+		distance 811
+		period 520
+	object
+		sprite planet/desert0-b
+		distance 1022
+		period 1404
+	object "Arctara"
+		sprite planet/desert7
+		distance 1257
+		period 344
+	object "Bellarix"
+		sprite planet/ice3
+		distance 1466
+		period 960
+	object
+		sprite planet/gas6-hot
+		distance 1471
+		period 1152
+	object
+		sprite planet/gas17-b
+		distance 1976
+		period 1470
+	object
+		sprite planet/rock17
+		distance 3046
+		period 1127
+	object "Caelumara"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Gemenon Small Fleet" 1555
+	fleet "Gemenon Big Fleet" 2767
+
+
+system "Wouri"
+	pos 3136 2190
+	government "Uninhabited"
+	arrival 722
+	habitable 629
+	belt 856
+	minables titanium 22 9
+	minables uranium 19 5
+	minables uranium 8 10
+	minables copper 10 3
+	minables iron 6 9
+	minables titanium 18 12
+	minables uranium 11 7
+	minables aluminum 16 6
+	minables neodymium 7 12
+	minables uranium 7 5
+	minables iron 18 5
+	minables copper 17 3
+	minables lead 16 7
+	minables silicon 23 3
+	minables iron 8 3
+	minables neodymium 17 3
+	minables iron 7 12
+	minables tungsten 13 4
+	minables copper 11 5
+	minables uranium 7 10
+	minables gold 20 7
+	minables gold 16 4
+	minables silicon 6 5
+	minables gold 19 8
+	minables aluminum 19 12
+	minables iron 22 11
+	minables platinum 21 10
+	minables titanium 7 10
+	minables tungsten 21 12
+	minables neodymium 10 10
+	minables tungsten 17 3
+	minables iron 17 10
+	minables uranium 18 6
+	minables silicon 11 4
+	link "Koit"
+	link "Xuange"
+	link "Grumium"
+	object
+		sprite "star/b-giant"
+		period 15
+	object "Nereus"
+		sprite planet/tethys-b
+		distance 636
+		period 760
+	object "Quorin"
+		sprite planet/cloud4-b
+		distance 1264
+		period 751
+	object
+		sprite planet/browndwarf-y
+		distance 1350
+		period 518
+	object
+		sprite planet/ocean0
+		distance 1635
+		period 653
+	object
+		sprite planet/gas7-hot
+		distance 2530
+		period 1133
+	object
+		sprite planet/gas13
+		distance 3939
+		period 1356
+
+system "Xuange"
+	pos 3222 2240
+	government "Uninhabited"
+	arrival 964
+	habitable 1165
+	belt 1426
+	minables titanium 17 7
+	minables aluminum 10 10
+	minables gold 17 10
+	minables platinum 13 11
+	minables lead 24 11
+	minables platinum 15 3
+	minables neodymium 8 8
+	minables uranium 17 8
+	minables titanium 6 7
+	minables silicon 10 6
+	minables aluminum 23 10
+	minables aluminum 20 3
+	minables tungsten 17 4
+	minables gold 10 8
+	minables copper 10 11
+	minables silicon 25 10
+	minables copper 10 12
+	minables copper 12 3
+	minables tungsten 21 12
+	minables gold 24 6
+	minables neodymium 10 8
+	minables copper 10 3
+	minables tungsten 12 5
+	minables gold 9 3
+	minables silver 17 12
+	minables silver 12 8
+	link "Wouri"
+	object
+		sprite "star/m-supergiant"
+		period 11
+	object "Thalia"
+		sprite planet/browndwarf-l-rogue
+		distance 739
+		period 777
+	object "Jura"
+		sprite planet/ice1
+		distance 1142
+		period 481
+	object
+		sprite planet/ice8
+		distance 1191
+		period 1241
+	object
+		sprite planet/dust5-b
+		distance 1592
+		period 1220
+	object
+		sprite planet/cloud3
+		distance 2635
+		period 751
+
+system "Grumium"
+	pos 2993 2191
+	government "Uninhabited"
+	arrival 846
+	habitable 612
+	belt 1685
+	minables titanium 6 6
+	minables silicon 11 4
+	minables lead 7 6
+	minables lead 18 5
+	minables platinum 13 4
+	minables platinum 16 12
+	minables lead 16 5
+	minables copper 20 6
+	minables silicon 21 8
+	minables aluminum 9 3
+	minables aluminum 12 9
+	minables iron 6 8
+	minables uranium 18 3
+	minables platinum 8 12
+	minables iron 14 7
+	minables titanium 24 8
+	minables gold 18 12
+	minables gold 15 11
+	minables tungsten 6 12
+	minables tungsten 16 3
+	minables gold 19 3
+	minables gold 7 8
+	minables aluminum 22 3
+	minables uranium 13 9
+	minables silver 16 4
+	link "Sterrennacht"
+	link "Wouri"
+	link "Tengshe"
+	link "Minelauva"
+	link "Alpha Ursae Majoris"
+	object
+		sprite "star/f-dwarf"
+		distance 124
+		period 10
+		offset 180
+	object
+		sprite "star/neutron"
+		distance 452
+		period 10
+	object "Felisar"
+		sprite planet/lava5
+		distance 823
+		period 1034
+	object "Terminus"
+		sprite planet/rock6-b
+		distance 1280
+		period 1379
+	object
+		sprite planet/rock0
+		distance 1807
+		period 1388
+	object
+		sprite planet/cloud5-b
+		distance 2358
+		period 1454
+	object
+		sprite planet/ocean0-b
+		distance 2496
+		period 1073
+
+system "Tengshe"
+	pos 2994 2291
+	government "Uninhabited"
+	arrival 1191
+	habitable 1113
+	belt 1421
+	minables gold 11 8
+	minables silver 20 10
+	minables iron 16 9
+	minables uranium 23 11
+	minables copper 25 8
+	minables copper 25 5
+	minables silicon 17 3
+	minables gold 11 5
+	minables neodymium 10 10
+	minables silver 17 12
+	minables titanium 14 4
+	minables aluminum 24 10
+	minables neodymium 20 9
+	minables titanium 25 12
+	minables gold 12 5
+	minables copper 6 3
+	minables tungsten 16 6
+	minables iron 6 10
+	minables titanium 19 4
+	minables platinum 9 7
+	minables copper 17 5
+	minables tungsten 18 9
+	minables platinum 7 4
+	minables lead 9 3
+	minables tungsten 12 7
+	minables copper 7 11
+	minables iron 8 4
+	minables neodymium 7 11
+	minables silver 24 8
+	minables neodymium 12 7
+	minables neodymium 18 11
+	minables silver 19 10
+	minables neodymium 17 3
+	minables neodymium 19 9
+	minables tungsten 13 9
+	minables neodymium 7 3
+	minables silicon 25 11
+	minables silver 9 11
+	minables lead 21 9
+	link "Grumium"
+	link "Minelauva"
+	object
+		sprite "star/b-giant"
+		distance 389
+		period 13
+	object
+		sprite planet/browndwarf-t
+		distance 665
+		period 1141
+	object "Elarion"
+		sprite planet/gas14-b
+		distance 1066
+		period 1040
+	object
+		sprite "star/k-supergiant"
+		distance 1122
+		period 10
+		offset 180
+	object
+		sprite planet/gas16
+		distance 1565
+		period 794
+	object "Mithrion"
+		sprite planet/dust7
+		distance 1575
+		period 398
+	object
+		sprite planet/dust3
+		distance 1702
+		period 1478
+	object
+		sprite planet/vulpa
+		distance 1790
+		period 824
+	object
+		sprite planet/cloud7-b
+		distance 1878
+		period 952
+
+system "Minelauva"
+	pos 2895 2282
+	government "Uninhabited"
+	arrival 751
+	habitable 754
+	belt 1588
+	minables lead 19 4
+	minables aluminum 12 5
+	minables uranium 17 12
+	minables silicon 23 12
+	minables silver 25 3
+	minables aluminum 21 7
+	minables titanium 17 9
+	minables neodymium 18 4
+	minables silver 24 7
+	minables silicon 13 4
+	minables silver 20 6
+	minables silicon 17 9
+	minables gold 11 3
+	minables neodymium 18 11
+	minables uranium 9 10
+	minables aluminum 10 8
+	link "Tengshe"
+	link "Grumium"
+	link "Aldulfin"
+	link "Acrab"
+	object
+		sprite "star/o0"
+		period 13
+	object "Fendara"
+		sprite planet/gas1-hot
+		distance 1429
+		period 660
+	object "Darvus"
+		sprite planet/gas1
+		distance 1866
+		period 713
+	object
+		sprite planet/rock7
+		distance 1919
+		period 1197
+	object
+		sprite planet/rock8-b
+		distance 2393
+		period 1069
+
+system "Aldulfin"
+	pos 2796 2271
+	government "Uninhabited"
+	arrival 706
+	habitable 920
+	belt 1711
+	minables aluminum 12 3
+	minables tungsten 8 5
+	minables lead 11 9
+	minables neodymium 24 4
+	minables tungsten 23 12
+	minables silver 24 3
+	minables gold 16 3
+	minables copper 10 7
+	minables platinum 16 5
+	minables platinum 6 4
+	minables neodymium 24 4
+	minables copper 6 4
+	minables aluminum 25 7
+	minables lead 9 12
+	minables neodymium 23 4
+	minables silver 20 11
+	minables iron 6 7
+	minables lead 25 5
+	minables tungsten 21 8
+	minables silicon 13 9
+	minables aluminum 11 12
+	minables aluminum 13 12
+	minables titanium 11 3
+	link "Minelauva"
+	link "Acrab"
+	link "Alpha Ursae Majoris"
+	object
+		sprite "star/a8"
+		period 15
+	object "Malachor"
+		sprite planet/rock1
+		distance 1433
+		period 1193
+	object "Astraia"
+		sprite planet/europa
+		distance 1896
+		period 1110
+	object
+		sprite planet/ice0-b
+		distance 2625
+		period 1117
+	object
+		sprite planet/desert4-b
+		distance 3273
+		period 1093
+	object
+		sprite planet/ice0
+		distance 3503
+		period 1260
+	object
+		sprite planet/dust0
+		distance 3519
+		period 936
+
+system "Acrab"
+	pos 2783 2370
+	government "Uninhabited"
+	arrival 1038
+	habitable 685
+	belt 1621
+	minables platinum 6 12
+	minables gold 22 9
+	minables gold 22 7
+	minables copper 6 3
+	minables lead 7 5
+	minables silicon 8 9
+	minables tungsten 11 8
+	minables platinum 24 10
+	minables tungsten 13 7
+	minables silicon 24 6
+	minables lead 18 8
+	minables iron 10 8
+	minables titanium 22 11
+	minables silicon 14 11
+	minables gold 15 11
+	minables tungsten 6 8
+	minables gold 12 10
+	minables copper 16 3
+	minables platinum 17 4
+	minables copper 22 11
+	minables titanium 25 11
+	minables gold 16 8
+	minables gold 24 3
+	minables gold 12 11
+	minables neodymium 20 3
+	minables titanium 24 5
+	minables gold 10 4
+	minables neodymium 12 8
+	minables tungsten 18 6
+	minables copper 20 3
+	minables tungsten 18 8
+	minables copper 18 5
+	minables titanium 14 11
+	minables lead 14 8
+	minables titanium 7 7
+	minables silicon 17 9
+	minables copper 16 7
+	minables silicon 22 4
+	minables lead 14 9
+	minables tungsten 15 10
+	minables platinum 15 11
+	minables gold 9 5
+	link "Aldulfin"
+	link "Minelauva"
+	link "Montuno"
+	object
+		sprite "star/k-giant"
+		distance 580
+		period 11
+		offset 180
+	object
+		sprite planet/neptune
+		distance 692
+		period 1408
+	object "Rosetta"
+		sprite planet/forest4-b
+		distance 759
+		period 432
+	object
+		sprite "star/m-giant"
+		distance 764
+		period 12
+	object "Yesteryear"
+		sprite planet/cloud7-b
+		distance 1106
+		period 676
+	object
+		sprite planet/gas1-b
+		distance 2631
+		period 1037
+	object
+		sprite planet/dust5
+		distance 2868
+		period 670
+	object
+		sprite planet/gas2-hot
+		distance 3486
+		period 1118
+	object
+		sprite planet/gas5-b
+		distance 3798
+		period 636
+
+system "Montuno"
+	pos 2688 2399
+	government "Uninhabited"
+	arrival 893
+	habitable 742
+	belt 1321
+	minables tungsten 25 6
+	minables tungsten 17 5
+	minables platinum 24 4
+	minables lead 25 4
+	minables titanium 10 5
+	minables aluminum 17 9
+	minables neodymium 7 8
+	minables copper 15 12
+	minables copper 15 11
+	minables silver 25 9
+	minables tungsten 17 8
+	minables gold 10 8
+	minables tungsten 24 9
+	minables copper 24 10
+	minables copper 19 6
+	minables uranium 14 5
+	minables neodymium 8 5
+	minables iron 21 8
+	minables iron 18 12
+	minables lead 9 11
+	minables silicon 12 10
+	minables silicon 23 6
+	minables tungsten 10 8
+	minables gold 12 6
+	minables uranium 19 8
+	minables platinum 25 11
+	minables titanium 12 8
+	minables copper 21 12
+	minables lead 13 11
+	minables silicon 6 3
+	minables copper 7 10
+	minables lead 25 12
+	link "Acrab"
+	link "Gamma Aquilae"
+	object
+		sprite "star/g-dwarf"
+		distance 40
+		period 13
+		offset 240
+	object
+		sprite "star/k3"
+		distance 106
+		period 15
+	object
+		sprite "star/o8"
+		distance 204
+		period 11
+		offset 120
+	object "Bygone"
+		sprite planet/uranus
+		distance 632
+		period 550
+	object "Lyonesse"
+		sprite planet/ocean3-b
+		distance 1272
+		period 1086
+	object
+		sprite planet/rock6-b
+		distance 2024
+		period 798
+	object
+		sprite planet/ice6
+		distance 2669
+		period 962
+	object
+		sprite planet/ice3-b
+		distance 3000
+		period 979
+
+system "Gamma Aquilae"
+	pos 2589 2402
+	government "Uninhabited"
+	arrival 649
+	habitable 1013
+	belt 1136
+	minables neodymium 23 11
+	minables iron 10 10
+	minables tungsten 12 6
+	minables neodymium 12 4
+	minables copper 23 10
+	minables copper 16 8
+	minables tungsten 24 8
+	minables lead 8 8
+	minables iron 19 11
+	minables titanium 20 4
+	minables platinum 21 4
+	minables titanium 18 5
+	minables copper 10 5
+	minables lead 18 6
+	minables platinum 24 3
+	minables neodymium 19 7
+	minables iron 8 4
+	minables copper 25 4
+	minables titanium 16 9
+	minables yottrite 15 11
+	link "Montuno"
+	object
+		sprite "star/wr"
+		period 14
+	object "Sargas"
+		sprite planet/forest2-b
+		distance 1858
+		period 348
+	object "Kaledon"
+		sprite planet/desert6-b
+		distance 1895
+		period 568
+	object
+		sprite planet/desert2-b
+		distance 3705
+		period 1011
+	object
+		sprite planet/ice1
+		distance 3900
+		period 1005
+
+system "Alpha Ursae Majoris"
+	pos 2862 2157
+	government "Uninhabited"
+	arrival 559
+	habitable 1123
+	belt 951
+	minables uranium 13 5
+	minables silicon 14 12
+	minables platinum 10 9
+	minables iron 24 4
+	minables silver 23 11
+	minables copper 16 12
+	minables silicon 17 5
+	link "Aldulfin"
+	link "Sterrennacht"
+	link "Komondor"
+	link "Grumium"
+	object
+		sprite "star/a-dwarf"
+		distance 103
+		period 10
+		offset 120
+	object
+		sprite "star/g-giant"
+		distance 381
+		period 11
+	object
+		sprite "star/protostar-yellow"
+		distance 483
+		period 14
+		offset 240
+	object
+		sprite planet/gas2
+		distance 639
+		period 739
+	object
+		sprite planet/lava4
+		distance 891
+		period 992
+	object "Gossamer"
+		sprite planet/rock19-b
+		distance 924
+		period 531
+	object "Xerena"
+		sprite planet/gas1-hot
+		distance 1277
+		period 941
+	object
+		sprite planet/cloud2
+		distance 1280
+		period 1412
+	object
+		sprite planet/rock15-b
+		distance 2556
+		period 715
+	object
+		sprite planet/rogue-radiating
+		distance 3864
+		period 1222
+
+system "Alzirr"
+	pos 2708 1970
+	government "Uninhabited"
+	arrival 583
+	habitable 999
+	belt 810
+	minables titanium 21 10
+	minables gold 14 7
+	minables iron 10 7
+	minables copper 12 8
+	minables uranium 24 4
+	minables gold 18 12
+	minables lead 7 11
+	minables uranium 12 7
+	minables copper 23 6
+	minables copper 25 7
+	minables copper 24 7
+	minables titanium 17 10
+	minables neodymium 10 10
+	minables neodymium 17 6
+	minables silicon 6 4
+	minables titanium 23 3
+	minables titanium 12 8
+	minables lead 10 8
+	minables uranium 12 4
+	minables platinum 6 11
+	minables uranium 19 5
+	minables iron 9 5
+	minables platinum 18 6
+	minables iron 9 6
+	minables neodymium 24 4
+	minables silicon 14 3
+	minables iron 14 4
+	minables platinum 15 3
+	minables silver 20 11
+	link "Helvetios"
+	link "Nahn"
+	link "Wurren"
+	object
+		sprite "star/b-dwarf"
+		distance 87
+		period 14
+		offset 180
+	object
+		sprite "star/g3"
+		distance 180
+		period 15
+	object "Oaken"
+		sprite planet/ice2
+		distance 785
+		period 675
+	object
+		sprite planet/ice3
+		distance 945
+		period 1049
+	object "Xenon"
+		sprite planet/cloud8
+		distance 1260
+		period 871
+	object
+		sprite planet/dust6
+		distance 1395
+		period 688
+	object
+		sprite planet/cloud5
+		distance 1780
+		period 1225
+	object
+		sprite planet/ocean3-b
+		distance 2625
+		period 829
+	object
+		sprite planet/lava2-b
+		distance 3432
+		period 997
+
+system "Nahn"
+	pos 2613 2000
+	government "Uninhabited"
+	arrival 1129
+	habitable 770
+	belt 1400
+	minables tungsten 16 3
+	minables neodymium 16 7
+	minables platinum 9 12
+	minables silver 20 10
+	minables silver 12 8
+	minables uranium 7 6
+	minables tungsten 10 4
+	minables titanium 6 7
+	minables gold 12 3
+	minables lead 25 6
+	minables gold 7 9
+	minables silver 22 4
+	minables iron 8 9
+	minables iron 11 6
+	minables tungsten 25 12
+	minables uranium 11 4
+	minables iron 23 4
+	minables gold 18 6
+	minables iron 7 7
+	minables copper 12 4
+	minables silicon 17 5
+	minables silicon 14 8
+	minables silver 8 7
+	minables platinum 14 12
+	minables silicon 25 10
+	minables iron 10 10
+	minables uranium 24 7
+	minables aluminum 15 10
+	minables iron 12 5
+	minables gold 17 8
+	minables iron 25 7
+	minables neodymium 12 4
+	minables uranium 22 5
+	minables uranium 10 6
+	link "Alzirr"
+	link "Solaris"
+	object
+		sprite "star/g0"
+		distance 149
+		period 15
+		offset 120
+	object
+		sprite "star/g5-old"
+		distance 227
+		period 12
+	object
+		sprite "star/o0"
+		distance 265
+		period 14
+		offset 240
+	object
+		sprite planet/ocean5-b
+		distance 768
+		period 714
+	object "Naiad"
+		sprite planet/saturn
+		distance 828
+		period 1251
+	object
+		sprite planet/mars
+		distance 1593
+		period 1409
+	object "Paxos"
+		sprite planet/cloud3
+		distance 1731
+		period 893
+	object
+		sprite planet/dust6-b
+		distance 2486
+		period 694
+
+system "Solaris"
+	pos 2579 2093
+	government "Uninhabited"
+	arrival 1108
+	habitable 885
+	belt 879
+	minables titanium 6 12
+	minables aluminum 9 8
+	minables gold 22 10
+	minables silver 14 11
+	minables silver 23 8
+	minables titanium 23 8
+	minables neodymium 22 12
+	link "Nahn"
+	link "Hunor"
+	object
+		sprite "star/g-dwarf"
+		distance 73
+		period 13
+		offset 120
+	object
+		sprite "star/o5"
+		distance 221
+		period 10
+	object
+		sprite "star/g-supergiant"
+		distance 1019
+		period 10
+		offset 240
+	object "Tauri"
+		sprite planet/desert3-b
+		distance 1790
+		period 1402
+	object "Whisper"
+		sprite planet/rock12-b
+		distance 1879
+		period 1396
+	object
+		sprite planet/ganymede-b
+		distance 2030
+		period 540
+
+system "Hunor"
+	pos 2660 2151
+	government "Uninhabited"
+	arrival 1179
+	habitable 927
+	belt 1514
+	minables titanium 20 10
+	minables neodymium 21 8
+	minables silver 17 7
+	minables lead 19 6
+	minables titanium 7 9
+	minables uranium 15 6
+	minables silicon 20 8
+	minables gold 18 6
+	minables lead 15 12
+	minables neodymium 19 5
+	minables platinum 20 9
+	minables iron 22 4
+	minables silicon 11 4
+	minables uranium 7 5
+	minables silver 6 5
+	minables uranium 24 6
+	minables aluminum 7 8
+	minables platinum 12 5
+	minables silicon 16 8
+	minables gold 12 5
+	minables copper 24 9
+	minables platinum 20 4
+	minables neodymium 12 3
+	minables gold 14 3
+	minables lead 22 4
+	minables aluminum 22 5
+	minables aluminum 6 7
+	minables silicon 17 3
+	minables platinum 20 6
+	minables iron 22 4
+	minables uranium 23 5
+	minables aluminum 23 7
+	minables copper 22 5
+	minables gold 9 6
+	minables titanium 18 5
+	minables lead 25 6
+	minables platinum 18 8
+	minables titanium 18 3
+	minables neodymium 16 3
+	minables tungsten 12 4
+	minables tungsten 6 3
+	minables silicon 24 6
+	minables uranium 16 6
+	minables lead 16 3
+	minables copper 8 4
+	link "Solaris"
+	link "Wurren"
+	object
+		sprite "star/k5"
+		distance 160
+		period 11
+	object
+		sprite "star/f8"
+		distance 184
+		period 13
+		offset 180
+	object
+		sprite planet/dust2
+		distance 1205
+		period 982
+	object
+		sprite planet/ganymede
+		distance 1285
+		period 831
+	object "Zaurak"
+		sprite planet/ocean5-b
+		distance 1431
+		period 315
+	object "Seraph"
+		sprite planet/forest1-b
+		distance 1604
+		period 1245
+	object
+		sprite planet/ocean6-b
+		distance 3500
+		period 1399
+
+system "Wurren"
+	pos 2737 2086
+	government "Uninhabited"
+	arrival 956
+	habitable 937
+	belt 846
+	minables silicon 25 10
+	minables lead 20 12
+	minables platinum 17 12
+	minables neodymium 20 11
+	minables tungsten 9 9
+	minables silicon 24 3
+	minables platinum 7 3
+	minables uranium 12 8
+	minables copper 23 4
+	minables uranium 8 6
+	minables platinum 23 8
+	minables titanium 11 3
+	minables copper 25 9
+	minables tungsten 16 6
+	minables lead 22 4
+	minables titanium 12 7
+	minables gold 13 12
+	minables silver 18 5
+	minables silver 25 12
+	minables lead 16 5
+	minables tungsten 18 9
+	minables silicon 16 6
+	minables copper 9 12
+	minables neodymium 6 7
+	minables aluminum 9 3
+	minables iron 12 9
+	minables platinum 23 7
+	minables yottrite 10 8
+	link "Alzirr"
+	link "Hunor"
+	link "Komondor"
+	link "Helvetios"
+	object "Volturnus"
+		sprite planet/gas4-b
+		distance 612
+		period 663
+	object "Zephyria"
+		sprite planet/lava1
+		distance 1330
+		period 659
+	object
+		sprite "star/m-supergiant"
+		distance 1622
+		period 15
+	object
+		sprite "star/nova"
+		distance 3078
+		period 12
+		offset 180
+	object
+		sprite planet/lava5
+		distance 3705
+		period 1094
+
+system "Alpha Persei"
+	pos 2840 1800
+	government "Uninhabited"
+	arrival 678
+	habitable 760
+	belt 1257
+	minables uranium 17 12
+	minables aluminum 16 9
+	minables tungsten 21 8
+	minables lead 25 9
+	minables aluminum 23 6
+	minables platinum 7 12
+	minables copper 7 4
+	minables iron 12 7
+	minables titanium 24 5
+	minables iron 10 8
+	minables neodymium 7 10
+	minables iron 13 11
+	minables tungsten 13 12
+	link "Petra"
+	link "Sadachbia"
+	object
+		sprite "star/o-dwarf"
+		distance 62
+		period 12
+		offset 180
+	object
+		sprite "planet/rogue-radiating"
+		distance 235
+		period 13
+	object
+		sprite planet/rock0
+		distance 1188
+		period 1239
+	object "Bravara"
+		sprite planet/gas14-b
+		distance 1527
+		period 1292
+	object "Freyara"
+		sprite planet/rock0-b
+		distance 1584
+		period 1177
+
+system "17 Tauri"
+	pos 3090 1714
+	government "Uninhabited"
+	arrival 612
+	habitable 871
+	belt 1705
+	minables gold 8 12
+	minables iron 13 4
+	minables titanium 20 5
+	minables lead 18 8
+	minables tungsten 17 7
+	minables tungsten 23 11
+	minables silver 7 11
+	minables tungsten 8 7
+	minables lead 8 3
+	minables silicon 22 12
+	minables uranium 18 5
+	minables silver 24 9
+	minables aluminum 22 3
+	minables tungsten 23 10
+	minables copper 12 8
+	minables uranium 18 6
+	minables copper 18 8
+	minables uranium 19 5
+	minables iron 8 8
+	minables aluminum 15 7
+	minables silver 18 8
+	minables titanium 10 7
+	minables tungsten 24 7
+	minables silver 13 12
+	minables silicon 15 10
+	minables copper 25 12
+	minables silicon 6 11
+	minables gold 20 4
+	minables uranium 14 3
+	minables neodymium 17 5
+	minables gold 12 4
+	minables lead 19 5
+	minables uranium 22 9
+	minables uranium 14 4
+	minables tungsten 21 6
+	minables gold 18 9
+	link "Tianguan"
+	link "Sigma Sagittarii"
+	link "Diadem"
+	link "Mira"
+	object
+		sprite "star/k-dwarf"
+		distance 116
+		period 13
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 504
+		period 12
+		offset 240
+	object
+		sprite "planet/browndwarf-y"
+		distance 519
+		period 13
+		offset 120
+	object
+		sprite planet/miranda
+		distance 804
+		period 761
+	object "Cimmeria"
+		sprite planet/gliese
+		distance 1082
+		period 412
+	object "Vex"
+		sprite planet/forest3
+		distance 1583
+		period 1299
+	object
+		sprite planet/cloud7
+		distance 1836
+		period 811
+	object
+		sprite planet/browndwarf-t
+		distance 2043
+		period 1048
+	object
+		sprite planet/gas0-hot
+		distance 2361
+		period 605
+
+system "Diadem"
+	pos 3189 1709
+	government "Uninhabited"
+	arrival 546
+	habitable 501
+	belt 1541
+	minables gold 7 5
+	minables silicon 24 6
+	minables tungsten 18 9
+	minables aluminum 19 9
+	minables lead 20 4
+	minables tungsten 24 11
+	minables titanium 8 7
+	minables lead 8 9
+	link "17 Tauri"
+	link "Uklun"
+	link "Mira"
+	object
+		sprite "star/protostar-orange"
+		period 15
+	object
+		sprite planet/gas4-b
+		distance 1253
+		period 930
+	object "Dystopia"
+		sprite planet/lava6-b
+		distance 1498
+		period 591
+	object "Nymphaea"
+		sprite planet/rock1-b
+		distance 1537
+		period 993
+	object
+		sprite planet/ocean5-b
+		distance 2345
+		period 987
+	object
+		sprite planet/gas4-b
+		distance 2479
+		period 1332
+	object
+		sprite planet/miranda
+		distance 2574
+		period 1442
+
+system "Uklun"
+	pos 3244 1792
+	government "Uninhabited"
+	arrival 725
+	habitable 959
+	belt 1015
+	minables gold 21 5
+	minables silver 12 7
+	minables neodymium 19 6
+	minables aluminum 17 10
+	minables neodymium 12 4
+	minables silver 20 7
+	minables uranium 14 12
+	minables tungsten 8 10
+	minables neodymium 25 4
+	link "Delta Scorpii"
+	link "Diadem"
+	link "Eta Bootis"
+	link "Beta Herculis"
+	link "Lerna"
+	object
+		sprite "star/o-dwarf"
+		distance 80
+		period 10
+	object
+		sprite "star/a-dwarf"
+		distance 112
+		period 13
+		offset 240
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 447
+		period 10
+		offset 120
+	object
+		sprite planet/desert1
+		distance 1164
+		period 1318
+	object
+		sprite planet/ice8-b
+		distance 1323
+		period 1148
+	object "Irisar"
+		sprite planet/rock3-b
+		distance 1426
+		period 1190
+	object "Hypernova"
+		sprite planet/cloud7
+		distance 1615
+		period 828
+	object
+		sprite planet/ocean1-b
+		distance 2809
+		period 1183
+	object
+		sprite planet/mars
+		distance 3211
+		period 502
+	object
+		sprite planet/aera
+		distance 3707
+		period 817
+
+system "Beta Herculis"
+	pos 3332 1839
+	government "Uninhabited"
+	arrival 735
+	habitable 542
+	belt 1482
+	minables platinum 9 10
+	minables silicon 10 10
+	minables tungsten 14 6
+	minables iron 22 7
+	minables uranium 20 10
+	minables lead 23 10
+	minables iron 22 6
+	minables gold 19 7
+	minables aluminum 7 11
+	link "Uklun"
+	link "Lerna"
+	object
+		sprite "planet/browndwarf-t-rogue"
+		period 13
+	object "Carvex"
+		sprite planet/forest6
+		distance 694
+		period 928
+	object "Quanta"
+		sprite planet/gas2-hot
+		distance 1685
+		period 881
+	object
+		sprite planet/rock14-b
+		distance 1956
+		period 1439
+
+system "Lerna"
+	pos 3344 1740
+	government "Uninhabited"
+	arrival 1001
+	habitable 846
+	belt 1746
+	minables platinum 19 10
+	minables copper 8 10
+	minables silver 12 9
+	minables uranium 10 3
+	link "Beta Herculis"
+	link "Uklun"
+	link "Dziban"
+	object
+		sprite "planet/browndwarf-y"
+		period 11
+	object "Rubrum"
+		sprite planet/saturn
+		distance 727
+		period 1254
+	object "Sirenum"
+		sprite planet/ice5
+		distance 1765
+		period 1137
+	object
+		sprite planet/gas6-hot
+		distance 2107
+		period 1299
+	object
+		sprite planet/nebula1
+		distance 2695
+		period 843
+	object
+		sprite planet/ice3-b
+		distance 3428
+		period 794
+
+system "Dziban"
+	pos 3366 1643
+	government "Uninhabited"
+	arrival 1183
+	habitable 699
+	belt 1002
+	minables iron 16 8
+	minables titanium 24 10
+	minables titanium 6 9
+	minables platinum 20 9
+	minables lead 13 11
+	minables aluminum 8 3
+	minables iron 11 3
+	minables titanium 24 4
+	minables iron 15 10
+	minables iron 12 12
+	minables titanium 22 6
+	minables silicon 19 10
+	minables iron 13 9
+	minables aluminum 24 6
+	minables silver 8 12
+	link "Lerna"
+	link "Mahasim"
+	link "Beta Ursae Minoris"
+	object
+		sprite "star/g-dwarf"
+		distance 123
+		period 11
+	object
+		sprite "star/f0"
+		distance 149
+		period 11
+		offset 180
+	object
+		sprite planet/rock10
+		distance 1264
+		period 646
+	object "Ulysses"
+		sprite planet/cloud0
+		distance 1416
+		period 777
+	object "Styx"
+		sprite planet/desert0
+		distance 1530
+		period 721
+	object
+		sprite planet/rock8
+		distance 2052
+		period 978
+	object
+		sprite planet/gas2-b
+		distance 3576
+		period 928
+
+system "Mahasim"
+	pos 3459 1609
+	government "Uninhabited"
+	arrival 1165
+	habitable 506
+	belt 1147
+	minables iron 13 6
+	minables neodymium 12 12
+	minables silver 23 4
+	minables titanium 10 6
+	minables neodymium 19 7
+	minables gold 20 4
+	minables iron 12 3
+	minables copper 6 6
+	minables silver 12 11
+	minables silver 15 8
+	minables copper 23 11
+	minables aluminum 6 7
+	minables iron 15 5
+	minables iron 15 11
+	minables uranium 19 7
+	minables titanium 10 8
+	minables tungsten 14 10
+	minables lead 7 5
+	minables silicon 20 11
+	minables aluminum 12 5
+	minables gold 9 4
+	minables uranium 11 3
+	minables copper 6 5
+	minables titanium 21 5
+	minables tungsten 11 3
+	minables silicon 10 5
+	minables silver 22 4
+	minables neodymium 18 3
+	minables lead 17 3
+	minables silver 9 11
+	minables silver 17 4
+	minables gold 25 8
+	minables copper 15 6
+	minables platinum 23 3
+	minables silver 20 7
+	link "Dziban"
+	object
+		sprite "star/k5"
+		distance 120
+		period 11
+		offset 180
+	object
+		sprite "star/g5-old"
+		distance 204
+		period 12
+	object
+		sprite planet/dust1
+		distance 786
+		period 1194
+	object "Zarmina"
+		sprite planet/rock8-b
+		distance 915
+		period 591
+	object "Bregma"
+		sprite planet/gas7-hot
+		distance 978
+		period 839
+	object
+		sprite planet/ocean7
+		distance 1019
+		period 1165
+	object
+		sprite planet/forest5
+		distance 1273
+		period 1362
+	object
+		sprite planet/lava7-b
+		distance 2874
+		period 1400
+
+system "Natasha"
+	pos 2999 1574
+	government "Tauron"
+	arrival 590
+	habitable 966
+	belt 1443
+	minables silver 18 8
+	minables iron 24 8
+	minables neodymium 22 9
+	minables uranium 9 3
+	minables tungsten 13 12
+	minables titanium 17 12
+	minables copper 11 10
+	minables uranium 16 7
+	minables tungsten 12 5
+	minables lead 18 11
+	minables copper 21 10
+	minables iron 10 8
+	minables iron 18 6
+	minables titanium 15 10
+	minables gold 6 9
+	minables aluminum 23 6
+	minables copper 14 7
+	minables neodymium 17 12
+	minables neodymium 15 3
+	minables platinum 14 3
+	minables tungsten 10 11
+	minables tungsten 16 7
+	minables silicon 10 10
+	minables uranium 15 10
+	minables aluminum 7 5
+	link "Intercrus"
+	link "Tianguan"
+	link "Gamma Ursae Minoris"
+	link "Altais"
+	object
+		sprite "star/g3"
+		period 15
+	object
+		sprite planet/gas8-hot
+		distance 755
+		period 776
+	object "Rhadamanthus"
+		sprite planet/rock15-b
+		distance 1576
+		period 1083
+	object "Rosalind"
+		sprite planet/rock5
+		distance 1691
+		period 789
+	object
+		sprite planet/europa
+		distance 1922
+		period 585
+	object
+		sprite planet/cloud3-b
+		distance 2313
+		period 1113
+	object
+		sprite planet/wisp
+		distance 2630
+		period 849
+	object
+		sprite planet/desert1-b
+		distance 2797
+		period 712
+	object "Remus"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Tauron Small Fleet" 2393
+	fleet "Tauron Big Fleet" 3413
+
+
+system "Gamma Ursae Minoris"
+	pos 3092 1539
+	government "Tauron"
+	arrival 656
+	habitable 808
+	belt 1484
+	minables silver 17 11
+	minables tungsten 16 10
+	minables neodymium 12 8
+	minables neodymium 24 11
+	minables neodymium 15 3
+	minables silicon 11 6
+	minables platinum 9 6
+	minables silver 11 3
+	minables tungsten 9 5
+	minables neodymium 16 8
+	minables iron 16 8
+	minables titanium 6 7
+	minables titanium 6 9
+	link "Natasha"
+	link "Mira"
+	link "Chason"
+	link "Gamma Cygni"
+	object
+		sprite "star/a-supergiant"
+		period 11
+	object "Gravitara"
+		sprite planet/dust7-b
+		distance 745
+		period 1206
+	object "Durok"
+		sprite planet/water0-b
+		distance 1344
+		period 792
+	object
+		sprite planet/luna
+		distance 1517
+		period 1055
+	object
+		sprite planet/neptune
+		distance 2409
+		period 1143
+	object
+		sprite planet/gas8-hot
+		distance 3282
+		period 1288
+	object
+		sprite planet/ocean4-b
+		distance 3849
+		period 708
+	object "Glacius"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Tauron Small Fleet" 1940
+	fleet "Tauron Big Fleet" 3487
+
+
+system "Mira"
+	pos 3157 1615
+	government "Tauron"
+	arrival 1028
+	habitable 998
+	belt 1570
+	minables copper 21 9
+	minables iron 14 12
+	minables aluminum 15 5
+	minables neodymium 24 11
+	minables titanium 8 12
+	minables platinum 7 3
+	minables copper 9 6
+	minables neodymium 19 7
+	minables silver 18 4
+	minables silicon 11 5
+	minables copper 21 5
+	minables iron 24 6
+	minables iron 24 3
+	minables neodymium 15 3
+	minables aluminum 11 8
+	minables neodymium 17 5
+	minables neodymium 6 7
+	link "Diadem"
+	link "Gamma Ursae Minoris"
+	link "17 Tauri"
+	link "Beta Ursae Minoris"
+	object
+		sprite "star/a0"
+		distance 125
+		period 14
+		offset 120
+	object
+		sprite "star/k8"
+		distance 138
+		period 11
+		offset 240
+	object
+		sprite "star/f-giant"
+		distance 272
+		period 15
+	object
+		sprite planet/gas11
+		distance 638
+		period 869
+	object "Delvoria"
+		sprite planet/rock18
+		distance 1063
+		period 1330
+	object "Antariel"
+		sprite planet/lava1-b
+		distance 1558
+		period 1456
+	object "Sylvanus"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Tauron Small Fleet" 1207
+	fleet "Tauron Big Fleet" 3164
+
+
+system "Beta Ursae Minoris"
+	pos 3244 1567
+	government "Uninhabited"
+	arrival 796
+	habitable 567
+	belt 1529
+	minables gold 22 3
+	minables neodymium 20 10
+	minables uranium 10 6
+	minables copper 25 11
+	minables silicon 9 6
+	minables gold 13 5
+	minables silicon 19 12
+	minables iron 17 5
+	minables neodymium 21 12
+	minables tungsten 10 12
+	minables copper 17 3
+	link "Dziban"
+	link "Mira"
+	link "Tapecue"
+	link "Chason"
+	object
+		sprite "star/k3"
+		distance 158
+		period 14
+		offset 180
+	object "Olympos"
+		sprite planet/ocean9-b
+		distance 860
+		period 475
+	object
+		sprite planet/forest4-b
+		distance 1021
+		period 1485
+	object
+		sprite "star/k-supergiant"
+		distance 1059
+		period 12
+	object
+		sprite planet/gas7-hot
+		distance 1375
+		period 1113
+	object "Juniper"
+		sprite planet/cloud4-b
+		distance 1607
+		period 1345
+	object
+		sprite planet/rock3-b
+		distance 1898
+		period 1048
+	object
+		sprite planet/saturn
+		distance 2873
+		period 993
+	object
+		sprite planet/rock18-b
+		distance 3284
+		period 775
+
+system "Tapecue"
+	pos 3298 1484
+	government "Uninhabited"
+	arrival 720
+	habitable 1017
+	belt 800
+	minables neodymium 23 9
+	minables iron 17 9
+	minables copper 18 6
+	minables copper 21 8
+	minables silver 7 4
+	minables copper 13 10
+	minables uranium 10 7
+	minables titanium 6 4
+	minables aluminum 19 3
+	minables aluminum 11 5
+	minables titanium 16 10
+	minables lead 21 7
+	minables lead 11 9
+	minables iron 25 5
+	minables tungsten 17 10
+	minables copper 16 12
+	minables gold 17 4
+	minables gold 6 4
+	minables copper 24 5
+	minables titanium 16 5
+	minables iron 21 9
+	minables copper 21 4
+	minables aluminum 22 6
+	minables copper 7 4
+	minables titanium 9 8
+	minables neodymium 17 8
+	minables tungsten 8 8
+	minables copper 11 9
+	minables uranium 17 4
+	minables titanium 6 9
+	link "Beta Ursae Minoris"
+	link "Chason"
+	object
+		sprite "planet/browndwarf-t"
+		distance 464
+		period 11
+		offset 180
+	object "Qalara"
+		sprite planet/desert3
+		distance 661
+		period 930
+	object "Rhapsody"
+		sprite planet/rock20
+		distance 1588
+		period 633
+	object
+		sprite "star/carbon"
+		distance 2098
+		period 10
+	object
+		sprite planet/rock11-b
+		distance 3438
+		period 801
+
+system "Chason"
+	pos 3202 1455
+	government "Tauron"
+	arrival 918
+	habitable 983
+	belt 940
+	minables gold 21 7
+	minables silicon 14 9
+	minables tungsten 13 5
+	minables silicon 24 5
+	minables platinum 17 12
+	minables gold 6 11
+	minables silicon 6 8
+	minables silicon 22 9
+	minables silver 20 7
+	minables copper 10 5
+	minables titanium 18 3
+	minables neodymium 20 11
+	minables titanium 10 9
+	minables lead 18 7
+	minables lead 21 12
+	minables platinum 15 9
+	minables iron 21 8
+	minables copper 9 10
+	minables titanium 21 8
+	minables platinum 12 8
+	minables copper 22 3
+	minables uranium 12 8
+	link "Gamma Ursae Minoris"
+	link "Tapecue"
+	link "Beta Ursae Minoris"
+	link "Gamma Cygni"
+	object
+		sprite "star/k-giant"
+		period 15
+	object "Yggdrasil"
+		sprite planet/rock12-b
+		distance 1020
+		period 1222
+	object
+		sprite planet/ocean6-b
+		distance 1031
+		period 1371
+	object "Ureon"
+		sprite planet/lava7
+		distance 1432
+		period 1008
+	object
+		sprite planet/dust1-b
+		distance 1729
+		period 1400
+	object
+		sprite planet/ocean8-b
+		distance 2176
+		period 1484
+	object
+		sprite planet/io
+		distance 2311
+		period 1280
+	object
+		sprite planet/desert4-b
+		distance 2703
+		period 854
+	object "Pythia"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Tauron Small Fleet" 1638
+	fleet "Tauron Big Fleet" 2418
+
+
+system "Gamma Cygni"
+	pos 3118 1401
+	government "Tauron"
+	arrival 827
+	habitable 1107
+	belt 908
+	minables titanium 20 7
+	minables neodymium 9 12
+	minables copper 14 4
+	minables uranium 7 6
+	minables silver 7 4
+	minables titanium 14 5
+	minables silver 10 5
+	minables titanium 15 4
+	minables titanium 22 7
+	minables uranium 10 6
+	minables lead 17 11
+	minables neodymium 10 7
+	minables uranium 8 4
+	minables gold 23 11
+	minables platinum 17 10
+	minables silver 24 7
+	minables titanium 7 11
+	minables titanium 19 3
+	minables silicon 22 10
+	minables lead 14 8
+	minables copper 13 7
+	minables lead 7 6
+	minables tungsten 10 3
+	minables copper 25 11
+	minables uranium 8 9
+	minables iron 20 4
+	minables copper 24 4
+	minables tungsten 25 4
+	minables silver 21 4
+	minables lead 8 8
+	minables platinum 25 11
+	minables lead 13 9
+	minables tungsten 22 12
+	minables titanium 21 4
+	minables copper 16 5
+	minables platinum 25 8
+	minables gold 9 11
+	minables silicon 7 8
+	minables uranium 6 6
+	link "Gamma Ursae Minoris"
+	link "Chason"
+	object
+		sprite "star/g0-old"
+		period 11
+	object "Draculon"
+		sprite planet/lava7-b
+		distance 637
+		period 498
+	object "Xanadu"
+		sprite planet/neptune-b
+		distance 1204
+		period 327
+	object
+		sprite planet/gas5
+		distance 1318
+		period 1292
+	object
+		sprite planet/ice1
+		distance 3279
+		period 1014
+	object
+		sprite planet/rock8
+		distance 3626
+		period 1350
+	object "Lacerta"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Tauron Small Fleet" 1056
+	fleet "Tauron Big Fleet" 2248
+
+
+system "Altais"
+	pos 2865 1548
+	government "Uninhabited"
+	arrival 918
+	habitable 558
+	belt 1197
+	minables aluminum 16 8
+	minables neodymium 22 10
+	minables gold 16 11
+	minables neodymium 24 12
+	minables titanium 15 3
+	minables neodymium 6 3
+	minables gold 10 5
+	minables titanium 16 7
+	minables iron 9 8
+	minables gold 9 8
+	minables silicon 8 4
+	minables titanium 21 5
+	minables silicon 9 9
+	minables iron 16 9
+	minables iron 20 9
+	minables tungsten 21 6
+	minables neodymium 22 3
+	minables gold 9 12
+	minables gold 11 12
+	minables aluminum 21 8
+	minables lead 7 3
+	minables silicon 6 3
+	minables aluminum 8 3
+	minables silicon 7 11
+	minables copper 20 12
+	minables copper 13 12
+	minables neodymium 18 8
+	link "Intercrus"
+	link "Natasha"
+	link "Beta Canum Venaticorum"
+	link "Eta Geminorum"
+	object
+		sprite "star/f-supergiant"
+		period 12
+	object "Borealis Prime"
+		sprite planet/gas0-hot
+		distance 799
+		period 462
+	object
+		sprite planet/earth-b
+		distance 1202
+		period 1155
+	object "Torus"
+		sprite planet/ocean2-b
+		distance 1303
+		period 406
+	object
+		sprite planet/gas3-hot
+		distance 2736
+		period 768
+	object
+		sprite planet/gas6-b
+		distance 3189
+		period 1035
+	object
+		sprite planet/gas2-b
+		distance 3588
+		period 1447
+
+system "Beta Canum Venaticorum"
+	pos 2767 1568
+	government "Uninhabited"
+	arrival 1171
+	habitable 500
+	belt 1755
+	minables tungsten 21 5
+	minables aluminum 10 3
+	minables iron 18 11
+	minables aluminum 19 5
+	minables aluminum 15 8
+	minables uranium 25 8
+	minables copper 20 5
+	minables copper 7 6
+	minables silicon 8 3
+	minables gold 8 7
+	minables iron 8 8
+	minables gold 6 10
+	minables copper 12 11
+	minables platinum 17 10
+	minables aluminum 23 5
+	minables titanium 12 9
+	minables uranium 22 7
+	minables iron 18 10
+	minables silicon 19 5
+	minables gold 23 3
+	minables uranium 13 12
+	minables lead 21 5
+	minables lead 21 9
+	minables silicon 16 4
+	minables uranium 6 4
+	minables iron 15 7
+	minables neodymium 12 11
+	minables platinum 7 3
+	minables lead 10 4
+	minables copper 15 10
+	minables platinum 14 6
+	minables silver 13 3
+	minables aluminum 18 8
+	minables copper 11 9
+	minables gold 24 4
+	minables aluminum 20 11
+	minables neodymium 22 5
+	minables aluminum 11 4
+	minables uranium 7 8
+	minables silicon 13 3
+	minables iron 14 8
+	link "Altais"
+	link "Intercrus"
+	link "Eta Geminorum"
+	object
+		sprite "star/k-dwarf"
+		distance 86
+		period 11
+	object
+		sprite "star/m4"
+		distance 150
+		period 14
+		offset 240
+	object "Utopion"
+		sprite planet/desert5-b
+		distance 940
+		period 784
+	object
+		sprite "star/m-supergiant"
+		distance 1628
+		period 13
+		offset 120
+	object "Corvadia"
+		sprite planet/water1-b
+		distance 1906
+		period 566
+	object
+		sprite planet/gas9-hot
+		distance 2162
+		period 823
+	object
+		sprite planet/rock19
+		distance 2390
+		period 575
+	object
+		sprite planet/gas14
+		distance 2448
+		period 815
+	object
+		sprite planet/water0
+		distance 3365
+		period 713
+
+system "Eta Geminorum"
+	pos 2774 1469
+	government "Uninhabited"
+	arrival 522
+	habitable 763
+	belt 1164
+	minables silver 12 11
+	link "Altais"
+	link "Beta Canum Venaticorum"
+	link "Toliman"
+	link "Torcular"
+	object
+		sprite "star/o-dwarf"
+		period 15
+	object
+		sprite planet/forest2-b
+		distance 775
+		period 1496
+	object
+		sprite planet/gas5-hot
+		distance 791
+		period 1301
+	object "Arkadia"
+		sprite planet/ocean7-b
+		distance 953
+		period 961
+	object "Veyron"
+		sprite planet/cloud7
+		distance 1059
+		period 434
+	object
+		sprite planet/lava7
+		distance 1086
+		period 611
+	object
+		sprite planet/gas2
+		distance 1120
+		period 1221
+	object
+		sprite planet/ice6-b
+		distance 3044
+		period 1089
+
+system "Toliman"
+	pos 2701 1401
+	government "Uninhabited"
+	arrival 925
+	habitable 892
+	belt 1012
+	minables platinum 22 8
+	minables tungsten 14 10
+	minables lead 25 11
+	minables silver 9 8
+	minables copper 24 6
+	minables tungsten 13 6
+	minables iron 14 9
+	minables titanium 9 9
+	minables platinum 14 6
+	minables aluminum 17 5
+	minables lead 19 10
+	minables lead 8 6
+	minables tungsten 15 10
+	minables silicon 24 9
+	minables silver 23 4
+	minables gold 16 8
+	minables silicon 14 3
+	minables aluminum 13 5
+	minables lead 17 4
+	minables gold 13 3
+	minables titanium 14 9
+	minables silicon 24 7
+	minables silicon 20 7
+	minables gold 14 3
+	minables copper 11 4
+	minables silicon 21 9
+	minables tungsten 20 11
+	minables silver 6 6
+	minables iron 10 3
+	minables uranium 19 11
+	minables iron 12 9
+	minables neodymium 20 8
+	minables silicon 8 9
+	minables lead 22 4
+	minables iron 11 9
+	minables tungsten 25 12
+	minables gold 24 6
+	minables copper 18 7
+	minables platinum 18 7
+	minables silicon 13 9
+	minables iron 20 3
+	minables tungsten 17 3
+	minables iron 23 4
+	minables uranium 24 5
+	minables titanium 13 9
+	link "Eta Geminorum"
+	link "Torcular"
+	object
+		sprite "star/m0"
+		period 12
+	object "Caltorix"
+		sprite planet/tethys-b
+		distance 1364
+		period 530
+	object "Morpheus"
+		sprite planet/rhea
+		distance 1552
+		period 465
+	object
+		sprite planet/rock1
+		distance 1613
+		period 566
+	object
+		sprite planet/ocean4-b
+		distance 1745
+		period 1147
+
+system "Torcular"
+	pos 2788 1351
+	government "Leonis"
+	arrival 608
+	habitable 657
+	belt 1216
+	minables gold 20 12
+	minables silver 22 8
+	minables tungsten 10 10
+	minables tungsten 14 6
+	minables uranium 20 11
+	minables iron 6 5
+	minables lead 10 9
+	minables uranium 24 12
+	minables aluminum 6 3
+	minables neodymium 12 6
+	minables platinum 8 8
+	minables neodymium 24 6
+	minables titanium 10 6
+	minables lead 14 10
+	minables aluminum 14 4
+	minables iron 23 5
+	minables neodymium 23 4
+	minables tungsten 7 6
+	minables platinum 8 11
+	minables tungsten 10 6
+	minables lead 22 10
+	minables uranium 15 4
+	minables lead 8 8
+	minables uranium 25 4
+	minables lead 6 11
+	minables iron 8 8
+	minables platinum 7 9
+	minables platinum 8 11
+	minables gold 14 3
+	minables gold 13 8
+	link "Toliman"
+	link "Eta Geminorum"
+	link "Kaffaljidhma"
+	object
+		sprite "star/f-giant"
+		distance 334
+		period 15
+		offset 120
+	object
+		sprite "star/a-supergiant"
+		distance 687
+		period 11
+	object "Ypsilon"
+		sprite planet/gas3-b
+		distance 800
+		period 382
+	object
+		sprite planet/rock8-b
+		distance 819
+		period 1146
+	object
+		sprite planet/ocean9
+		distance 1025
+		period 1414
+	object "Octavia"
+		sprite planet/gas8-b
+		distance 1162
+		period 767
+	object
+		sprite "star/carbon"
+		distance 2080
+		period 11
+		offset 240
+	object
+		sprite planet/wisp
+		distance 2816
+		period 627
+	object
+		sprite planet/gas12
+		distance 3423
+		period 706
+	object "Somnium"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Leonis Small Fleet" 1930
+	fleet "Leonis Big Fleet" 2488
+
+
+system "Kaffaljidhma"
+	pos 2763 1255
+	government "Leonis"
+	arrival 1130
+	habitable 742
+	belt 968
+	minables tungsten 23 7
+	minables copper 7 12
+	minables silver 11 9
+	minables copper 12 8
+	minables gold 10 11
+	minables copper 6 12
+	minables copper 7 8
+	minables lead 24 11
+	minables silver 12 8
+	minables titanium 8 4
+	minables copper 21 4
+	minables silicon 15 10
+	minables aluminum 10 11
+	minables silicon 7 4
+	minables titanium 7 7
+	minables iron 11 10
+	minables lead 10 3
+	minables platinum 14 3
+	minables titanium 24 10
+	minables uranium 20 8
+	minables silver 24 5
+	minables neodymium 16 9
+	minables gold 17 10
+	minables gold 21 12
+	minables platinum 20 8
+	minables platinum 9 4
+	minables silver 9 7
+	minables tungsten 22 10
+	minables lead 11 5
+	minables uranium 12 3
+	link "Torcular"
+	object
+		sprite "planet/browndwarf-l-rogue"
+		period 15
+	object
+		sprite planet/gas5-hot
+		distance 873
+		period 1089
+	object "Xendra"
+		sprite planet/titan-b
+		distance 953
+		period 390
+	object "Fantara"
+		sprite planet/titan-b
+		distance 1506
+		period 1393
+	object "Quillon"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Leonis Small Fleet" 1539
+	fleet "Leonis Big Fleet" 2154
+
+

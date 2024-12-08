@@ -1,0 +1,759 @@
+planet "Xendra"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/humo
+	description ``
+
+planet "Pandora"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/hills1
+	description ``
+
+planet "Empyria"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/hills6-sfiera
+	description ``
+
+planet "Myriad"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/hills10
+	description ``
+
+planet "Ardinia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water1
+	description ``
+
+planet "Xanterra"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog0
+	description ``
+
+planet "Aeternus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water19
+	description ``
+
+planet "Vulcan"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/nasa9
+	description ``
+
+planet "Vortex"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mountain12-sfiera
+	description ``
+
+planet "Forsaken"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/lava10
+	description ``
+
+planet "Solarion"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/badlands3
+	description ``
+
+planet "Hexagon"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow8
+	description ``
+
+planet "Doriax"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/bwerner7
+	description ``
+
+planet "Ithoria"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/myrabella2
+	description ``
+
+planet "Azenoth"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon9
+	description ``
+
+planet "Bionia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow4
+	description ``
+
+planet "Hydoria"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mountain24-spfld
+	description ``
+
+planet "Yara-Ma"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mars4
+	description ``
+
+planet "Imbria"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon0
+	description ``
+
+planet "Stratos"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/bwerner2
+	description ``
+
+planet "Nova Prime"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water2
+	description ``
+
+planet "Jarvix"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/sea23
+	description ``
+
+planet "Merak"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest10
+	description ``
+
+planet "Haldus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water15
+	description ``
+
+planet "Luxor"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest2
+	description ``
+
+planet "Zandar"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/valley4
+	description ``
+
+planet "Monolith"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/methuselah
+	description ``
+
+planet "Arctara"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow25
+	description ``
+
+planet "Bellarix"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog9
+	description ``
+
+planet "Nereus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water1
+	description ``
+
+planet "Quorin"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog11
+	description ``
+
+planet "Thalia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog9
+	description ``
+
+planet "Jura"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/sea15-harro
+	description ``
+
+planet "Felisar"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest10
+	description ``
+
+planet "Terminus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mountain12-sfiera
+	description ``
+
+planet "Elarion"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog11
+	description ``
+
+planet "Mithrion"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow25
+	description ``
+
+planet "Darvus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mars3
+	description ``
+
+planet "Fendara"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/hills5-sfiera
+	description ``
+
+planet "Astraia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow0
+	description ``
+
+planet "Malachor"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon7
+	description ``
+
+planet "Yesteryear"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog3
+	description ``
+
+planet "Rosetta"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog3
+	description ``
+
+planet "Bygone"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/desert3
+	description ``
+
+planet "Lyonesse"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water22
+	description ``
+
+planet "Sargas"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon7
+	description ``
+
+planet "Kaledon"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/beach13
+	description ``
+
+planet "Xerena"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest0
+	description ``
+
+planet "Gossamer"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/fog12
+	description ``
+
+planet "Xenon"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/sky5
+	description ``
+
+planet "Oaken"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest12
+	description ``
+
+planet "Paxos"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow14
+	description ``
+
+planet "Naiad"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/hills2
+	description ``
+
+planet "Whisper"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water10-harro
+	description ``
+
+planet "Tauri"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mountain25-spfld
+	description ``
+
+planet "Zaurak"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow11-sfiera
+	description ``
+
+planet "Seraph"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water7
+	description ``
+
+planet "Zephyria"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/dune3
+	description ``
+
+planet "Volturnus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest11
+	description ``
+
+planet "Freyara"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/dune6-harro
+	description ``
+
+planet "Bravara"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow7
+	description ``
+
+planet "Vex"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest5
+	description ``
+
+planet "Cimmeria"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow20
+	description ``
+
+planet "Dystopia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon15
+	description ``
+
+planet "Nymphaea"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/haze2
+	description ``
+
+planet "Hypernova"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/sea10-sfiera
+	description ``
+
+planet "Irisar"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow6
+	description ``
+
+planet "Carvex"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/lava3
+	description ``
+
+planet "Quanta"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mars1
+	description ``
+
+planet "Rubrum"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water8
+	description ``
+
+planet "Sirenum"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/dune3
+	description ``
+
+planet "Styx"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/lava4
+	description ``
+
+planet "Ulysses"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water2
+	description ``
+
+planet "Bregma"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon1
+	description ``
+
+planet "Zarmina"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow8
+	description ``
+
+planet "Rhadamanthus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/beach14
+	description ``
+
+planet "Rosalind"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/sea9
+	description ``
+
+planet "Gravitara"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/haze0
+	description ``
+
+planet "Durok"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/hills5-sfiera
+	description ``
+
+planet "Antariel"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water11-harro
+	description ``
+
+planet "Delvoria"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon3
+	description ``
+
+planet "Juniper"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/redias
+	description ``
+
+planet "Olympos"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/mars0
+	description ``
+
+planet "Rhapsody"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon5
+	description ``
+
+planet "Qalara"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/desert15
+	description ``
+
+planet "Ureon"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/gliese
+	description ``
+
+planet "Yggdrasil"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/sky7
+	description ``
+
+planet "Draculon"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/dmottl2
+	description ``
+
+planet "Xanadu"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon0
+	description ``
+
+planet "Borealis Prime"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow5
+	description ``
+
+planet "Torus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water4
+	description ``
+
+planet "Corvadia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/lava0
+	description ``
+
+planet "Utopion"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/desert10-harro
+	description ``
+
+planet "Arkadia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest4
+	description ``
+
+planet "Veyron"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water9
+	description ``
+
+planet "Caltorix"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/hills7-harro
+	description ``
+
+planet "Morpheus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/clouds_00
+	description ``
+
+planet "Octavia"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon4
+	description ``
+
+planet "Ypsilon"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water2
+	description ``
+
+planet "Fantara"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water8
+	description ``
+
+planet "Onyxia"
+	attributes sculptor
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Gemenon.`
+
+planet "Jaspar"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Triton"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Rhea"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Odyssey"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Caelumara"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Gemenon.`
+
+planet "Quillon"
+	attributes sculptor
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Leonis.`
+
+planet "Somnium"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Glacius"
+	attributes sculptor
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Tauron.`
+
+planet "Remus"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
+planet "Sylvanus"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
+planet "Pythia"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
+planet "Lacerta"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Tauron.`
+
