@@ -1,0 +1,126 @@
+planet "Yggdrasil"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/snow18
+	description ``
+
+planet "Carvex"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/dune6-harro
+	description ``
+
+planet "Jotar"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/desert8-sfiera
+	description ``
+
+planet "Isolus"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/canyon7
+	description ``
+
+planet "Golgotha"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest11
+	description ``
+
+planet "Valar"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/forest5
+	description ``
+
+planet "Typhon"
+	attributes uninhabited sculptor
+	government "Uninhabited"
+	landscape land/water1
+	description ``
+
+planet "Exanthe"
+	attributes sculptor
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Scorpia.`
+
+planet "Quillon"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Scorpia.`
+
+planet "Volaris"
+	attributes sculptor
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Aquaria.`
+
+planet "Vindemiatrix"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Dionara"
+	attributes sculptor
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
