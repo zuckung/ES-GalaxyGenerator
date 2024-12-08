@@ -1,0 +1,13 @@
+Doctor Dinosaur's Dynamic Doggy
+(77777, 77777)
+500
+500
+12
+Host
+3
+9
+4
+sculptor
+100
+7
+20
