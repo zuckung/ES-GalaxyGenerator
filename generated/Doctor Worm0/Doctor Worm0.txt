@@ -1,0 +1,13 @@
+Doctor Worm
+(-3000, -25000)
+60
+100
+12
+Eta Carinae
+3
+7
+3
+sculptor
+100
+20
+15

@@ -1,12 +1,12 @@
-system "Sol"
+system "Eta Carinae"
 	add object "Mysterious Wormhole"
 		sprite planet/wormhole-red
 		distance 1000
 		period 1
 
 wormhole "Mysterious Wormhole"
-	link "Sol" "Alcor"
-	link "Alcor" "Sol"
+	link "Eta Carinae" "Alcor"
+	link "Alcor" "Eta Carinae"
 
 planet "Mysterious Wormhole"
 	spaceport ``
@@ -14,7 +14,7 @@ planet "Mysterious Wormhole"
 	wormhole "Mysterious Wormhole"
 
 galaxy "sculptor"
-	pos -10000 -10000
+	pos -3000 -25000
 	sprite "ui/sculptor"
 
 shipyard "bsg galactica"
@@ -317,14 +317,14 @@ ship "mps_viper"
 	description ""
 	description "	"
 
-government "Tauron"
+government "Virgon"
 	swizzle 6
 	color "governments: Pirate"
 	"player reputation" 1
 	"fine" 0
 
-fleet "Tauron Big Fleet"
-	government "Tauron"
+fleet "Virgon Big Fleet"
+	government "Virgon"
 	names "sinister names"
 	cargo 2
 	personality
@@ -351,8 +351,8 @@ fleet "Tauron Big Fleet"
 		"mps_viper" 5
 		"mps_raptor" 5
 
-fleet "Tauron Small Fleet"
-	government "Tauron"
+fleet "Virgon Small Fleet"
+	government "Virgon"
 	names "sinister names"
 	cargo 1
 	personality
@@ -369,14 +369,14 @@ fleet "Tauron Small Fleet"
 	variant 5
 		"mps_raptor" 6
 
-government "Aquaria"
+government "Gemenon"
 	swizzle 6
 	color "governments: Pirate"
 	"player reputation" 1
 	"fine" 0
 
-fleet "Aquaria Big Fleet"
-	government "Aquaria"
+fleet "Gemenon Big Fleet"
+	government "Gemenon"
 	names "sinister names"
 	cargo 2
 	personality
@@ -403,8 +403,8 @@ fleet "Aquaria Big Fleet"
 		"mps_viper" 5
 		"mps_raptor" 5
 
-fleet "Aquaria Small Fleet"
-	government "Aquaria"
+fleet "Gemenon Small Fleet"
+	government "Gemenon"
 	names "sinister names"
 	cargo 1
 	personality
@@ -421,14 +421,14 @@ fleet "Aquaria Small Fleet"
 	variant 5
 		"mps_raptor" 6
 
-government "Leonis"
+government "Aerilon"
 	swizzle 6
 	color "governments: Pirate"
 	"player reputation" 1
 	"fine" 0
 
-fleet "Leonis Big Fleet"
-	government "Leonis"
+fleet "Aerilon Big Fleet"
+	government "Aerilon"
 	names "sinister names"
 	cargo 2
 	personality
@@ -455,8 +455,8 @@ fleet "Leonis Big Fleet"
 		"mps_viper" 5
 		"mps_raptor" 5
 
-fleet "Leonis Small Fleet"
-	government "Leonis"
+fleet "Aerilon Small Fleet"
+	government "Aerilon"
 	names "sinister names"
 	cargo 1
 	personality
@@ -473,14 +473,14 @@ fleet "Leonis Small Fleet"
 	variant 5
 		"mps_raptor" 6
 
-government "Sagittaron"
+government "Picon"
 	swizzle 6
 	color "governments: Pirate"
 	"player reputation" 1
 	"fine" 0
 
-fleet "Sagittaron Big Fleet"
-	government "Sagittaron"
+fleet "Picon Big Fleet"
+	government "Picon"
 	names "sinister names"
 	cargo 2
 	personality
@@ -507,8 +507,60 @@ fleet "Sagittaron Big Fleet"
 		"mps_viper" 5
 		"mps_raptor" 5
 
-fleet "Sagittaron Small Fleet"
-	government "Sagittaron"
+fleet "Picon Small Fleet"
+	government "Picon"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Canceron"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Canceron Big Fleet"
+	government "Canceron"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Canceron Small Fleet"
+	government "Canceron"
 	names "sinister names"
 	cargo 1
 	personality
@@ -577,14 +629,14 @@ fleet "Scorpia Small Fleet"
 	variant 5
 		"mps_raptor" 6
 
-government "Virgon"
+government "Aquaria"
 	swizzle 6
 	color "governments: Pirate"
 	"player reputation" 1
 	"fine" 0
 
-fleet "Virgon Big Fleet"
-	government "Virgon"
+fleet "Aquaria Big Fleet"
+	government "Aquaria"
 	names "sinister names"
 	cargo 2
 	personality
@@ -611,8 +663,268 @@ fleet "Virgon Big Fleet"
 		"mps_viper" 5
 		"mps_raptor" 5
 
-fleet "Virgon Small Fleet"
-	government "Virgon"
+fleet "Aquaria Small Fleet"
+	government "Aquaria"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Caprica"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Caprica Big Fleet"
+	government "Caprica"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Caprica Small Fleet"
+	government "Caprica"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Tauron"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Tauron Big Fleet"
+	government "Tauron"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Tauron Small Fleet"
+	government "Tauron"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Leonis"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Leonis Big Fleet"
+	government "Leonis"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Leonis Small Fleet"
+	government "Leonis"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Libran"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Libran Big Fleet"
+	government "Libran"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Libran Small Fleet"
+	government "Libran"
+	names "sinister names"
+	cargo 1
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_raptor" 1
+		"mps_viper" 5
+	variant 5
+		"mps_raptor" 3
+	variant 5
+		"mps_viper" 6
+	variant 5
+		"mps_viper" 10
+	variant 5
+		"mps_raptor" 6
+
+government "Sagittaron"
+	swizzle 6
+	color "governments: Pirate"
+	"player reputation" 1
+	"fine" 0
+
+fleet "Sagittaron Big Fleet"
+	government "Sagittaron"
+	names "sinister names"
+	cargo 2
+	personality
+		heroic opportunistic
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 10
+	variant 5
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 3
+		"mps_tiger" 1
+		"mps_raptor" 3
+	variant 5
+		"mps_tiger" 2
+		"mps_viper" 6
+	variant 5
+		"mps_tiger" 2
+		"mps_raptor" 6
+	variant 5
+		"mps_battlestar" 1
+		"mps_viper" 5
+		"mps_raptor" 5
+
+fleet "Sagittaron Small Fleet"
+	government "Sagittaron"
 	names "sinister names"
 	cargo 1
 	personality
