@@ -35,6 +35,39 @@ latest 5 generated galaxies:<br>
 <table>
   <tr>
     <td width=200>
+      name: Doctor Worm<br>
+      <br>
+      pos: (-3000, -25000)<br>
+      systems: 60<br>
+      planets: 100<br>
+      races: 12<br>
+      wormhole: Eta Carinae<br>
+      sunmax: 3<br>
+      planetmax: 7<br>
+      minablemax: 3<br>
+      image: sculptor<br>
+      starradius: 100<br>
+      density: 20<br>
+      tries: 15<br>
+    </td>
+    <td width=200>
+      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/Doctor Worm0.zip">Doctor Worm0.zip</a><br>
+      <br>
+      <br>
+      <a href="generated/Doctor Worm0/MapGenSystems.txt">MapGenSystems.txt</a><br>
+      <a href="generated/Doctor Worm0/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
+      <a href="generated/Doctor Worm0/MapGenStuff.txt">MapGenStuff.txt</a><br>
+    </td>
+    <td width=300>
+      <a href="generated/Doctor Worm0/MapGenMap.jpg"> <img src='generated/Doctor Worm0/miniMapGenMap.jpg' width='300'></a>
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td width=200>
       name: Doctor Dinosaur's Dynamic Doggy<br>
       <br>
       pos: (77777, 77777)<br>
@@ -159,39 +192,6 @@ latest 5 generated galaxies:<br>
     </td>
     <td width=300>
       <a href="generated/zuckung4/MapGenMap.jpg"> <img src='generated/zuckung4/miniMapGenMap.jpg' width='300'></a>
-    </td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td width=200>
-      name: zuckung<br>
-      <br>
-      pos: (-10000, -10000)<br>
-      systems: 200<br>
-      planets: 50<br>
-      races: 6<br>
-      wormhole: Sol<br>
-      sunmax: 3<br>
-      planetmax: 5<br>
-      minablemax: 3<br>
-      image: sculptor<br>
-      starradius: 100<br>
-      density: 5<br>
-      tries: 15<br>
-    </td>
-    <td width=200>
-      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/zuckung1.zip">zuckung1.zip</a><br>
-      <br>
-      <br>
-      <a href="generated/zuckung1/MapGenSystems.txt">MapGenSystems.txt</a><br>
-      <a href="generated/zuckung1/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
-      <a href="generated/zuckung1/MapGenStuff.txt">MapGenStuff.txt</a><br>
-    </td>
-    <td width=300>
-      <a href="generated/zuckung1/MapGenMap.jpg"> <img src='generated/zuckung1/miniMapGenMap.jpg' width='300'></a>
     </td>
   </tr>
 </table>
