@@ -29,7 +29,7 @@ body:
     attributes:
       label: Systems
       description: |
-        Enter the number of systems you want to add to theis galaxy. (min 1, max 500)
+        Enter the number of systems you want to add to theis galaxy. (min 2, max 500)
         Every system is connected via hyperlane to the nearest systems.
       value: "300"
     validations:

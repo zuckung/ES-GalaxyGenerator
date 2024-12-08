@@ -16,6 +16,9 @@ from PIL import Image, ImageDraw, ImageFont
 # planet texts
 
 
+# 1 race > lasti referenced before assign
+
+
 def check_local():
 	def download():
 		# downloading zip
@@ -144,8 +147,8 @@ def check_var():
 	if systemAmount > 500:
 		print('error: systemAmount is higher than 500!')
 		exit()
-	elif systemAmount < 1:
-		print('error: systemAmount is lower than 1!')
+	elif systemAmount < 2:
+		print('error: systemAmount is lower than 2!')
 		exit()
 	if landPlanets > 500:
 		print('error: landPlanets is higher than 500!')
@@ -538,6 +541,7 @@ def create_races(positions, races, systemtexts, usedPlanetnames):
 		# get random position for race
 		racepos = []
 		print('	get system for races')
+		lasti = races
 		for i in range(0,races):
 			name = random.choice(racenames)
 			while name in usednames:
