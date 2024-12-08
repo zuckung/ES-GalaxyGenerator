@@ -134,39 +134,6 @@ latest 5 generated galaxies:<br>
 <table>
   <tr>
     <td width=200>
-      name: Doctor Dinosaur's Dynamic Doggy<br>
-      <br>
-      pos: (77777, 77777)<br>
-      systems: 500<br>
-      planets: 500<br>
-      races: 12<br>
-      wormhole: Host<br>
-      sunmax: 3<br>
-      planetmax: 9<br>
-      minablemax: 4<br>
-      image: sculptor<br>
-      starradius: 100<br>
-      density: 7<br>
-      tries: 20<br>
-    </td>
-    <td width=200>
-      plugin:<br><a href="https://github.com/zuckung/ES-GalaxyGenerator/releases/download/Latest/Doctor Dinosaur's Dynamic Doggy0.zip">Doctor Dinosaur's Dynamic Doggy0.zip</a><br>
-      <br>
-      <br>
-      <a href="generated/Doctor Dinosaur's Dynamic Doggy0/MapGenSystems.txt">MapGenSystems.txt</a><br>
-      <a href="generated/Doctor Dinosaur's Dynamic Doggy0/MapGenPlanets.txt">MapGenPlanets.txt</a><br>
-      <a href="generated/Doctor Dinosaur's Dynamic Doggy0/MapGenStuff.txt">MapGenStuff.txt</a><br>
-    </td>
-    <td width=300>
-      <a href="generated/Doctor Dinosaur's Dynamic Doggy0/MapGenMap.jpg"> <img src='generated/Doctor Dinosaur's Dynamic Doggy0/miniMapGenMap.jpg' width='300'></a>
-    </td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <td width=200>
       name: Obsidian<br>
       <br>
       pos: (3000, 2000)<br>
