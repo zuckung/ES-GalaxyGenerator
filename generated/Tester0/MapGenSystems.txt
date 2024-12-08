@@ -1,0 +1,10590 @@
+system "Alcor"
+	pos -10000 -10000
+	government "Uninhabited"
+	arrival 550
+	habitable 662
+	belt 831
+	minables uranium 17 10
+	link "Alpha Leporis"
+	link "Rana"
+	link "Ogma"
+	link "Dofida"
+	object
+		sprite "star/a3"
+		period 10
+	object "Mysterious Wormhole"
+		sprite planet/wormhole-red
+		distance 1000
+		period 1
+	object
+		sprite planet/browndwarf-l
+		distance 1734
+		period 501
+	object
+		sprite planet/rock2
+		distance 2666
+		period 1026
+
+system "Alpha Leporis"
+	pos -9901 -9992
+	government "Uninhabited"
+	arrival 977
+	habitable 1178
+	belt 1028
+	minables tungsten 20 9
+	minables silver 7 5
+	minables silicon 23 8
+	link "Alcor"
+	link "Barnards Star"
+	link "Dombay"
+	link "Ogma"
+	link "Dofida"
+	link "Electra"
+	object
+		sprite "star/g5"
+		distance 88
+		period 14
+		offset 240
+	object
+		sprite "star/m3"
+		distance 108
+		period 14
+		offset 120
+	object
+		sprite "star/m4"
+		distance 154
+		period 11
+	object
+		sprite planet/ice1-b
+		distance 721
+		period 957
+	object
+		sprite planet/cloud7-b
+		distance 1175
+		period 1062
+	object
+		sprite planet/rock12
+		distance 3256
+		period 938
+
+system "Barnards Star"
+	pos -9820 -9935
+	government "Uninhabited"
+	arrival 1048
+	habitable 929
+	belt 1589
+	minables iron 9 11
+	link "Alpha Leporis"
+	link "Dombay"
+	link "Electra"
+	link "Alpha Draconis"
+	link "Maasym"
+	object
+		sprite "star/m5"
+		distance 107
+		period 13
+	object "Vesta"
+		sprite planet/rock8-b
+		distance 1259
+		period 1023
+	object
+		sprite "star/carbon"
+		distance 2088
+		period 15
+		offset 180
+	object
+		sprite planet/dust5-b
+		distance 2382
+		period 1306
+
+system "Dombay"
+	pos -9870 -9849
+	government "Uninhabited"
+	arrival 1105
+	habitable 783
+	belt 1066
+	minables iron 15 8
+	minables aluminum 24 3
+	minables neodymium 15 5
+	link "Alpha Leporis"
+	link "Barnards Star"
+	link "Tapecue"
+	link "Maasym"
+	link "Lionrock"
+	object
+		sprite "star/m-dwarf"
+		distance 27
+		period 15
+	object
+		sprite "star/f5-old"
+		distance 184
+		period 11
+		offset 180
+	object
+		sprite planet/forest5
+		distance 997
+		period 820
+	object
+		sprite planet/rock15-b
+		distance 3982
+		period 1188
+
+system "Tapecue"
+	pos -9825 -9760
+	government "Uninhabited"
+	arrival 836
+	habitable 717
+	belt 1716
+	minables silicon 6 9
+	minables lead 9 11
+	link "Dombay"
+	link "Solitaire"
+	link "Maasym"
+	link "Lionrock"
+	link "Natasha"
+	object
+		sprite "planet/browndwarf-l"
+		period 15
+	object
+		sprite planet/gas6
+		distance 947
+		period 1158
+	object
+		sprite planet/ocean5-b
+		distance 1667
+		period 1099
+	object
+		sprite planet/rock3-b
+		distance 2435
+		period 1118
+	object
+		sprite planet/forest6
+		distance 2885
+		period 646
+
+system "Solitaire"
+	pos -9880 -9677
+	government "Uninhabited"
+	arrival 900
+	habitable 923
+	belt 1139
+	minables gold 10 9
+	minables copper 12 4
+	link "Tapecue"
+	link "Theta Centauri"
+	link "Lionrock"
+	link "Natasha"
+	object
+		sprite "star/g-dwarf"
+		distance 35
+		period 13
+		offset 240
+	object
+		sprite "star/a5"
+		distance 146
+		period 14
+	object
+		sprite "star/b-supergiant"
+		distance 536
+		period 15
+		offset 120
+	object
+		sprite planet/ice5-b
+		distance 604
+		period 504
+	object
+		sprite planet/gas6-b
+		distance 774
+		period 1399
+	object
+		sprite planet/gas13-b
+		distance 1444
+		period 633
+	object "Larimar"
+		sprite planet/ice0-b
+		distance 1596
+		period 399
+	object
+		sprite planet/dust7-b
+		distance 2463
+		period 649
+	object
+		sprite planet/desert2
+		distance 3907
+		period 904
+
+system "Theta Centauri"
+	pos -9900 -9579
+	government "Uninhabited"
+	arrival 517
+	habitable 779
+	belt 961
+	minables silver 19 3
+	minables gold 18 9
+	link "Solitaire"
+	link "Gamma Leonis"
+	link "Natasha"
+	link "Alpha Coronae Borealis"
+	link "Iota Carinae"
+	link "Azmidi"
+	object
+		sprite "planet/browndwarf-t"
+		period 13
+	object
+		sprite planet/rock11
+		distance 732
+		period 850
+	object
+		sprite planet/lava6
+		distance 1398
+		period 1328
+	object
+		sprite planet/ocean1-b
+		distance 2908
+		period 553
+	object
+		sprite planet/rock6-b
+		distance 3025
+		period 1180
+	object
+		sprite planet/ocean0-b
+		distance 3840
+		period 579
+
+system "Rana"
+	pos -10064 -10076
+	government "Uninhabited"
+	arrival 1020
+	habitable 601
+	belt 1790
+	minables aluminum 16 6
+	link "Alcor"
+	link "Matza"
+	link "Ogma"
+	link "Epsilon Orionis"
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 475
+		period 13
+		offset 120
+	object
+		sprite "star/k-giant"
+		distance 572
+		period 12
+	object
+		sprite "star/a-supergiant"
+		distance 749
+		period 11
+		offset 240
+	object
+		sprite planet/dust4
+		distance 1282
+		period 955
+	object
+		sprite planet/redias
+		distance 2768
+		period 1424
+	object
+		sprite planet/desert6-b
+		distance 3604
+		period 1379
+
+system "Matza"
+	pos -10155 -10035
+	government "Uninhabited"
+	arrival 1004
+	habitable 1006
+	belt 1208
+	minables lead 13 3
+	link "Rana"
+	link "Talitha"
+	link "Ayeyarwady"
+	object
+		sprite "star/g8"
+		distance 171
+		period 13
+	object
+		sprite "star/f5"
+		distance 185
+		period 11
+		offset 240
+	object
+		sprite "planet/rogue-radiating"
+		distance 251
+		period 10
+		offset 120
+	object
+		sprite planet/rock17-b
+		distance 1002
+		period 766
+	object "Paladia"
+		sprite planet/rock2
+		distance 1510
+		period 1310
+
+system "Talitha"
+	pos -10240 -10086
+	government "Uninhabited"
+	arrival 964
+	habitable 761
+	belt 1133
+	minables silicon 13 4
+	minables titanium 13 4
+	minables yottrite 7 8
+	link "Matza"
+	link "Sharjah"
+	link "Delta Orionis"
+	object
+		sprite "star/g0"
+		distance 183
+		period 13
+	object
+		sprite planet/forest0-b
+		distance 1116
+		period 1141
+	object
+		sprite "star/wr"
+		distance 1124
+		period 11
+		offset 180
+	object
+		sprite planet/desert8-b
+		distance 1144
+		period 1399
+	object
+		sprite planet/dust3
+		distance 1268
+		period 1070
+	object
+		sprite planet/forest5
+		distance 1592
+		period 981
+	object
+		sprite planet/ocean2
+		distance 3168
+		period 797
+
+system "Sharjah"
+	pos -10243 -10185
+	government "Uninhabited"
+	arrival 949
+	habitable 601
+	belt 1506
+	minables silver 10 3
+	link "Talitha"
+	link "Botein"
+	link "Beta Andromedae"
+	link "Delta Orionis"
+	link "Fafnir"
+	object
+		sprite "star/f5-old"
+		distance 231
+		period 12
+	object
+		sprite "star/f-supergiant"
+		distance 801
+		period 12
+		offset 240
+	object
+		sprite "star/g-supergiant"
+		distance 947
+		period 10
+		offset 120
+	object
+		sprite planet/desert10-b
+		distance 1045
+		period 1064
+	object
+		sprite planet/rock14
+		distance 3161
+		period 1096
+	object
+		sprite planet/fog0-b
+		distance 3795
+		period 733
+
+system "Botein"
+	pos -10248 -10284
+	government "Uninhabited"
+	arrival 797
+	habitable 609
+	belt 838
+	minables neodymium 13 9
+	link "Sharjah"
+	link "Beta Andromedae"
+	link "Tabit"
+	link "Pipirima"
+	link "Sadalbari"
+	object
+		sprite "star/o5"
+		period 11
+	object
+		sprite planet/fog0
+		distance 788
+		period 1261
+	object "Moria"
+		sprite planet/gas3-b
+		distance 1210
+		period 1337
+	object
+		sprite planet/jupiter-b
+		distance 2345
+		period 1441
+	object
+		sprite planet/ocean0
+		distance 2765
+		period 583
+	object
+		sprite planet/gas8
+		distance 2937
+		period 848
+
+system "Ogma"
+	pos -9952 -10087
+	government "Uninhabited"
+	arrival 803
+	habitable 1083
+	belt 1146
+	minables uranium 22 6
+	minables lead 15 6
+	minables iron 10 4
+	link "Alcor"
+	link "Rana"
+	link "Alpha Leporis"
+	link "Sualocin"
+	link "Electra"
+	link "Fulu"
+	object
+		sprite "star/m-dwarf"
+		distance 100
+		period 10
+	object
+		sprite "star/k3"
+		distance 182
+		period 13
+		offset 120
+	object
+		sprite "star/a-supergiant"
+		distance 723
+		period 10
+		offset 240
+	object
+		sprite planet/dust7
+		distance 1167
+		period 1219
+	object
+		sprite planet/rock6-b
+		distance 1537
+		period 861
+	object
+		sprite planet/gas8-b
+		distance 2932
+		period 837
+	object
+		sprite planet/gas9-b
+		distance 3026
+		period 626
+
+system "Sualocin"
+	pos -9922 -10182
+	government "Uninhabited"
+	arrival 875
+	habitable 535
+	belt 1041
+	minables uranium 19 10
+	minables tungsten 20 3
+	link "Ogma"
+	link "Beemim"
+	link "Arkab Prior"
+	link "Fulu"
+	link "Alpha Ceti"
+	object
+		sprite "star/a-supergiant"
+		period 13
+	object
+		sprite planet/gas10-b
+		distance 1456
+		period 814
+
+system "Beemim"
+	pos -9998 -10247
+	government "Uninhabited"
+	arrival 885
+	habitable 667
+	belt 933
+	minables silver 10 6
+	link "Sualocin"
+	link "Arkab Prior"
+	link "Epsilon Orionis"
+	link "Gamma Aquarii"
+	object
+		sprite "star/f-dwarf"
+		distance 105
+		period 13
+		offset 240
+	object
+		sprite "star/g0"
+		distance 173
+		period 13
+		offset 120
+	object
+		sprite "star/k-supergiant"
+		distance 1096
+		period 15
+	object "Unara"
+		sprite planet/gas13-b
+		distance 1753
+		period 626
+	object
+		sprite planet/gas5-b
+		distance 2529
+		period 1254
+
+system "Arkab Prior"
+	pos -9944 -10330
+	government "Uninhabited"
+	arrival 787
+	habitable 705
+	belt 1203
+	minables titanium 11 6
+	link "Sualocin"
+	link "Beemim"
+	link "Guniibuu"
+	link "Alpha Ceti"
+	link "Ukdah"
+	link "Gamma Aquarii"
+	object
+		sprite "star/k8"
+		distance 162
+		period 12
+	object
+		sprite "star/protostar-orange"
+		distance 647
+		period 15
+		offset 180
+	object
+		sprite planet/cloud2-b
+		distance 1256
+		period 949
+	object
+		sprite planet/water1-b
+		distance 2055
+		period 1041
+	object
+		sprite planet/rock9-b
+		distance 2382
+		period 1309
+	object
+		sprite planet/ice3-b
+		distance 2782
+		period 666
+
+system "Guniibuu"
+	pos -9999 -10413
+	government "Uninhabited"
+	arrival 808
+	habitable 544
+	belt 1519
+	minables lead 19 4
+	minables copper 25 6
+	link "Arkab Prior"
+	link "Tiaki"
+	link "Meridiana"
+	link "Ukdah"
+	link "Gamma Aquarii"
+	object
+		sprite "star/g8"
+		distance 177
+		period 11
+	object
+		sprite "star/k0-old"
+		distance 321
+		period 11
+		offset 180
+	object
+		sprite planet/rock8-b
+		distance 1926
+		period 1340
+
+system "Dofida"
+	pos -10017 -9902
+	government "Uninhabited"
+	arrival 1195
+	habitable 1022
+	belt 1701
+	minables lead 20 8
+	minables uranium 19 12
+	link "Alcor"
+	link "Alpha Leporis"
+	link "Alpha Aquilae"
+	link "Alpha Serpentis"
+	object
+		sprite "star/f-giant"
+		distance 360
+		period 10
+	object
+		sprite "star/f-supergiant"
+		distance 841
+		period 15
+		offset 180
+	object "Kalaron"
+		sprite planet/rock1-b
+		distance 1316
+		period 849
+	object
+		sprite planet/rock20
+		distance 2432
+		period 608
+	object
+		sprite planet/desert1-b
+		distance 2599
+		period 981
+	object
+		sprite planet/rock12-b
+		distance 3281
+		period 1352
+	object
+		sprite planet/cloud1
+		distance 3347
+		period 1116
+
+system "Alpha Aquilae"
+	pos -10107 -9860
+	government "Uninhabited"
+	arrival 836
+	habitable 844
+	belt 1695
+	minables neodymium 8 4
+	minables titanium 11 3
+	minables iron 10 6
+	minables yottrite 14 5
+	link "Dofida"
+	link "Alpha Serpentis"
+	link "Ayeyarwady"
+	link "Xamidimura"
+	object
+		sprite "star/m0"
+		distance 129
+		period 14
+	object
+		sprite "star/f8"
+		distance 157
+		period 14
+		offset 240
+	object
+		sprite "star/nova-small"
+		distance 1076
+		period 11
+		offset 120
+	object
+		sprite planet/tethys-b
+		distance 2044
+		period 1198
+	object
+		sprite planet/gas13
+		distance 2464
+		period 991
+	object
+		sprite planet/titan
+		distance 3320
+		period 1147
+	object
+		sprite planet/gas5
+		distance 3382
+		period 1464
+	object
+		sprite planet/ocean0-b
+		distance 3933
+		period 867
+
+system "Alpha Serpentis"
+	pos -10030 -9796
+	government "Uninhabited"
+	arrival 909
+	habitable 894
+	belt 1143
+	minables aluminum 15 4
+	minables lead 8 3
+	link "Alpha Aquilae"
+	link "Dofida"
+	link "Dziban"
+	link "Xamidimura"
+	object
+		sprite "star/a3"
+		period 12
+	object
+		sprite planet/ganymede-b
+		distance 1274
+		period 538
+	object
+		sprite planet/lava7
+		distance 1437
+		period 706
+	object
+		sprite planet/rock11
+		distance 1814
+		period 755
+	object
+		sprite planet/ocean7
+		distance 2761
+		period 1007
+	object
+		sprite planet/gas4-hot
+		distance 3367
+		period 617
+
+system "Dziban"
+	pos -10033 -9697
+	government "Uninhabited"
+	arrival 589
+	habitable 1180
+	belt 1069
+	minables iron 25 10
+	minables copper 14 11
+	minables tungsten 16 4
+	link "Alpha Serpentis"
+	link "Gamma Leonis"
+	link "Lionrock"
+	link "Xamidimura"
+	link "Beta Cephei"
+	object
+		sprite "star/g-giant"
+		distance 375
+		period 15
+	object
+		sprite "planet/browndwarf-t"
+		distance 423
+		period 11
+		offset 180
+	object
+		sprite planet/rock13
+		distance 917
+		period 1381
+	object
+		sprite planet/lava5
+		distance 1142
+		period 1180
+	object
+		sprite planet/gas14
+		distance 1618
+		period 703
+	object "Jaran"
+		sprite planet/ice1-b
+		distance 1952
+		period 731
+	object
+		sprite planet/dust0-b
+		distance 2564
+		period 539
+	object
+		sprite planet/lava1
+		distance 3436
+		period 948
+
+system "Gamma Leonis"
+	pos -10027 -9598
+	government "Uninhabited"
+	arrival 922
+	habitable 750
+	belt 1426
+	minables platinum 12 12
+	minables gold 20 8
+	link "Theta Centauri"
+	link "Dziban"
+	link "Beta Cephei"
+	link "Azmidi"
+	link "Tania Borealis"
+	object
+		sprite "star/b0"
+		distance 209
+		period 13
+		offset 180
+	object
+		sprite planet/ice7-b
+		distance 686
+		period 532
+	object
+		sprite planet/gas9-hot
+		distance 1470
+		period 630
+	object
+		sprite "star/carbon"
+		distance 2041
+		period 14
+	object
+		sprite planet/rock11-b
+		distance 2063
+		period 852
+	object
+		sprite planet/gas0-hot
+		distance 2645
+		period 1286
+
+system "Electra"
+	pos -9812 -10037
+	government "Uninhabited"
+	arrival 817
+	habitable 851
+	belt 1799
+	minables platinum 10 5
+	minables silver 8 6
+	link "Barnards Star"
+	link "Alpha Leporis"
+	link "Ogma"
+	link "Alpha Draconis"
+	link "Mahsati"
+	object
+		sprite "planet/browndwarf-l-rogue"
+		period 12
+	object
+		sprite planet/ocean2
+		distance 2365
+		period 908
+	object
+		sprite planet/neptune
+		distance 2504
+		period 1012
+	object
+		sprite planet/gas5
+		distance 3211
+		period 958
+
+system "Alpha Draconis"
+	pos -9713 -10038
+	government "Uninhabited"
+	arrival 723
+	habitable 510
+	belt 1076
+	minables platinum 12 11
+	link "Barnards Star"
+	link "Electra"
+	link "Mahsati"
+	link "Muscida"
+	object
+		sprite "star/m5"
+		distance 159
+		period 12
+	object
+		sprite "star/k0"
+		distance 168
+		period 14
+		offset 180
+	object
+		sprite planet/ocean3
+		distance 1323
+		period 1005
+	object "Quasarix"
+		sprite planet/rock15-b
+		distance 1845
+		period 1062
+	object
+		sprite planet/ice8-b
+		distance 2143
+		period 909
+	object
+		sprite planet/gas1-b
+		distance 2613
+		period 1183
+
+system "Mahsati"
+	pos -9731 -10136
+	government "Uninhabited"
+	arrival 1031
+	habitable 1122
+	belt 1564
+	minables tungsten 19 8
+	minables neodymium 15 12
+	minables copper 7 6
+	link "Alpha Draconis"
+	link "Electra"
+	link "Alpha Andromedae"
+	link "Alpha Ceti"
+	link "Epsilon Canis Majoris"
+	object
+		sprite "star/g0-old"
+		period 11
+	object
+		sprite planet/gas10-b
+		distance 758
+		period 1425
+	object
+		sprite planet/ice8-b
+		distance 1109
+		period 812
+	object
+		sprite planet/rock4-b
+		distance 1130
+		period 1500
+	object
+		sprite planet/gas13
+		distance 2313
+		period 1376
+
+system "Alpha Andromedae"
+	pos -9701 -10231
+	government "Uninhabited"
+	arrival 775
+	habitable 934
+	belt 884
+	minables titanium 13 10
+	minables copper 8 3
+	minables iron 7 9
+	link "Mahsati"
+	link "Funi"
+	link "Bunda"
+	link "Epsilon Canis Majoris"
+	object
+		sprite "star/f8"
+		distance 96
+		period 15
+		offset 240
+	object
+		sprite "star/k0"
+		distance 146
+		period 12
+	object
+		sprite "star/m3"
+		distance 147
+		period 13
+		offset 120
+	object
+		sprite planet/neptune
+		distance 875
+		period 1304
+	object
+		sprite planet/gas4
+		distance 1194
+		period 1498
+	object
+		sprite planet/neptune
+		distance 1356
+		period 613
+	object
+		sprite planet/gas8-hot
+		distance 3661
+		period 1262
+
+system "Funi"
+	pos -9682 -10329
+	government "Uninhabited"
+	arrival 1060
+	habitable 993
+	belt 1550
+	minables neodymium 22 5
+	minables silicon 23 4
+	minables uranium 22 8
+	link "Alpha Andromedae"
+	link "Bunda"
+	link "Ain"
+	link "Moriah"
+	object
+		sprite "star/m-dwarf"
+		distance 91
+		period 12
+	object
+		sprite "star/g-giant"
+		distance 413
+		period 15
+		offset 180
+	object "Watchtower"
+		sprite planet/desert9
+		distance 740
+		period 962
+	object
+		sprite planet/mercury-b
+		distance 996
+		period 1105
+	object
+		sprite planet/cloud0
+		distance 1303
+		period 982
+
+system "Maasym"
+	pos -9746 -9869
+	government "Uninhabited"
+	arrival 1058
+	habitable 1196
+	belt 1524
+	minables tungsten 16 11
+	minables platinum 20 6
+	minables uranium 8 9
+	link "Tapecue"
+	link "Barnards Star"
+	link "Dombay"
+	link "Tislit"
+	object
+		sprite "star/b-dwarf"
+		distance 99
+		period 15
+		offset 180
+	object
+		sprite "star/b0"
+		distance 246
+		period 10
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 1289
+		period 1347
+	object
+		sprite planet/water0
+		distance 1343
+		period 875
+	object
+		sprite planet/dust5-b
+		distance 1593
+		period 893
+	object
+		sprite planet/cloud2-b
+		distance 1827
+		period 1158
+	object
+		sprite planet/gas8-hot
+		distance 2030
+		period 958
+
+system "Tislit"
+	pos -9659 -9821
+	government "Uninhabited"
+	arrival 1019
+	habitable 931
+	belt 1675
+	minables copper 12 12
+	link "Maasym"
+	link "Tianyi"
+	link "Kappa Orionis"
+	object
+		sprite "star/k0"
+		distance 88
+		period 13
+		offset 180
+	object
+		sprite "star/protostar-yellow"
+		distance 487
+		period 13
+	object
+		sprite planet/rock7-b
+		distance 624
+		period 901
+	object
+		sprite planet/rock19-b
+		distance 2383
+		period 601
+
+system "Tianyi"
+	pos -9675 -9723
+	government "Uninhabited"
+	arrival 1120
+	habitable 906
+	belt 867
+	minables uranium 19 4
+	minables uranium 17 8
+	minables yottrite 15 7
+	link "Tislit"
+	link "Chaophraya"
+	link "Natasha"
+	link "Kappa Orionis"
+	object
+		sprite "star/m0"
+		distance 108
+		period 10
+	object
+		sprite "star/b8"
+		distance 186
+		period 10
+		offset 120
+	object
+		sprite "star/nova-small"
+		distance 1032
+		period 11
+		offset 240
+	object "Enthara"
+		sprite planet/gas13
+		distance 1120
+		period 1323
+	object
+		sprite planet/ocean8
+		distance 2719
+		period 1047
+
+system "Chaophraya"
+	pos -9648 -9627
+	government "Uninhabited"
+	arrival 933
+	habitable 769
+	belt 1766
+	minables uranium 18 5
+	minables titanium 6 12
+	link "Tianyi"
+	link "Acrab"
+	link "Natasha"
+	link "Musica"
+	link "Delta Leonis"
+	object
+		sprite "star/a5"
+		distance 160
+		period 10
+		offset 120
+	object
+		sprite "star/a3"
+		distance 175
+		period 11
+		offset 240
+	object
+		sprite "star/a-supergiant"
+		distance 681
+		period 15
+	object
+		sprite planet/rock11
+		distance 1220
+		period 1344
+	object
+		sprite planet/cloud0
+		distance 1376
+		period 752
+	object
+		sprite planet/jupiter-b
+		distance 3885
+		period 1187
+	object
+		sprite planet/rock19
+		distance 3979
+		period 1484
+
+system "Acrab"
+	pos -9549 -9631
+	government "Uninhabited"
+	arrival 866
+	habitable 1131
+	belt 1050
+	minables uranium 6 7
+	minables silicon 6 11
+	link "Chaophraya"
+	link "Delta Leonis"
+	link "Alruba"
+	object
+		sprite "star/o-dwarf"
+		distance 58
+		period 14
+	object
+		sprite "star/b5"
+		distance 182
+		period 13
+		offset 180
+	object
+		sprite planet/dust6-b
+		distance 2635
+		period 1033
+	object
+		sprite planet/dust4-b
+		distance 3353
+		period 787
+
+system "Lionrock"
+	pos -9926 -9767
+	government "Uninhabited"
+	arrival 837
+	habitable 947
+	belt 1536
+	minables iron 9 6
+	link "Solitaire"
+	link "Dziban"
+	link "Dombay"
+	link "Tapecue"
+	object
+		sprite "star/a-dwarf"
+		distance 103
+		period 15
+	object
+		sprite "star/a-giant"
+		distance 288
+		period 14
+		offset 180
+	object
+		sprite planet/ice8
+		distance 1051
+		period 1146
+	object "Irisar"
+		sprite planet/lava3-b
+		distance 1259
+		period 747
+	object
+		sprite planet/tethys
+		distance 1580
+		period 1052
+	object
+		sprite planet/ocean8
+		distance 3843
+		period 1017
+	object
+		sprite planet/gas0-b
+		distance 3886
+		period 631
+	object
+		sprite planet/gas1-hot
+		distance 3934
+		period 1302
+
+system "Natasha"
+	pos -9789 -9637
+	government "Uninhabited"
+	arrival 927
+	habitable 905
+	belt 1378
+	minables iron 25 4
+	minables platinum 22 5
+	link "Tianyi"
+	link "Chaophraya"
+	link "Tapecue"
+	link "Solitaire"
+	link "Theta Centauri"
+	link "Alpha Coronae Borealis"
+	link "Musica"
+	object
+		sprite "star/m5"
+		distance 73
+		period 10
+		offset 120
+	object
+		sprite "star/b0"
+		distance 174
+		period 11
+	object
+		sprite "star/g0-old"
+		distance 236
+		period 14
+		offset 240
+	object
+		sprite planet/tethys-b
+		distance 1731
+		period 1200
+	object
+		sprite planet/rock20
+		distance 3420
+		period 1038
+
+system "Alpha Coronae Borealis"
+	pos -9805 -9539
+	government "Uninhabited"
+	arrival 685
+	habitable 1135
+	belt 1387
+	minables tungsten 16 3
+	minables gold 16 9
+	link "Theta Centauri"
+	link "Natasha"
+	link "Iota Carinae"
+	object
+		sprite "planet/browndwarf-t"
+		distance 453
+		period 12
+		offset 180
+	object
+		sprite "star/k-supergiant"
+		distance 1064
+		period 14
+	object
+		sprite planet/lava1
+		distance 3952
+		period 569
+
+system "Iota Carinae"
+	pos -9870 -9463
+	government "Uninhabited"
+	arrival 1046
+	habitable 732
+	belt 996
+	minables gold 8 6
+	minables lead 11 12
+	minables yottrite 7 4
+	link "Alpha Coronae Borealis"
+	link "Theta Centauri"
+	link "Alsephina"
+	object
+		sprite "star/k-dwarf"
+		distance 43
+		period 12
+		offset 180
+	object
+		sprite planet/ice7
+		distance 778
+		period 1190
+	object
+		sprite planet/desert1-b
+		distance 938
+		period 1208
+	object
+		sprite "star/wr"
+		distance 1060
+		period 15
+	object
+		sprite planet/gas4-b
+		distance 1267
+		period 746
+	object "Icegard"
+		sprite planet/cloud2-b
+		distance 1509
+		period 1069
+	object
+		sprite planet/ocean1-b
+		distance 1663
+		period 577
+	object
+		sprite planet/cloud7
+		distance 2705
+		period 709
+
+system "Alsephina"
+	pos -9953 -9408
+	government "Uninhabited"
+	arrival 1131
+	habitable 513
+	belt 930
+	minables neodymium 18 6
+	minables copper 22 3
+	minables gold 13 4
+	link "Iota Carinae"
+	link "Azmidi"
+	link "Tania Borealis"
+	link "Celaeno"
+	object
+		sprite "star/m4"
+		distance 140
+		period 13
+		offset 120
+	object
+		sprite "star/k0-old"
+		distance 264
+		period 13
+	object
+		sprite "planet/browndwarf-t"
+		distance 435
+		period 13
+		offset 240
+	object
+		sprite planet/lava7-b
+		distance 2169
+		period 535
+	object
+		sprite planet/ice7
+		distance 2418
+		period 1000
+
+system "Epsilon Orionis"
+	pos -10081 -10174
+	government "Uninhabited"
+	arrival 639
+	habitable 589
+	belt 1533
+	minables titanium 15 7
+	minables copper 11 9
+	minables neodymium 9 11
+	minables yottrite 13 7
+	link "Beemim"
+	link "Rana"
+	link "Beta Andromedae"
+	object
+		sprite "star/o0"
+		distance 262
+		period 15
+		offset 180
+	object
+		sprite "star/wr"
+		distance 1093
+		period 11
+	object
+		sprite planet/gas15
+		distance 2235
+		period 1133
+
+system "Beta Andromedae"
+	pos -10149 -10247
+	government "Uninhabited"
+	arrival 638
+	habitable 707
+	belt 843
+	minables silver 9 9
+	minables titanium 9 11
+	minables yottrite 7 9
+	link "Botein"
+	link "Sharjah"
+	link "Epsilon Orionis"
+	link "Tabit"
+	object
+		sprite "planet/browndwarf-l"
+		distance 465
+		period 10
+	object
+		sprite "star/nova-small"
+		distance 1022
+		period 12
+		offset 180
+	object "Mithrion"
+		sprite planet/gas14
+		distance 1727
+		period 920
+	object
+		sprite planet/rock9
+		distance 2240
+		period 1275
+	object
+		sprite planet/desert10-b
+		distance 3164
+		period 1317
+	object
+		sprite planet/gas8-b
+		distance 3672
+		period 1043
+
+system "Tabit"
+	pos -10162 -10346
+	government "Uninhabited"
+	arrival 553
+	habitable 598
+	belt 982
+	minables titanium 18 10
+	minables aluminum 13 3
+	minables gold 9 10
+	link "Botein"
+	link "Beta Andromedae"
+	link "Tiaki"
+	link "Pipirima"
+	link "Mekbuda"
+	object
+		sprite "star/k-giant"
+		period 10
+	object
+		sprite planet/rock3-b
+		distance 2688
+		period 635
+
+system "Tiaki"
+	pos -10116 -10435
+	government "Uninhabited"
+	arrival 655
+	habitable 604
+	belt 1531
+	minables platinum 21 9
+	minables copper 10 9
+	minables gold 19 11
+	link "Guniibuu"
+	link "Tabit"
+	link "Meridiana"
+	link "Mekbuda"
+	object
+		sprite "star/f-giant"
+		distance 325
+		period 14
+		offset 180
+	object
+		sprite "star/f-giant"
+		distance 364
+		period 12
+	object
+		sprite planet/browndwarf-t
+		distance 1904
+		period 776
+
+system "Meridiana"
+	pos -10049 -10509
+	government "Uninhabited"
+	arrival 1043
+	habitable 941
+	belt 1318
+	minables tungsten 12 9
+	minables platinum 22 12
+	link "Guniibuu"
+	link "Tiaki"
+	link "Ukdah"
+	link "Alpha Arietis"
+	link "Alasia"
+	object
+		sprite "star/f5"
+		distance 173
+		period 13
+	object
+		sprite "star/f3"
+		distance 174
+		period 14
+		offset 120
+	object
+		sprite planet/gas16-b
+		distance 717
+		period 930
+	object
+		sprite "star/f-supergiant"
+		distance 813
+		period 11
+		offset 240
+	object
+		sprite planet/gas13
+		distance 1048
+		period 1316
+	object
+		sprite planet/cloud7-b
+		distance 1123
+		period 969
+	object "Monolith"
+		sprite planet/gas15
+		distance 1816
+		period 1033
+
+system "Ayeyarwady"
+	pos -10194 -9943
+	government "Uninhabited"
+	arrival 666
+	habitable 1016
+	belt 1443
+	minables uranium 10 12
+	minables uranium 16 4
+	minables copper 12 6
+	minables yottrite 12 8
+	link "Matza"
+	link "Alpha Aquilae"
+	link "Beta Crucis"
+	link "Gamma Capricorni"
+	object
+		sprite "star/nova-old"
+		period 10
+	object
+		sprite planet/ocean9-b
+		distance 3786
+		period 889
+
+system "Beta Crucis"
+	pos -10294 -9943
+	government "Uninhabited"
+	arrival 1034
+	habitable 863
+	belt 1562
+	minables neodymium 15 5
+	minables platinum 12 9
+	link "Ayeyarwady"
+	link "Alpha Canis Majoris"
+	link "Itonda"
+	link "Gamma Capricorni"
+	link "Karaka"
+	object
+		sprite "star/k8"
+		distance 117
+		period 13
+	object
+		sprite "planet/browndwarf-y"
+		distance 435
+		period 14
+		offset 180
+	object
+		sprite planet/gas5-hot
+		distance 1523
+		period 1077
+	object
+		sprite planet/rogue-radiating
+		distance 1699
+		period 890
+
+system "Alpha Canis Majoris"
+	pos -10392 -9924
+	government "Uninhabited"
+	arrival 1178
+	habitable 663
+	belt 1367
+	minables titanium 14 3
+	minables platinum 21 10
+	minables iron 13 6
+	link "Beta Crucis"
+	link "Itonda"
+	link "Nyamien"
+	link "Karaka"
+	object
+		sprite "star/a3"
+		distance 125
+		period 11
+		offset 120
+	object
+		sprite "star/m4"
+		distance 130
+		period 13
+		offset 240
+	object "Freyara"
+		sprite planet/gas2-hot
+		distance 825
+		period 920
+	object
+		sprite "star/f-supergiant"
+		distance 834
+		period 11
+	object
+		sprite planet/mars
+		distance 1626
+		period 655
+	object
+		sprite planet/gas1-hot
+		distance 2586
+		period 942
+	object
+		sprite planet/cloud4
+		distance 3045
+		period 1258
+	object
+		sprite planet/cloud2-b
+		distance 3599
+		period 502
+
+system "Itonda"
+	pos -10422 -10019
+	government "Uninhabited"
+	arrival 594
+	habitable 607
+	belt 907
+	minables copper 17 6
+	minables platinum 25 7
+	link "Alpha Canis Majoris"
+	link "Beta Crucis"
+	link "Lambda Scorpii"
+	link "Aljanah"
+	link "Nyamien"
+	object
+		sprite "star/a-dwarf"
+		distance 102
+		period 12
+		offset 240
+	object
+		sprite "star/m-dwarf"
+		distance 106
+		period 11
+	object
+		sprite "star/k-supergiant"
+		distance 1114
+		period 11
+		offset 120
+	object
+		sprite planet/aera
+		distance 1117
+		period 1246
+	object
+		sprite planet/gas7
+		distance 1323
+		period 959
+	object
+		sprite planet/ice6
+		distance 3212
+		period 549
+
+system "Lambda Scorpii"
+	pos -10518 -10046
+	government "Uninhabited"
+	arrival 818
+	habitable 662
+	belt 1013
+	minables tungsten 15 8
+	link "Itonda"
+	link "Aljanah"
+	link "Dingolay"
+	link "Amadioha"
+	object
+		sprite "star/neutron-small"
+		period 15
+	object
+		sprite planet/rock19-b
+		distance 2948
+		period 636
+	object
+		sprite planet/uranus
+		distance 3487
+		period 965
+
+system "Delta Orionis"
+	pos -10338 -10105
+	government "Uninhabited"
+	arrival 646
+	habitable 820
+	belt 896
+	minables aluminum 13 8
+	minables neodymium 15 10
+	minables uranium 11 8
+	minables yottrite 10 10
+	link "Talitha"
+	link "Sharjah"
+	link "Fafnir"
+	object
+		sprite "star/a5"
+		distance 125
+		period 15
+		offset 120
+	object
+		sprite "planet/browndwarf-t-rogue"
+		distance 453
+		period 14
+		offset 240
+	object "Galatea"
+		sprite planet/gas16-b
+		distance 618
+		period 1372
+	object
+		sprite planet/dust6-b
+		distance 1755
+		period 1009
+	object
+		sprite planet/gas14-b
+		distance 2019
+		period 533
+	object
+		sprite planet/lava7
+		distance 2815
+		period 1442
+	object
+		sprite "star/nova-old"
+		distance 3013
+		period 11
+
+system "Fafnir"
+	pos -10388 -10191
+	government "Uninhabited"
+	arrival 592
+	habitable 500
+	belt 1530
+	minables tungsten 20 10
+	link "Sharjah"
+	link "Delta Orionis"
+	link "Titawin"
+	link "Sadalbari"
+	object
+		sprite "star/m8"
+		distance 86
+		period 15
+		offset 120
+	object
+		sprite "star/g3"
+		distance 149
+		period 11
+	object
+		sprite planet/water0
+		distance 756
+		period 564
+	object
+		sprite planet/rock8
+		distance 1678
+		period 1436
+	object
+		sprite "star/carbon"
+		distance 2047
+		period 13
+		offset 240
+	object
+		sprite planet/miranda
+		distance 2219
+		period 1352
+	object
+		sprite planet/forest3
+		distance 3970
+		period 644
+
+system "Aljanah"
+	pos -10468 -10132
+	government "Uninhabited"
+	arrival 1109
+	habitable 557
+	belt 1423
+	minables copper 24 4
+	minables platinum 10 7
+	minables gold 6 10
+	link "Lambda Scorpii"
+	link "Itonda"
+	link "Titawin"
+	link "Amadioha"
+	object
+		sprite "star/protostar-orange"
+		period 14
+	object
+		sprite planet/gas8-b
+		distance 1180
+		period 614
+	object
+		sprite planet/browndwarf-y
+		distance 1905
+		period 1112
+
+system "Titawin"
+	pos -10481 -10231
+	government "Uninhabited"
+	arrival 1129
+	habitable 1090
+	belt 1446
+	minables gold 18 8
+	minables aluminum 17 5
+	minables lead 25 11
+	link "Fafnir"
+	link "Aljanah"
+	link "Subra"
+	link "Sadalbari"
+	link "Amadioha"
+	object
+		sprite "star/b8"
+		period 11
+	object
+		sprite planet/ice2-b
+		distance 1063
+		period 904
+	object "Quintessia"
+		sprite planet/cloud8
+		distance 1563
+		period 1491
+	object
+		sprite planet/rock10
+		distance 2572
+		period 1276
+	object
+		sprite planet/lava6
+		distance 2636
+		period 815
+
+system "Subra"
+	pos -10508 -10327
+	government "Uninhabited"
+	arrival 919
+	habitable 1068
+	belt 1003
+	minables iron 7 7
+	minables neodymium 13 4
+	link "Titawin"
+	link "Sadalbari"
+	link "Deneb Algedi"
+	object
+		sprite "star/b3"
+		period 14
+	object
+		sprite planet/oberon
+		distance 1395
+		period 1101
+	object
+		sprite planet/rock11
+		distance 1494
+		period 511
+	object
+		sprite planet/forest0-b
+		distance 2458
+		period 1143
+
+system "Pipirima"
+	pos -10280 -10378
+	government "Uninhabited"
+	arrival 818
+	habitable 987
+	belt 1671
+	minables tungsten 19 10
+	minables gold 13 5
+	link "Botein"
+	link "Tabit"
+	link "Nushagak"
+	object
+		sprite "star/g-dwarf"
+		distance 103
+		period 15
+		offset 120
+	object
+		sprite "star/k0"
+		distance 140
+		period 11
+		offset 240
+	object
+		sprite "star/b3"
+		distance 155
+		period 15
+	object
+		sprite planet/forest3-b
+		distance 2923
+		period 561
+	object
+		sprite planet/rock8-b
+		distance 3119
+		period 1491
+	object
+		sprite planet/desert0
+		distance 3567
+		period 947
+
+system "Mekbuda"
+	pos -10225 -10461
+	government "Uninhabited"
+	arrival 731
+	habitable 1025
+	belt 894
+	minables iron 24 4
+	link "Tabit"
+	link "Tiaki"
+	link "Nushagak"
+	link "Veritate"
+	link "Tengshe"
+	object
+		sprite "star/o-dwarf"
+		distance 57
+		period 13
+	object
+		sprite "star/m8"
+		distance 97
+		period 14
+		offset 240
+	object
+		sprite "star/m3"
+		distance 125
+		period 10
+		offset 120
+	object
+		sprite planet/io
+		distance 1150
+		period 1257
+	object "Rosetta"
+		sprite planet/desert0
+		distance 1554
+		period 402
+	object
+		sprite planet/rock16
+		distance 1621
+		period 1082
+	object
+		sprite planet/desert4
+		distance 3004
+		period 1098
+	object
+		sprite planet/neptune-b
+		distance 3381
+		period 503
+
+system "Nushagak"
+	pos -10324 -10474
+	government "Uninhabited"
+	arrival 992
+	habitable 586
+	belt 1537
+	minables aluminum 6 12
+	link "Pipirima"
+	link "Mekbuda"
+	link "Veritate"
+	link "Beta-2 Sagittarii"
+	link "Macondo"
+	object
+		sprite "star/g-giant"
+		period 15
+	object
+		sprite planet/lava0
+		distance 2369
+		period 1072
+	object
+		sprite planet/gas11
+		distance 2706
+		period 683
+	object
+		sprite planet/desert3-b
+		distance 3352
+		period 1427
+	object
+		sprite planet/gas6-hot
+		distance 3700
+		period 861
+
+system "Veritate"
+	pos -10284 -10566
+	government "Uninhabited"
+	arrival 622
+	habitable 1191
+	belt 844
+	minables lead 6 3
+	minables silicon 6 7
+	link "Nushagak"
+	link "Mekbuda"
+	link "Tengshe"
+	link "Theta Scorpii"
+	object
+		sprite "planet/browndwarf-y"
+		period 13
+	object
+		sprite planet/neptune
+		distance 3944
+		period 1008
+
+system "Tengshe"
+	pos -10187 -10593
+	government "Uninhabited"
+	arrival 702
+	habitable 584
+	belt 982
+	minables platinum 18 8
+	minables gold 11 7
+	minables platinum 25 3
+	link "Mekbuda"
+	link "Veritate"
+	link "Alasia"
+	link "21 Tauri"
+	object
+		sprite "star/g3"
+		distance 113
+		period 12
+		offset 180
+	object
+		sprite "star/k3"
+		distance 144
+		period 14
+	object "Kynara"
+		sprite planet/gas8-hot
+		distance 625
+		period 768
+	object
+		sprite planet/cloud0
+		distance 3488
+		period 1095
+
+system "Fulu"
+	pos -9830 -10142
+	government "Uninhabited"
+	arrival 1193
+	habitable 1191
+	belt 833
+	minables neodymium 13 11
+	link "Ogma"
+	link "Sualocin"
+	object
+		sprite "star/protostar-orange"
+		period 11
+	object
+		sprite planet/miranda
+		distance 2010
+		period 559
+	object
+		sprite planet/desert4-b
+		distance 2296
+		period 853
+	object
+		sprite planet/gas14-b
+		distance 3118
+		period 1025
+	object
+		sprite planet/gas0-b
+		distance 3899
+		period 745
+
+system "Alpha Ceti"
+	pos -9825 -10241
+	government "Uninhabited"
+	arrival 677
+	habitable 863
+	belt 969
+	minables copper 7 10
+	link "Sualocin"
+	link "Arkab Prior"
+	link "Mahsati"
+	object
+		sprite "star/m-dwarf"
+		period 10
+	object
+		sprite planet/oberon
+		distance 1196
+		period 1118
+	object
+		sprite planet/gas4
+		distance 3130
+		period 512
+	object
+		sprite planet/desert4-b
+		distance 3355
+		period 533
+	object
+		sprite planet/ice1-b
+		distance 3747
+		period 1221
+	object
+		sprite planet/europa-b
+		distance 3803
+		period 978
+
+system "Bunda"
+	pos -9790 -10334
+	government "Uninhabited"
+	arrival 1115
+	habitable 736
+	belt 1228
+	minables aluminum 19 5
+	minables silver 12 8
+	minables titanium 14 11
+	link "Funi"
+	link "Alpha Andromedae"
+	link "Situla"
+	object
+		sprite "star/g0"
+		period 11
+	object "Imbria"
+		sprite planet/rock7
+		distance 769
+		period 459
+	object
+		sprite planet/io
+		distance 3225
+		period 821
+
+system "Situla"
+	pos -9811 -10431
+	government "Uninhabited"
+	arrival 637
+	habitable 573
+	belt 1070
+	minables aluminum 17 12
+	minables silver 19 3
+	minables lead 21 3
+	link "Bunda"
+	link "Beta Canis Minoris"
+	object
+		sprite "star/neutron-small"
+		period 12
+	object
+		sprite planet/ocean0
+		distance 1034
+		period 795
+	object
+		sprite planet/rock20
+		distance 1035
+		period 756
+
+system "Beta Canis Minoris"
+	pos -9803 -10530
+	government "Leonis"
+	arrival 806
+	habitable 517
+	belt 1452
+	minables silicon 11 10
+	minables tungsten 23 10
+	link "Situla"
+	link "Ukdah"
+	link "Alpha Arietis"
+	link "Gamma Cancri"
+	link "Alpha Ursae Minoris"
+	link "Salm"
+	object
+		sprite "star/f0"
+		distance 178
+		period 10
+	object
+		sprite "star/b-giant"
+		distance 338
+		period 11
+		offset 180
+	object
+		sprite planet/cloud1-b
+		distance 2340
+		period 544
+	object
+		sprite planet/rock0-b
+		distance 2487
+		period 1145
+	object "Wyldwood"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Leonis Small Fleet" 1975
+	fleet "Leonis Big Fleet" 2856
+
+
+system "Ukdah"
+	pos -9911 -10459
+	government "Uninhabited"
+	arrival 977
+	habitable 923
+	belt 821
+	minables gold 15 9
+	minables tungsten 12 6
+	minables lead 15 3
+	link "Beta Canis Minoris"
+	link "Arkab Prior"
+	link "Guniibuu"
+	link "Meridiana"
+	object
+		sprite "star/g3"
+		period 13
+	object "Valoria"
+		sprite planet/desert2-b
+		distance 738
+		period 742
+	object
+		sprite planet/rock8-b
+		distance 768
+		period 508
+	object
+		sprite planet/gas8
+		distance 890
+		period 957
+	object
+		sprite planet/cloud1
+		distance 1835
+		period 695
+	object
+		sprite planet/rock1
+		distance 2181
+		period 757
+	object
+		sprite planet/rock0
+		distance 2909
+		period 1350
+
+system "Alpha Arietis"
+	pos -9941 -10554
+	government "Uninhabited"
+	arrival 981
+	habitable 581
+	belt 1255
+	minables aluminum 7 8
+	minables gold 21 5
+	minables titanium 17 6
+	link "Meridiana"
+	link "Beta Canis Minoris"
+	link "Syrma"
+	link "Gamma Cancri"
+	object
+		sprite "star/neutron-small"
+		distance 221
+		period 10
+		offset 180
+	object
+		sprite "star/m-giant"
+		distance 851
+		period 15
+	object
+		sprite planet/gas0-hot
+		distance 1339
+		period 1017
+	object
+		sprite planet/fog0
+		distance 3058
+		period 1039
+
+system "Syrma"
+	pos -9928 -10653
+	government "Uninhabited"
+	arrival 1107
+	habitable 732
+	belt 1678
+	minables titanium 19 11
+	link "Alpha Arietis"
+	link "Gamma Cancri"
+	link "Alkarab"
+	link "Alrescha"
+	object
+		sprite "star/k-giant"
+		period 12
+	object
+		sprite planet/desert9
+		distance 2102
+		period 605
+	object
+		sprite planet/rock14
+		distance 2811
+		period 1439
+
+system "Gamma Cancri"
+	pos -9830 -10637
+	government "Uninhabited"
+	arrival 512
+	habitable 1097
+	belt 1604
+	minables uranium 6 11
+	minables yottrite 12 3
+	link "Syrma"
+	link "Beta Canis Minoris"
+	link "Alpha Arietis"
+	link "Leepwal"
+	link "Salm"
+	object
+		sprite "planet/browndwarf-l"
+		distance 493
+		period 15
+	object
+		sprite planet/ocean1-b
+		distance 744
+		period 1282
+	object
+		sprite "star/wr"
+		distance 1061
+		period 12
+		offset 180
+	object
+		sprite planet/ice7-b
+		distance 1184
+		period 1127
+	object
+		sprite planet/dust4-b
+		distance 1604
+		period 905
+	object "Willowmere"
+		sprite planet/gas0-hot
+		distance 1732
+		period 914
+	object
+		sprite planet/dust4-b
+		distance 3198
+		period 526
+	object
+		sprite planet/rock11
+		distance 3373
+		period 1229
+
+system "Leepwal"
+	pos -9798 -10731
+	government "Uninhabited"
+	arrival 801
+	habitable 1159
+	belt 1243
+	minables aluminum 13 10
+	minables titanium 16 3
+	minables lead 16 9
+	link "Gamma Cancri"
+	link "Salm"
+	link "Tupa"
+	link "Alrescha"
+	link "Nahn"
+	link "Mpingo"
+	object
+		sprite "star/m5"
+		distance 101
+		period 10
+	object
+		sprite "star/a8"
+		distance 174
+		period 11
+		offset 120
+	object
+		sprite "star/o0"
+		distance 322
+		period 10
+		offset 240
+	object
+		sprite planet/gas2-b
+		distance 714
+		period 510
+	object
+		sprite planet/rock13-b
+		distance 933
+		period 1202
+	object
+		sprite planet/gas11
+		distance 2080
+		period 1367
+
+system "Xamidimura"
+	pos -10152 -9771
+	government "Aquaria"
+	arrival 882
+	habitable 916
+	belt 1508
+	minables silver 16 7
+	minables neodymium 21 8
+	minables neodymium 6 4
+	minables yottrite 11 6
+	link "Alpha Aquilae"
+	link "Alpha Serpentis"
+	link "Dziban"
+	link "Bake-eo"
+	object
+		sprite "star/nova-small"
+		period 10
+	object
+		sprite planet/lava7
+		distance 600
+		period 1487
+	object
+		sprite planet/vesvi
+		distance 1213
+		period 827
+	object
+		sprite planet/earth-b
+		distance 3787
+		period 1157
+	object
+		sprite planet/dust2
+		distance 3906
+		period 993
+	object "Ambrosia"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aquaria Small Fleet" 1063
+	fleet "Aquaria Big Fleet" 3211
+
+
+system "Bake-eo"
+	pos -10247 -9741
+	government "Aquaria"
+	arrival 879
+	habitable 945
+	belt 1106
+	minables uranium 18 8
+	minables silver 8 11
+	link "Xamidimura"
+	link "Lang-Exster"
+	link "Gamma Capricorni"
+	object
+		sprite "star/g-dwarf"
+		distance 35
+		period 14
+		offset 120
+	object
+		sprite "star/a-supergiant"
+		distance 752
+		period 13
+		offset 240
+	object
+		sprite planet/lava2
+		distance 792
+		period 1448
+	object
+		sprite "star/g-supergiant"
+		distance 1021
+		period 10
+	object "Zanarkand"
+		sprite planet/io
+		distance 1829
+		period 463
+	object
+		sprite planet/desert4-b
+		distance 2404
+		period 1425
+	object
+		sprite planet/venus-b
+		distance 2660
+		period 818
+	object
+		sprite planet/gas8-b
+		distance 3267
+		period 867
+	object
+		sprite planet/desert1
+		distance 3527
+		period 1108
+	object "Ys"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aquaria Small Fleet" 2418
+	fleet "Aquaria Big Fleet" 3400
+
+
+system "Lang-Exster"
+	pos -10321 -9675
+	government "Aquaria"
+	arrival 533
+	habitable 694
+	belt 1799
+	minables iron 16 11
+	link "Bake-eo"
+	link "Nashira"
+	link "Revati"
+	link "Orkaria"
+	object
+		sprite "star/k5-old"
+		period 15
+	object
+		sprite planet/lava3
+		distance 3212
+		period 1116
+	object "Fraxion"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aquaria Small Fleet" 2383
+	fleet "Aquaria Big Fleet" 2058
+
+
+system "Nashira"
+	pos -10402 -9733
+	government "Uninhabited"
+	arrival 733
+	habitable 558
+	belt 1210
+	minables titanium 22 12
+	minables silicon 18 9
+	minables aluminum 8 3
+	link "Lang-Exster"
+	link "Alpha Hydrae"
+	link "Karaka"
+	object
+		sprite "star/f3"
+		distance 173
+		period 12
+	object
+		sprite "star/o0"
+		distance 260
+		period 13
+		offset 180
+	object
+		sprite planet/callisto
+		distance 1789
+		period 582
+	object
+		sprite planet/lava6-b
+		distance 2318
+		period 1275
+	object
+		sprite planet/lava5-b
+		distance 2383
+		period 751
+	object
+		sprite planet/gas6-b
+		distance 2903
+		period 1267
+	object
+		sprite planet/gas1-b
+		distance 3367
+		period 722
+
+system "Alpha Hydrae"
+	pos -10500 -9751
+	government "Uninhabited"
+	arrival 999
+	habitable 562
+	belt 1726
+	minables copper 23 9
+	minables copper 24 9
+	minables copper 20 4
+	link "Nashira"
+	link "Nyamien"
+	link "Timir"
+	object
+		sprite "star/g0"
+		period 15
+	object
+		sprite planet/desert3
+		distance 652
+		period 1265
+	object "Ulysses"
+		sprite planet/gas4-b
+		distance 731
+		period 757
+	object
+		sprite planet/tethys-b
+		distance 1774
+		period 942
+	object
+		sprite planet/gas16-b
+		distance 2935
+		period 922
+	object
+		sprite planet/browndwarf-y
+		distance 3017
+		period 1184
+	object
+		sprite planet/callisto
+		distance 3064
+		period 1272
+
+system "Beta Cephei"
+	pos -10125 -9579
+	government "Uninhabited"
+	arrival 1165
+	habitable 739
+	belt 1301
+	minables silver 11 6
+	minables lead 17 11
+	link "Dziban"
+	link "Gamma Leonis"
+	link "Revati"
+	link "Helvetios"
+	link "Tania Borealis"
+	object
+		sprite "star/k-dwarf"
+		distance 44
+		period 14
+		offset 240
+	object
+		sprite "star/k3"
+		distance 123
+		period 10
+		offset 120
+	object
+		sprite "star/neutron"
+		distance 452
+		period 14
+	object
+		sprite planet/dust7-b
+		distance 1518
+		period 1301
+	object
+		sprite planet/ocean9
+		distance 2617
+		period 511
+	object
+		sprite planet/rock2
+		distance 2874
+		period 586
+
+system "Revati"
+	pos -10224 -9592
+	government "Uninhabited"
+	arrival 1077
+	habitable 831
+	belt 992
+	minables silver 13 7
+	minables aluminum 6 6
+	minables platinum 18 9
+	link "Lang-Exster"
+	link "Beta Cephei"
+	link "Helvetios"
+	link "Orkaria"
+	object
+		sprite "star/f5-old"
+		distance 163
+		period 13
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 514
+		period 14
+		offset 240
+	object
+		sprite "star/g-supergiant"
+		distance 973
+		period 15
+		offset 120
+	object
+		sprite planet/forest6-b
+		distance 2923
+		period 580
+	object
+		sprite planet/ocean4-b
+		distance 3188
+		period 861
+
+system "Helvetios"
+	pos -10198 -9496
+	government "Uninhabited"
+	arrival 610
+	habitable 649
+	belt 1354
+	minables titanium 20 9
+	link "Revati"
+	link "Beta Cephei"
+	link "Kosjenka"
+	link "Formosa"
+	object
+		sprite "star/k-dwarf"
+		distance 110
+		period 12
+	object
+		sprite "star/o0"
+		distance 284
+		period 10
+		offset 180
+	object "Darvus"
+		sprite planet/dust4-b
+		distance 1931
+		period 1312
+	object
+		sprite planet/gas9
+		distance 3393
+		period 766
+
+system "Kosjenka"
+	pos -10187 -9397
+	government "Uninhabited"
+	arrival 1138
+	habitable 848
+	belt 1770
+	minables lead 8 12
+	minables gold 17 7
+	link "Helvetios"
+	link "Alpha Aurigae"
+	link "Tania Borealis"
+	link "Formosa"
+	link "Montuno"
+	object
+		sprite "star/m8"
+		distance 55
+		period 10
+	object
+		sprite "star/o-dwarf"
+		distance 98
+		period 10
+		offset 180
+	object
+		sprite planet/gas2-b
+		distance 1219
+		period 696
+	object
+		sprite planet/rock5
+		distance 3123
+		period 846
+
+system "Alpha Aurigae"
+	pos -10113 -9329
+	government "Uninhabited"
+	arrival 975
+	habitable 842
+	belt 1418
+	minables uranium 20 10
+	minables copper 12 12
+	link "Kosjenka"
+	link "Tania Borealis"
+	link "Montuno"
+	link "Celaeno"
+	link "Beta Aquilae"
+	link "Lusitania"
+	object
+		sprite "star/neutron-small"
+		distance 204
+		period 12
+		offset 120
+	object
+		sprite "star/a-giant"
+		distance 365
+		period 14
+		offset 240
+	object
+		sprite "star/g-giant"
+		distance 385
+		period 11
+	object
+		sprite planet/ocean0
+		distance 618
+		period 1183
+	object
+		sprite planet/ganymede
+		distance 1405
+		period 868
+	object
+		sprite planet/luna
+		distance 1522
+		period 1076
+	object
+		sprite planet/europa-b
+		distance 1560
+		period 1057
+	object
+		sprite planet/lava7-b
+		distance 2789
+		period 1006
+
+system "Muscida"
+	pos -9620 -10003
+	government "Uninhabited"
+	arrival 1134
+	habitable 702
+	belt 1319
+	minables tungsten 6 8
+	minables yottrite 8 5
+	link "Alpha Draconis"
+	link "Beta Bootis"
+	link "27 Tauri"
+	object
+		sprite "star/k-dwarf"
+		distance 47
+		period 10
+		offset 120
+	object
+		sprite "star/o0"
+		distance 261
+		period 10
+	object
+		sprite planet/ocean4
+		distance 698
+		period 1096
+	object "Iridium"
+		sprite planet/rock10
+		distance 898
+		period 984
+	object
+		sprite planet/forest0-b
+		distance 1011
+		period 534
+	object
+		sprite "star/nova-old"
+		distance 3088
+		period 15
+		offset 240
+
+system "Beta Bootis"
+	pos -9521 -10008
+	government "Uninhabited"
+	arrival 849
+	habitable 719
+	belt 1521
+	minables platinum 12 11
+	minables copper 11 10
+	minables platinum 10 4
+	link "Muscida"
+	link "27 Tauri"
+	link "Taika"
+	link "Epsilon Virginis"
+	link "Phoenicia"
+	link "Mothallah"
+	object
+		sprite "star/b8"
+		period 15
+	object
+		sprite planet/ice8
+		distance 959
+		period 1003
+	object
+		sprite planet/water0
+		distance 3061
+		period 991
+
+system "27 Tauri"
+	pos -9567 -10097
+	government "Uninhabited"
+	arrival 969
+	habitable 515
+	belt 1494
+	minables silver 14 9
+	minables silicon 24 12
+	link "Beta Bootis"
+	link "Muscida"
+	link "Taika"
+	object
+		sprite "star/a8"
+		distance 103
+		period 14
+	object
+		sprite "star/b8"
+		distance 168
+		period 15
+		offset 180
+	object
+		sprite planet/dust1
+		distance 3567
+		period 1361
+
+system "Taika"
+	pos -9480 -10145
+	government "Uninhabited"
+	arrival 1174
+	habitable 750
+	belt 1187
+	minables aluminum 21 8
+	minables lead 24 7
+	minables titanium 9 3
+	link "27 Tauri"
+	link "Beta Bootis"
+	link "Tupi"
+	link "Phoenicia"
+	object
+		sprite "star/neutron"
+		distance 466
+		period 14
+	object
+		sprite "star/o-supergiant"
+		distance 639
+		period 10
+		offset 180
+	object
+		sprite planet/nebula1
+		distance 1263
+		period 1433
+	object "Wraith"
+		sprite planet/gas10
+		distance 1827
+		period 402
+	object
+		sprite planet/ice4-b
+		distance 2865
+		period 665
+	object
+		sprite planet/lava4
+		distance 3841
+		period 1274
+	object
+		sprite planet/ganymede-b
+		distance 3902
+		period 1450
+
+system "Tupi"
+	pos -9381 -10158
+	government "Uninhabited"
+	arrival 754
+	habitable 844
+	belt 1228
+	minables neodymium 20 5
+	link "Taika"
+	link "Phoenicia"
+	link "Sham"
+	link "Epsilon Sagittarii"
+	link "Tangra"
+	link "Angetenar"
+	object
+		sprite "star/k0"
+		period 13
+	object
+		sprite planet/gas17
+		distance 1213
+		period 777
+	object
+		sprite planet/dust1
+		distance 1312
+		period 783
+	object
+		sprite planet/rock20
+		distance 2076
+		period 1404
+	object
+		sprite planet/rock0
+		distance 2270
+		period 1114
+	object
+		sprite planet/browndwarf-y
+		distance 2916
+		period 1473
+
+system "Epsilon Canis Majoris"
+	pos -9603 -10211
+	government "Uninhabited"
+	arrival 811
+	habitable 831
+	belt 971
+	minables neodymium 11 5
+	minables titanium 25 3
+	link "Mahsati"
+	link "Alpha Andromedae"
+	link "Ain"
+	object
+		sprite "star/o3"
+		period 12
+	object
+		sprite planet/water1
+		distance 999
+		period 978
+	object
+		sprite planet/forest6-b
+		distance 2179
+		period 1146
+
+system "Ain"
+	pos -9553 -10297
+	government "Uninhabited"
+	arrival 754
+	habitable 908
+	belt 1065
+	minables aluminum 13 3
+	minables silver 7 7
+	link "Funi"
+	link "Epsilon Canis Majoris"
+	link "Gar"
+	link "Asellus Australis"
+	object
+		sprite "star/k0-old"
+		period 14
+	object "Vividus"
+		sprite planet/gas5-hot
+		distance 1773
+		period 377
+	object
+		sprite planet/luna-b
+		distance 2041
+		period 587
+	object
+		sprite planet/cloud8-b
+		distance 3408
+		period 1263
+
+system "Gar"
+	pos -9454 -10305
+	government "Uninhabited"
+	arrival 566
+	habitable 963
+	belt 962
+	minables aluminum 13 8
+	minables platinum 7 12
+	link "Ain"
+	link "Shaomin"
+	link "Angetenar"
+	link "Asellus Australis"
+	object
+		sprite "star/l-dwarf"
+		distance 28
+		period 11
+	object
+		sprite planet/dust2-b
+		distance 793
+		period 1340
+	object
+		sprite planet/desert5
+		distance 818
+		period 805
+	object
+		sprite "star/k-supergiant"
+		distance 1067
+		period 13
+		offset 180
+	object
+		sprite planet/gas17-b
+		distance 3508
+		period 1167
+
+system "Shaomin"
+	pos -9368 -10355
+	government "Uninhabited"
+	arrival 944
+	habitable 608
+	belt 1690
+	minables copper 8 12
+	minables lead 20 9
+	minables uranium 9 7
+	link "Gar"
+	link "Alkalurops"
+	link "Marsic"
+	link "Beta Librae"
+	object
+		sprite "star/b5"
+		distance 148
+		period 14
+	object
+		sprite "star/a-giant"
+		distance 337
+		period 14
+		offset 120
+	object
+		sprite "star/a-giant"
+		distance 360
+		period 10
+		offset 240
+	object
+		sprite planet/rock19-b
+		distance 2243
+		period 645
+
+system "Alkalurops"
+	pos -9389 -10452
+	government "Uninhabited"
+	arrival 537
+	habitable 578
+	belt 1673
+	minables gold 15 9
+	minables iron 8 3
+	link "Shaomin"
+	link "Asellus Australis"
+	link "Beta Librae"
+	object
+		sprite "star/l-dwarf"
+		period 12
+	object
+		sprite planet/rock2-b
+		distance 615
+		period 1201
+	object "Lacerta"
+		sprite planet/rhea
+		distance 1525
+		period 910
+	object
+		sprite planet/rock8
+		distance 3505
+		period 1460
+	object
+		sprite planet/gas2
+		distance 4000
+		period 734
+
+system "Moriah"
+	pos -9650 -10423
+	government "Leonis"
+	arrival 1112
+	habitable 519
+	belt 1414
+	minables silicon 16 12
+	minables lead 22 3
+	minables yottrite 15 5
+	link "Funi"
+	link "Alpha Ursae Minoris"
+	link "Asellus Australis"
+	link "Homam"
+	object
+		sprite "star/f0"
+		distance 129
+		period 15
+		offset 240
+	object
+		sprite "star/o3"
+		distance 286
+		period 15
+	object
+		sprite planet/ocean0
+		distance 681
+		period 1058
+	object
+		sprite planet/gas3-b
+		distance 1173
+		period 1159
+	object
+		sprite "star/nova-old"
+		distance 3025
+		period 13
+		offset 120
+	object
+		sprite planet/forest0-b
+		distance 3719
+		period 973
+	object "Grimoire"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Leonis Small Fleet" 1613
+	fleet "Leonis Big Fleet" 2999
+
+
+system "Alpha Ursae Minoris"
+	pos -9681 -10518
+	government "Leonis"
+	arrival 856
+	habitable 856
+	belt 1058
+	minables neodymium 6 11
+	minables iron 14 12
+	minables neodymium 14 10
+	link "Moriah"
+	link "Beta Canis Minoris"
+	link "Theta Eridani"
+	link "Homam"
+	object
+		sprite "star/g-supergiant"
+		distance 973
+		period 12
+		offset 180
+	object
+		sprite "star/m-supergiant"
+		distance 1625
+		period 10
+	object
+		sprite planet/rock19-b
+		distance 1711
+		period 878
+	object
+		sprite planet/ocean5
+		distance 2037
+		period 719
+	object
+		sprite planet/gas5-b
+		distance 2633
+		period 753
+	object "Nydoria"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Leonis Small Fleet" 2421
+	fleet "Leonis Big Fleet" 2626
+
+
+system "Theta Eridani"
+	pos -9631 -10604
+	government "Leonis"
+	arrival 901
+	habitable 735
+	belt 924
+	minables copper 9 8
+	minables aluminum 14 4
+	link "Alpha Ursae Minoris"
+	link "Salm"
+	link "Homam"
+	link "Kalausi"
+	link "Saclateni"
+	object
+		sprite "star/o-supergiant"
+		period 11
+	object
+		sprite planet/mercury
+		distance 756
+		period 870
+	object
+		sprite planet/ice6
+		distance 1137
+		period 578
+	object
+		sprite planet/gas8
+		distance 1826
+		period 721
+	object "Tyche"
+		sprite planet/ocean1
+		distance 1981
+		period 1119
+	object
+		sprite planet/cloud2
+		distance 2757
+		period 1289
+	object
+		sprite planet/ocean3
+		distance 3877
+		period 1447
+	object "Nereus"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Leonis Small Fleet" 1757
+	fleet "Leonis Big Fleet" 2198
+
+
+system "Salm"
+	pos -9722 -10646
+	government "Uninhabited"
+	arrival 856
+	habitable 642
+	belt 1185
+	minables uranium 24 11
+	link "Leepwal"
+	link "Theta Eridani"
+	link "Beta Canis Minoris"
+	link "Gamma Cancri"
+	link "Tupa"
+	link "Kalausi"
+	object
+		sprite "star/m-giant"
+		period 11
+	object
+		sprite planet/ocean9
+		distance 3359
+		period 1344
+	object
+		sprite planet/cloud4
+		distance 3619
+		period 980
+
+system "Tupa"
+	pos -9697 -10742
+	government "Uninhabited"
+	arrival 1168
+	habitable 1191
+	belt 1616
+	minables platinum 15 7
+	minables iron 15 6
+	minables lead 16 4
+	link "Leepwal"
+	link "Salm"
+	link "Mpingo"
+	link "Gamma Lyrae"
+	object
+		sprite "star/f5-old"
+		period 13
+	object
+		sprite planet/forest2
+		distance 1094
+		period 786
+	object
+		sprite planet/gas9-hot
+		distance 2201
+		period 540
+	object
+		sprite planet/forest0-b
+		distance 3519
+		period 1038
+
+system "Kappa Orionis"
+	pos -9562 -9799
+	government "Uninhabited"
+	arrival 970
+	habitable 677
+	belt 1344
+	minables titanium 24 8
+	link "Tislit"
+	link "Tianyi"
+	link "Epsilon Virginis"
+	object
+		sprite "star/k-dwarf"
+		distance 75
+		period 13
+	object
+		sprite "star/k8"
+		distance 141
+		period 15
+		offset 180
+	object
+		sprite planet/cloud4
+		distance 691
+		period 1198
+	object "Unor"
+		sprite planet/gas16-b
+		distance 1099
+		period 932
+	object
+		sprite planet/rock6-b
+		distance 1657
+		period 1041
+
+system "Epsilon Virginis"
+	pos -9486 -9864
+	government "Uninhabited"
+	arrival 806
+	habitable 1026
+	belt 1615
+	minables aluminum 25 6
+	minables uranium 9 7
+	minables lead 13 10
+	link "Beta Bootis"
+	link "Kappa Orionis"
+	link "Hoggar"
+	link "Mothallah"
+	object
+		sprite "star/protostar-orange"
+		period 13
+	object
+		sprite planet/cloud7
+		distance 2670
+		period 892
+
+system "Hoggar"
+	pos -9408 -9803
+	government "Uninhabited"
+	arrival 531
+	habitable 1044
+	belt 1555
+	minables iron 15 7
+	link "Epsilon Virginis"
+	link "Kaffaljidhma"
+	link "Mothallah"
+	link "Libertas"
+	object
+		sprite "star/g5"
+		period 12
+	object
+		sprite planet/ice0-b
+		distance 693
+		period 1381
+	object
+		sprite planet/lava0-b
+		distance 1119
+		period 1359
+	object
+		sprite planet/rock7-b
+		distance 2785
+		period 960
+
+system "Kaffaljidhma"
+	pos -9403 -9704
+	government "Canceron"
+	arrival 863
+	habitable 673
+	belt 838
+	minables gold 10 11
+	minables silicon 10 7
+	link "Hoggar"
+	link "Malmok"
+	link "Alruba"
+	link "Maia"
+	object
+		sprite "star/a-dwarf"
+		distance 58
+		period 12
+		offset 240
+	object
+		sprite "star/f5"
+		distance 152
+		period 15
+		offset 120
+	object "Soteria"
+		sprite planet/rock5-b
+		distance 1003
+		period 458
+	object
+		sprite "star/k-supergiant"
+		distance 1054
+		period 15
+	object
+		sprite planet/dust2-b
+		distance 3006
+		period 1330
+	object "Volaris"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Canceron Small Fleet" 2393
+	fleet "Canceron Big Fleet" 3475
+
+
+system "Malmok"
+	pos -9329 -9638
+	government "Canceron"
+	arrival 944
+	habitable 681
+	belt 1639
+	minables silver 15 9
+	minables uranium 12 4
+	minables neodymium 24 8
+	link "Kaffaljidhma"
+	link "Alruba"
+	link "Pipit"
+	link "Alpha Phoenicis"
+	link "Monch"
+	link "Maia"
+	object
+		sprite "star/f-dwarf"
+		period 12
+	object
+		sprite planet/rock15-b
+		distance 1908
+		period 1052
+	object "Saturnalia"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Canceron Small Fleet" 2337
+	fleet "Canceron Big Fleet" 2829
+
+
+system "Musica"
+	pos -9704 -9545
+	government "Uninhabited"
+	arrival 558
+	habitable 680
+	belt 1711
+	minables iron 20 7
+	link "Chaophraya"
+	link "Natasha"
+	link "Xihe"
+	link "Delta Leonis"
+	object
+		sprite "star/neutron-small"
+		distance 289
+		period 10
+		offset 180
+	object
+		sprite "star/b-giant"
+		distance 331
+		period 13
+	object
+		sprite planet/ocean8-b
+		distance 1726
+		period 1012
+	object
+		sprite planet/cloud2-b
+		distance 1951
+		period 782
+	object
+		sprite planet/rock10
+		distance 2821
+		period 1029
+
+system "Xihe"
+	pos -9682 -9448
+	government "Uninhabited"
+	arrival 942
+	habitable 1061
+	belt 987
+	minables lead 15 8
+	link "Musica"
+	link "Gamma Pegasi"
+	link "Delta Leonis"
+	link "Brachium"
+	object
+		sprite "star/m3"
+		distance 124
+		period 11
+		offset 240
+	object
+		sprite "star/k5-old"
+		distance 311
+		period 12
+	object "Quorin"
+		sprite planet/forest4
+		distance 894
+		period 1084
+	object
+		sprite "star/k-supergiant"
+		distance 1074
+		period 15
+		offset 120
+	object
+		sprite planet/ocean0-b
+		distance 2079
+		period 1153
+
+system "Gamma Pegasi"
+	pos -9726 -9359
+	government "Uninhabited"
+	arrival 606
+	habitable 992
+	belt 1013
+	minables iron 19 11
+	minables neodymium 14 6
+	minables titanium 23 9
+	link "Xihe"
+	link "Alula Borealis"
+	link "Kurhah"
+	link "Zaniah"
+	object
+		sprite "star/a-dwarf"
+		distance 60
+		period 10
+	object
+		sprite "star/k3"
+		distance 127
+		period 15
+		offset 180
+	object
+		sprite planet/desert10-b
+		distance 612
+		period 1416
+	object
+		sprite planet/ice1-b
+		distance 1404
+		period 808
+	object
+		sprite planet/gas2-hot
+		distance 2181
+		period 946
+	object
+		sprite planet/rock17-b
+		distance 2354
+		period 554
+
+system "Alula Borealis"
+	pos -9749 -9262
+	government "Uninhabited"
+	arrival 556
+	habitable 922
+	belt 1023
+	minables silver 8 12
+	minables gold 8 11
+	minables silicon 23 7
+	link "Gamma Pegasi"
+	link "Kurhah"
+	link "Zaniah"
+	link "Alula Australis"
+	link "Alpha Lyrae"
+	object
+		sprite "star/k5"
+		distance 165
+		period 14
+		offset 180
+	object
+		sprite "star/m3"
+		distance 166
+		period 12
+	object
+		sprite planet/tethys-b
+		distance 2641
+		period 1335
+
+system "Kurhah"
+	pos -9840 -9305
+	government "Uninhabited"
+	arrival 950
+	habitable 548
+	belt 1469
+	minables aluminum 7 8
+	minables iron 14 5
+	minables silicon 12 10
+	link "Alula Borealis"
+	link "Gamma Pegasi"
+	link "Alpha Lyrae"
+	object
+		sprite "star/f5"
+		distance 132
+		period 10
+	object
+		sprite "star/g-giant"
+		distance 431
+		period 12
+		offset 240
+	object
+		sprite "planet/browndwarf-t-rogue"
+		distance 493
+		period 11
+		offset 120
+	object "Bellarix"
+		sprite planet/vesvi
+		distance 829
+		period 749
+	object
+		sprite planet/desert9
+		distance 1538
+		period 1164
+	object
+		sprite planet/gas2
+		distance 1819
+		period 1425
+	object
+		sprite planet/gas16-b
+		distance 2737
+		period 994
+	object
+		sprite planet/ocean8-b
+		distance 3320
+		period 1336
+
+system "Delta Leonis"
+	pos -9585 -9538
+	government "Uninhabited"
+	arrival 637
+	habitable 914
+	belt 1317
+	minables gold 13 11
+	minables platinum 20 10
+	link "Acrab"
+	link "Xihe"
+	link "Chaophraya"
+	link "Musica"
+	link "Alpha Trianguli"
+	object
+		sprite "star/m-dwarf"
+		period 11
+	object
+		sprite planet/gas13
+		distance 2348
+		period 1191
+	object
+		sprite planet/ocean7-b
+		distance 2474
+		period 1049
+
+system "Alpha Trianguli"
+	pos -9510 -9473
+	government "Uninhabited"
+	arrival 1091
+	habitable 906
+	belt 941
+	minables silver 23 11
+	minables silver 17 12
+	minables iron 8 4
+	link "Delta Leonis"
+	link "Brachium"
+	link "Chason"
+	link "Pipit"
+	link "Minchir"
+	object
+		sprite "star/a-dwarf"
+		distance 49
+		period 15
+		offset 180
+	object
+		sprite "star/g5"
+		distance 160
+		period 15
+	object
+		sprite planet/desert3
+		distance 649
+		period 816
+	object
+		sprite planet/forest0
+		distance 665
+		period 743
+	object
+		sprite planet/miranda-b
+		distance 3405
+		period 1266
+	object
+		sprite planet/vesvi
+		distance 3647
+		period 998
+
+system "Brachium"
+	pos -9548 -9381
+	government "Uninhabited"
+	arrival 574
+	habitable 802
+	belt 917
+	minables gold 19 3
+	minables silicon 12 5
+	minables yottrite 9 7
+	link "Alpha Trianguli"
+	link "Xihe"
+	link "Chason"
+	link "Delta Geminorum"
+	link "Zaniah"
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 451
+		period 15
+		offset 120
+	object
+		sprite "planet/browndwarf-l"
+		distance 462
+		period 13
+		offset 240
+	object "Exotara"
+		sprite planet/desert10-b
+		distance 707
+		period 1085
+	object
+		sprite planet/dust0
+		distance 857
+		period 1185
+	object
+		sprite planet/lava5
+		distance 914
+		period 1398
+	object
+		sprite "star/wr"
+		distance 1106
+		period 14
+	object
+		sprite planet/rock10
+		distance 1337
+		period 1342
+	object
+		sprite planet/desert2
+		distance 2934
+		period 603
+	object
+		sprite planet/lava6
+		distance 3984
+		period 949
+
+system "Chason"
+	pos -9458 -9339
+	government "Uninhabited"
+	arrival 599
+	habitable 798
+	belt 1053
+	minables copper 22 4
+	minables titanium 13 8
+	link "Alpha Trianguli"
+	link "Brachium"
+	link "Delta Geminorum"
+	link "Minchir"
+	link "Alpha Trianguli Australis"
+	object
+		sprite "star/f8"
+		distance 137
+		period 14
+	object
+		sprite planet/desert6
+		distance 839
+		period 815
+	object
+		sprite planet/rock17-b
+		distance 895
+		period 908
+	object
+		sprite "star/g-supergiant"
+		distance 1032
+		period 14
+		offset 180
+	object
+		sprite planet/wisp
+		distance 3561
+		period 1459
+
+system "Delta Geminorum"
+	pos -9493 -9246
+	government "Uninhabited"
+	arrival 1117
+	habitable 666
+	belt 1619
+	minables silicon 8 4
+	minables uranium 11 8
+	minables gold 19 9
+	link "Brachium"
+	link "Chason"
+	link "Alpha Trianguli Australis"
+	object
+		sprite "star/f0"
+		distance 148
+		period 14
+		offset 240
+	object
+		sprite "star/g-giant"
+		distance 390
+		period 10
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 445
+		period 13
+		offset 120
+	object
+		sprite planet/ice6
+		distance 3813
+		period 1415
+
+system "Azmidi"
+	pos -9976 -9506
+	government "Uninhabited"
+	arrival 1071
+	habitable 720
+	belt 1252
+	minables neodymium 12 10
+	minables uranium 12 5
+	link "Alsephina"
+	link "Theta Centauri"
+	link "Gamma Leonis"
+	object
+		sprite "star/g5"
+		distance 100
+		period 15
+		offset 120
+	object
+		sprite "star/k3"
+		distance 145
+		period 14
+	object
+		sprite "star/k-giant"
+		distance 518
+		period 13
+		offset 240
+	object "Fluxar"
+		sprite planet/dust1-b
+		distance 1635
+		period 1098
+	object
+		sprite planet/mercury
+		distance 2074
+		period 1132
+
+system "Tania Borealis"
+	pos -10064 -9460
+	government "Uninhabited"
+	arrival 739
+	habitable 1158
+	belt 1194
+	minables silicon 6 8
+	link "Kosjenka"
+	link "Alpha Aurigae"
+	link "Gamma Leonis"
+	link "Alsephina"
+	link "Beta Cephei"
+	object
+		sprite "star/o3"
+		period 14
+	object
+		sprite planet/lava5-b
+		distance 1327
+		period 1326
+	object
+		sprite planet/rhea
+		distance 2542
+		period 1290
+
+system "Gamma Aquarii"
+	pos -10062 -10335
+	government "Uninhabited"
+	arrival 1033
+	habitable 534
+	belt 947
+	minables copper 8 12
+	link "Beemim"
+	link "Arkab Prior"
+	link "Guniibuu"
+	object
+		sprite "star/g-dwarf"
+		distance 94
+		period 12
+	object
+		sprite "star/f3"
+		distance 135
+		period 10
+		offset 180
+	object
+		sprite planet/lava2-b
+		distance 1029
+		period 1048
+	object
+		sprite planet/gas15
+		distance 1421
+		period 830
+	object
+		sprite planet/desert0
+		distance 1455
+		period 740
+	object
+		sprite planet/cloud6
+		distance 2305
+		period 532
+	object
+		sprite planet/gas3-hot
+		distance 2735
+		period 1475
+
+system "Alasia"
+	pos -10079 -10604
+	government "Uninhabited"
+	arrival 875
+	habitable 1089
+	belt 1524
+	minables silver 24 3
+	link "Meridiana"
+	link "Tengshe"
+	link "Alkarab"
+	link "21 Tauri"
+	object
+		sprite "star/l-dwarf"
+		distance 83
+		period 15
+		offset 120
+	object
+		sprite "star/m4"
+		distance 167
+		period 11
+	object
+		sprite "planet/browndwarf-y"
+		distance 504
+		period 13
+		offset 240
+	object
+		sprite planet/lava5-b
+		distance 1392
+		period 1403
+	object "Gyro"
+		sprite planet/redias
+		distance 1421
+		period 1159
+	object
+		sprite planet/gas15
+		distance 3032
+		period 597
+
+system "Alkarab"
+	pos -10046 -10698
+	government "Uninhabited"
+	arrival 1061
+	habitable 1166
+	belt 1509
+	minables copper 19 4
+	minables copper 6 12
+	minables copper 9 12
+	link "Syrma"
+	link "Alasia"
+	link "21 Tauri"
+	link "Alrescha"
+	link "Zeta Pegasi"
+	object
+		sprite "star/o0"
+		distance 311
+		period 10
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 468
+		period 11
+		offset 180
+	object
+		sprite planet/ice7-b
+		distance 1762
+		period 1222
+	object
+		sprite planet/ocean6
+		distance 2873
+		period 1054
+
+system "Gamma Capricorni"
+	pos -10271 -9846
+	government "Aquaria"
+	arrival 986
+	habitable 970
+	belt 1480
+	minables silver 7 9
+	minables titanium 15 11
+	link "Bake-eo"
+	link "Ayeyarwady"
+	link "Beta Crucis"
+	object
+		sprite "star/o-dwarf"
+		distance 100
+		period 12
+	object
+		sprite "star/f8"
+		distance 151
+		period 15
+		offset 120
+	object
+		sprite "star/m5"
+		distance 164
+		period 10
+		offset 240
+	object
+		sprite planet/gas7
+		distance 660
+		period 1121
+	object
+		sprite planet/mercury-b
+		distance 1315
+		period 1312
+	object
+		sprite planet/gas9-hot
+		distance 2373
+		period 1029
+	object
+		sprite planet/browndwarf-y
+		distance 2910
+		period 512
+	object
+		sprite planet/gas14-b
+		distance 3580
+		period 1302
+	object "Oort"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aquaria Small Fleet" 1976
+	fleet "Aquaria Big Fleet" 2231
+
+
+system "Nyamien"
+	pos -10487 -9894
+	government "Uninhabited"
+	arrival 1135
+	habitable 514
+	belt 1552
+	minables copper 8 7
+	link "Alpha Hydrae"
+	link "Alpha Canis Majoris"
+	link "Itonda"
+	link "Segin"
+	object
+		sprite "star/m8"
+		distance 105
+		period 15
+	object
+		sprite "star/f0"
+		distance 120
+		period 15
+		offset 120
+	object
+		sprite planet/ocean7-b
+		distance 695
+		period 1393
+	object
+		sprite "star/f-supergiant"
+		distance 801
+		period 10
+		offset 240
+	object
+		sprite planet/gas9-hot
+		distance 878
+		period 1025
+	object "Eterna"
+		sprite planet/wisp
+		distance 1485
+		period 722
+	object
+		sprite planet/forest1-b
+		distance 1570
+		period 1413
+	object
+		sprite planet/desert0-b
+		distance 3573
+		period 1088
+
+system "Segin"
+	pos -10586 -9893
+	government "Uninhabited"
+	arrival 991
+	habitable 604
+	belt 1323
+	minables aluminum 7 5
+	minables titanium 20 4
+	link "Nyamien"
+	link "Beta Aquarii"
+	link "Timir"
+	link "Lambda Ophiuchi"
+	object
+		sprite "star/k5-old"
+		period 15
+	object
+		sprite planet/rock15-b
+		distance 801
+		period 815
+	object
+		sprite planet/ice0
+		distance 3891
+		period 1014
+
+system "Beta Aquarii"
+	pos -10663 -9956
+	government "Uninhabited"
+	arrival 980
+	habitable 992
+	belt 1787
+	minables gold 14 6
+	minables lead 14 3
+	minables platinum 10 6
+	link "Segin"
+	link "Rotanev"
+	link "Dingolay"
+	link "Lambda Ophiuchi"
+	object
+		sprite "star/f0"
+		distance 136
+		period 11
+		offset 120
+	object
+		sprite "planet/browndwarf-t"
+		distance 504
+		period 11
+		offset 240
+	object
+		sprite "planet/browndwarf-t"
+		distance 518
+		period 10
+	object
+		sprite planet/desert6-b
+		distance 1050
+		period 522
+	object
+		sprite planet/ocean9
+		distance 1052
+		period 549
+	object
+		sprite planet/dust5-b
+		distance 1956
+		period 1067
+	object
+		sprite planet/dust7-b
+		distance 1959
+		period 509
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 3148
+		period 1215
+
+system "Rotanev"
+	pos -10762 -9950
+	government "Uninhabited"
+	arrival 959
+	habitable 556
+	belt 936
+	minables uranium 21 7
+	minables aluminum 20 10
+	minables uranium 17 10
+	link "Beta Aquarii"
+	link "Edasich"
+	link "Tevel"
+	link "Alkes"
+	object
+		sprite "star/g0"
+		distance 130
+		period 14
+	object
+		sprite "star/a-giant"
+		distance 291
+		period 14
+		offset 180
+	object
+		sprite planet/cloud2-b
+		distance 1107
+		period 1227
+	object "Quorra"
+		sprite planet/dust3-b
+		distance 1496
+		period 607
+
+system "Dingolay"
+	pos -10617 -10052
+	government "Uninhabited"
+	arrival 832
+	habitable 978
+	belt 1390
+	minables lead 17 4
+	minables iron 7 8
+	link "Lambda Scorpii"
+	link "Beta Aquarii"
+	link "Beta Aurigae"
+	object
+		sprite "star/g8"
+		period 12
+	object
+		sprite planet/ice8-b
+		distance 1698
+		period 1418
+	object
+		sprite planet/ocean4
+		distance 2756
+		period 533
+
+system "Beta Aurigae"
+	pos -10698 -10109
+	government "Uninhabited"
+	arrival 696
+	habitable 577
+	belt 864
+	minables copper 9 5
+	minables silver 19 4
+	link "Dingolay"
+	link "Beta Persei"
+	link "Beta Capricorni"
+	link "Eta Bootis"
+	object
+		sprite "star/giant"
+		distance 261
+		period 11
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 469
+		period 13
+		offset 180
+	object
+		sprite planet/gas9-hot
+		distance 650
+		period 1005
+	object
+		sprite planet/rock14-b
+		distance 917
+		period 660
+	object
+		sprite planet/desert5
+		distance 2061
+		period 570
+	object
+		sprite planet/ice5-b
+		distance 3414
+		period 1485
+	object
+		sprite planet/forest6-b
+		distance 3880
+		period 705
+
+system "Beta Persei"
+	pos -10797 -10119
+	government "Uninhabited"
+	arrival 1160
+	habitable 917
+	belt 1617
+	minables titanium 22 11
+	minables aluminum 7 6
+	link "Beta Aurigae"
+	link "Alpha Scorpii"
+	link "Eta Bootis"
+	link "Alkes"
+	object
+		sprite "star/m5"
+		distance 143
+		period 14
+	object
+		sprite "star/g-giant"
+		distance 432
+		period 13
+		offset 120
+	object
+		sprite "planet/browndwarf-l"
+		distance 517
+		period 15
+		offset 240
+	object
+		sprite planet/miranda
+		distance 1122
+		period 743
+	object "Iridia"
+		sprite planet/ocean8
+		distance 1551
+		period 327
+	object
+		sprite planet/fog0-b
+		distance 3028
+		period 839
+
+system "Alpha Scorpii"
+	pos -10896 -10112
+	government "Uninhabited"
+	arrival 693
+	habitable 1100
+	belt 912
+	minables aluminum 16 10
+	minables gold 19 12
+	minables titanium 25 5
+	link "Beta Persei"
+	link "Chertan"
+	link "Añañuca"
+	object
+		sprite "planet/browndwarf-y"
+		period 13
+	object
+		sprite planet/cloud4
+		distance 629
+		period 871
+	object
+		sprite planet/gas2-hot
+		distance 2066
+		period 1036
+	object
+		sprite planet/forest5
+		distance 3289
+		period 756
+
+system "Chertan"
+	pos -10944 -10024
+	government "Uninhabited"
+	arrival 1121
+	habitable 854
+	belt 1605
+	minables titanium 8 5
+	link "Alpha Scorpii"
+	link "Muliphein"
+	link "Añañuca"
+	link "Alrakis"
+	object
+		sprite "star/k5-old"
+		period 15
+	object
+		sprite planet/rock4
+		distance 1570
+		period 806
+	object
+		sprite planet/ice1-b
+		distance 3826
+		period 867
+
+system "Sadalbari"
+	pos -10372 -10289
+	government "Uninhabited"
+	arrival 990
+	habitable 1080
+	belt 1418
+	minables copper 15 3
+	link "Subra"
+	link "Botein"
+	link "Fafnir"
+	link "Titawin"
+	object
+		sprite "planet/browndwarf-l-rogue"
+		period 12
+	object
+		sprite planet/cloud1-b
+		distance 1818
+		period 901
+	object
+		sprite planet/dust5
+		distance 1820
+		period 870
+	object "Solarion"
+		sprite planet/lava7
+		distance 1949
+		period 837
+
+system "Amadioha"
+	pos -10567 -10142
+	government "Uninhabited"
+	arrival 874
+	habitable 631
+	belt 1426
+	minables silicon 17 12
+	minables iron 11 11
+	minables platinum 22 5
+	link "Lambda Scorpii"
+	link "Aljanah"
+	link "Titawin"
+	link "Beta Capricorni"
+	object
+		sprite "star/b0"
+		distance 203
+		period 13
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 455
+		period 14
+		offset 180
+	object
+		sprite planet/cloud0-b
+		distance 2120
+		period 1492
+	object
+		sprite planet/cloud2
+		distance 2996
+		period 637
+	object
+		sprite planet/mars
+		distance 3777
+		period 1320
+
+system "Beta Capricorni"
+	pos -10642 -10207
+	government "Uninhabited"
+	arrival 640
+	habitable 873
+	belt 1388
+	minables neodymium 21 9
+	link "Beta Aurigae"
+	link "Amadioha"
+	link "Eta Bootis"
+	object
+		sprite "star/f5"
+		distance 162
+		period 14
+		offset 120
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 427
+		period 14
+		offset 240
+	object
+		sprite planet/desert5-b
+		distance 871
+		period 753
+	object
+		sprite "star/m-supergiant"
+		distance 1567
+		period 13
+	object
+		sprite planet/dust3
+		distance 1591
+		period 950
+	object
+		sprite planet/lava3
+		distance 1994
+		period 1253
+	object
+		sprite planet/gas10-hot
+		distance 2094
+		period 1036
+	object
+		sprite planet/lava6-b
+		distance 2154
+		period 555
+
+system "Eta Bootis"
+	pos -10741 -10208
+	government "Uninhabited"
+	arrival 1037
+	habitable 1198
+	belt 801
+	minables copper 11 10
+	minables silver 21 11
+	link "Beta Persei"
+	link "Beta Capricorni"
+	link "Beta Aurigae"
+	link "Ashlesha"
+	object
+		sprite "star/k0"
+		distance 102
+		period 11
+	object
+		sprite "star/o0"
+		distance 302
+		period 10
+		offset 120
+	object
+		sprite "star/protostar-yellow"
+		distance 496
+		period 14
+		offset 240
+	object "Zephyria"
+		sprite planet/fog0
+		distance 798
+		period 829
+	object
+		sprite planet/forest4
+		distance 1271
+		period 537
+	object
+		sprite planet/forest3-b
+		distance 2849
+		period 541
+	object
+		sprite planet/ocean2
+		distance 3269
+		period 931
+
+system "Ashlesha"
+	pos -10770 -10303
+	government "Uninhabited"
+	arrival 540
+	habitable 521
+	belt 1625
+	minables lead 8 11
+	minables silicon 20 12
+	minables copper 24 4
+	link "Eta Bootis"
+	link "Gamma Ursae Minoris"
+	link "Yed Posterior"
+	link "23 Tauri"
+	object
+		sprite "star/m3"
+		distance 73
+		period 12
+		offset 240
+	object
+		sprite "star/protostar-yellow"
+		distance 453
+		period 14
+	object
+		sprite planet/dust0
+		distance 1303
+		period 1139
+	object
+		sprite "star/m-supergiant"
+		distance 1618
+		period 13
+		offset 120
+	object
+		sprite planet/ocean5-b
+		distance 3140
+		period 1272
+	object
+		sprite planet/cloud5
+		distance 3244
+		period 605
+
+system "Deneb Algedi"
+	pos -10587 -10387
+	government "Aerilon"
+	arrival 1020
+	habitable 1176
+	belt 1482
+	minables copper 6 5
+	minables titanium 21 4
+	minables titanium 22 12
+	link "Subra"
+	link "Nikawiy"
+	link "Torcular"
+	link "Yed Posterior"
+	object
+		sprite "star/l-dwarf"
+		distance 78
+		period 10
+		offset 240
+	object
+		sprite "star/b-dwarf"
+		distance 122
+		period 14
+		offset 120
+	object
+		sprite "star/protostar-orange"
+		distance 610
+		period 12
+	object
+		sprite planet/forest3-b
+		distance 1918
+		period 583
+	object "Jovar"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aerilon Small Fleet" 1353
+	fleet "Aerilon Big Fleet" 3146
+
+
+system "Nikawiy"
+	pos -10588 -10486
+	government "Aerilon"
+	arrival 672
+	habitable 741
+	belt 1302
+	minables titanium 20 8
+	link "Deneb Algedi"
+	link "Torcular"
+	link "Alpha Sagittarii"
+	link "Alpha Cygni"
+	object
+		sprite "star/k0"
+		distance 85
+		period 10
+		offset 180
+	object
+		sprite "star/o5"
+		distance 264
+		period 12
+	object "Oaken"
+		sprite planet/forest0-b
+		distance 1362
+		period 882
+	object
+		sprite planet/ice7-b
+		distance 1816
+		period 1331
+	object
+		sprite planet/gas3-hot
+		distance 1989
+		period 598
+	object
+		sprite planet/ocean1-b
+		distance 2605
+		period 887
+	object "Wispwood"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aerilon Small Fleet" 1689
+	fleet "Aerilon Big Fleet" 2907
+
+
+system "Torcular"
+	pos -10684 -10460
+	government "Aerilon"
+	arrival 1020
+	habitable 1090
+	belt 1628
+	minables silver 20 8
+	minables tungsten 21 3
+	link "Deneb Algedi"
+	link "Nikawiy"
+	link "Gamma Ursae Minoris"
+	link "Alpha Ursae Majoris"
+	link "Alpha Sagittarii"
+	object
+		sprite "star/o5"
+		distance 220
+		period 13
+	object
+		sprite "star/o5"
+		distance 236
+		period 13
+		offset 120
+	object
+		sprite "star/g-giant"
+		distance 391
+		period 15
+		offset 240
+	object
+		sprite planet/ice2-b
+		distance 1325
+		period 706
+	object
+		sprite planet/lava5-b
+		distance 1972
+		period 688
+	object
+		sprite planet/ocean6-b
+		distance 2116
+		period 567
+	object
+		sprite planet/desert0-b
+		distance 2642
+		period 941
+	object "Lantia"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aerilon Small Fleet" 1241
+	fleet "Aerilon Big Fleet" 3177
+
+
+system "Gamma Ursae Minoris"
+	pos -10774 -10417
+	government "Aerilon"
+	arrival 677
+	habitable 984
+	belt 907
+	minables platinum 24 10
+	minables neodymium 10 6
+	link "Ashlesha"
+	link "Torcular"
+	link "Alpha Ursae Majoris"
+	link "23 Tauri"
+	object
+		sprite "star/g8"
+		distance 142
+		period 11
+	object
+		sprite "star/g0-old"
+		distance 279
+		period 13
+		offset 120
+	object
+		sprite "planet/browndwarf-t"
+		distance 459
+		period 10
+		offset 240
+	object
+		sprite planet/mercury-b
+		distance 3207
+		period 1061
+	object "Ionix"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aerilon Small Fleet" 1367
+	fleet "Aerilon Big Fleet" 3201
+
+
+system "Alpha Ursae Majoris"
+	pos -10803 -10512
+	government "Aerilon"
+	arrival 901
+	habitable 968
+	belt 1140
+	minables tungsten 8 4
+	minables gold 22 9
+	link "Gamma Ursae Minoris"
+	link "Torcular"
+	link "23 Tauri"
+	link "Gamma Crucis"
+	object
+		sprite "star/b5"
+		period 14
+	object "Siren"
+		sprite planet/aera
+		distance 734
+		period 509
+	object
+		sprite planet/rock0
+		distance 3039
+		period 568
+	object
+		sprite planet/gas0
+		distance 3823
+		period 626
+	object "Mirandus"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aerilon Small Fleet" 1833
+	fleet "Aerilon Big Fleet" 2402
+
+
+system "Beta-2 Sagittarii"
+	pos -10423 -10461
+	government "Uninhabited"
+	arrival 509
+	habitable 917
+	belt 1526
+	minables uranium 12 4
+	minables yottrite 7 7
+	link "Nushagak"
+	link "Macondo"
+	object
+		sprite "star/k5-old"
+		distance 318
+		period 10
+		offset 120
+	object
+		sprite "star/f-supergiant"
+		distance 771
+		period 11
+		offset 240
+	object
+		sprite planet/forest3-b
+		distance 977
+		period 1060
+	object
+		sprite planet/lava6-b
+		distance 2555
+		period 1250
+	object
+		sprite "star/nova-old"
+		distance 3011
+		period 13
+
+system "Macondo"
+	pos -10435 -10560
+	government "Uninhabited"
+	arrival 674
+	habitable 948
+	belt 1096
+	minables titanium 23 9
+	link "Beta-2 Sagittarii"
+	link "Nushagak"
+	link "Theta Scorpii"
+	link "Alpha Cygni"
+	object
+		sprite "star/f-dwarf"
+		distance 40
+		period 14
+	object
+		sprite "star/a8"
+		distance 127
+		period 10
+		offset 180
+	object
+		sprite planet/desert1-b
+		distance 1181
+		period 808
+	object
+		sprite planet/dust5
+		distance 1438
+		period 1221
+	object
+		sprite planet/gas9-hot
+		distance 2469
+		period 1065
+	object
+		sprite planet/rock1-b
+		distance 3652
+		period 1233
+
+system "Theta Scorpii"
+	pos -10380 -10643
+	government "Uninhabited"
+	arrival 799
+	habitable 526
+	belt 1762
+	minables lead 6 4
+	link "Macondo"
+	link "Veritate"
+	link "Beta Canum Venaticorum"
+	link "Alpha Equulei"
+	object
+		sprite "star/f5-old"
+		distance 253
+		period 10
+		offset 180
+	object
+		sprite planet/rock14-b
+		distance 744
+		period 1398
+	object
+		sprite "star/m-giant"
+		distance 768
+		period 10
+	object
+		sprite planet/callisto-b
+		distance 900
+		period 621
+	object "Lyonesse"
+		sprite planet/forest1-b
+		distance 970
+		period 935
+	object
+		sprite planet/lava6-b
+		distance 1928
+		period 1255
+	object
+		sprite planet/wisp
+		distance 2412
+		period 520
+	object
+		sprite planet/desert10-b
+		distance 2506
+		period 582
+
+system "Beta Canum Venaticorum"
+	pos -10315 -10719
+	government "Uninhabited"
+	arrival 884
+	habitable 1151
+	belt 1405
+	minables tungsten 14 11
+	link "Theta Scorpii"
+	link "Alpha Equulei"
+	link "Gnomon"
+	object
+		sprite "star/l-dwarf"
+		period 12
+	object
+		sprite planet/rock5
+		distance 2221
+		period 1153
+	object
+		sprite planet/earth-b
+		distance 2758
+		period 853
+	object
+		sprite planet/ocean8
+		distance 2868
+		period 1218
+	object
+		sprite planet/forest1-b
+		distance 3096
+		period 1042
+	object
+		sprite planet/ocean8-b
+		distance 3929
+		period 1347
+
+system "Alpha Equulei"
+	pos -10391 -10783
+	government "Uninhabited"
+	arrival 799
+	habitable 708
+	belt 1496
+	minables uranium 14 8
+	link "Beta Canum Venaticorum"
+	link "Theta Scorpii"
+	link "Delta Ursae Majoris"
+	link "Gnomon"
+	link "Furud"
+	object
+		sprite "star/a5"
+		period 14
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 3378
+		period 891
+
+system "21 Tauri"
+	pos -10159 -10689
+	government "Uninhabited"
+	arrival 638
+	habitable 506
+	belt 1264
+	minables neodymium 8 6
+	minables silver 14 12
+	link "Tengshe"
+	link "Alasia"
+	link "Alkarab"
+	link "Zeta Pegasi"
+	object
+		sprite "star/o5"
+		distance 193
+		period 10
+	object
+		sprite "star/g0-old"
+		distance 237
+		period 14
+		offset 180
+	object
+		sprite planet/rock6
+		distance 849
+		period 1383
+	object "Leviathan"
+		sprite planet/wisp
+		distance 1289
+		period 650
+	object
+		sprite planet/cloud8
+		distance 1562
+		period 771
+	object
+		sprite planet/venus-b
+		distance 3906
+		period 584
+
+system "Alrescha"
+	pos -9941 -10752
+	government "Uninhabited"
+	arrival 997
+	habitable 982
+	belt 923
+	minables titanium 24 3
+	minables neodymium 24 3
+	link "Syrma"
+	link "Leepwal"
+	link "Alkarab"
+	link "Nahn"
+	link "Meleph"
+	object
+		sprite "star/o-dwarf"
+		distance 105
+		period 14
+	object
+		sprite "star/neutron"
+		distance 429
+		period 11
+		offset 120
+	object
+		sprite "star/a-supergiant"
+		distance 771
+		period 13
+		offset 240
+	object
+		sprite planet/miranda-b
+		distance 855
+		period 674
+	object
+		sprite planet/earth
+		distance 1809
+		period 638
+	object
+		sprite planet/ocean6-b
+		distance 3010
+		period 923
+
+system "Nahn"
+	pos -9862 -10812
+	government "Uninhabited"
+	arrival 714
+	habitable 1082
+	belt 1486
+	minables neodymium 21 11
+	minables silver 20 4
+	minables yottrite 12 10
+	link "Leepwal"
+	link "Alrescha"
+	link "Meleph"
+	link "Zeta Ceti"
+	object
+		sprite "star/m5"
+		distance 127
+		period 11
+	object
+		sprite "star/k-giant"
+		distance 562
+		period 11
+		offset 120
+	object
+		sprite planet/gas13
+		distance 726
+		period 757
+	object
+		sprite planet/cloud6-b
+		distance 1143
+		period 903
+	object
+		sprite planet/rock15-b
+		distance 2368
+		period 1497
+	object
+		sprite planet/desert5
+		distance 2412
+		period 705
+	object
+		sprite "star/nova"
+		distance 3064
+		period 13
+		offset 240
+	object
+		sprite planet/ocean5-b
+		distance 3197
+		period 693
+
+system "Meleph"
+	pos -9937 -10878
+	government "Uninhabited"
+	arrival 1160
+	habitable 845
+	belt 1739
+	minables neodymium 13 8
+	minables lead 11 12
+	link "Nahn"
+	link "Alrescha"
+	link "Jishui"
+	link "Zeta Ceti"
+	link "Liesma"
+	object
+		sprite "star/a0"
+		distance 122
+		period 13
+		offset 120
+	object
+		sprite "star/k0-old"
+		distance 346
+		period 11
+		offset 240
+	object
+		sprite "star/o-giant"
+		distance 586
+		period 14
+	object "Quenda"
+		sprite planet/treser
+		distance 659
+		period 698
+	object
+		sprite planet/venus-b
+		distance 3330
+		period 845
+
+system "Jishui"
+	pos -9983 -10967
+	government "Uninhabited"
+	arrival 1198
+	habitable 800
+	belt 1437
+	minables uranium 25 7
+	minables gold 21 9
+	link "Meleph"
+	link "17 Tauri"
+	link "Liesma"
+	link "Gamma Virginis"
+	object
+		sprite "star/k-dwarf"
+		distance 117
+		period 12
+		offset 120
+	object
+		sprite "star/f0"
+		distance 188
+		period 12
+	object
+		sprite "star/f-giant"
+		distance 332
+		period 11
+		offset 240
+	object
+		sprite planet/gas13
+		distance 737
+		period 1086
+	object
+		sprite planet/desert3-b
+		distance 1335
+		period 1127
+	object
+		sprite planet/ice6
+		distance 2147
+		period 909
+	object
+		sprite planet/europa
+		distance 2546
+		period 1219
+	object
+		sprite planet/gas14
+		distance 3976
+		period 644
+
+system "Mpingo"
+	pos -9761 -10823
+	government "Uninhabited"
+	arrival 720
+	habitable 1112
+	belt 1360
+	minables silicon 22 10
+	minables uranium 6 5
+	minables aluminum 9 5
+	link "Tupa"
+	link "Leepwal"
+	link "Gamma Lyrae"
+	link "Taygeta"
+	object
+		sprite "star/m3"
+		distance 113
+		period 12
+		offset 240
+	object
+		sprite "planet/rogue-radiating"
+		distance 207
+		period 14
+		offset 120
+	object
+		sprite planet/vulpa
+		distance 977
+		period 956
+	object
+		sprite "star/k-supergiant"
+		distance 1081
+		period 15
+	object
+		sprite planet/ice2-b
+		distance 2136
+		period 631
+
+system "Gamma Lyrae"
+	pos -9662 -10835
+	government "Uninhabited"
+	arrival 1004
+	habitable 728
+	belt 998
+	minables lead 11 5
+	minables uranium 6 8
+	minables silver 14 9
+	minables yottrite 10 11
+	link "Tupa"
+	link "Mpingo"
+	link "Taygeta"
+	object
+		sprite "star/a-giant"
+		distance 279
+		period 11
+		offset 120
+	object
+		sprite "star/giant"
+		distance 311
+		period 10
+	object "Torus"
+		sprite planet/cloud1-b
+		distance 713
+		period 1407
+	object
+		sprite planet/cloud8-b
+		distance 1319
+		period 1294
+	object
+		sprite planet/rock15
+		distance 1505
+		period 725
+	object
+		sprite planet/gas12
+		distance 2616
+		period 884
+	object
+		sprite planet/gas4-b
+		distance 2926
+		period 1378
+	object
+		sprite "star/nova-old"
+		distance 3038
+		period 12
+		offset 240
+	object
+		sprite planet/gas16-b
+		distance 3967
+		period 819
+
+system "Taygeta"
+	pos -9692 -10930
+	government "Uninhabited"
+	arrival 834
+	habitable 674
+	belt 1401
+	minables copper 10 5
+	link "Gamma Lyrae"
+	link "Mpingo"
+	link "Alpha Ophiuchi"
+	object
+		sprite "star/b8"
+		period 10
+	object
+		sprite planet/callisto
+		distance 1548
+		period 673
+	object
+		sprite planet/mercury
+		distance 2928
+		period 602
+
+system "Alpha Ophiuchi"
+	pos -9631 -11008
+	government "Uninhabited"
+	arrival 680
+	habitable 667
+	belt 1033
+	minables copper 8 7
+	minables neodymium 25 12
+	minables titanium 12 7
+	link "Taygeta"
+	link "Wasat"
+	link "Atlas"
+	object
+		sprite "star/a8"
+		period 11
+	object
+		sprite planet/gas4
+		distance 2244
+		period 1337
+	object
+		sprite planet/ocean8-b
+		distance 2510
+		period 502
+
+system "Wasat"
+	pos -9544 -10959
+	government "Uninhabited"
+	arrival 984
+	habitable 514
+	belt 1186
+	minables lead 22 9
+	minables uranium 18 11
+	link "Alpha Ophiuchi"
+	link "Eta Ophiuchi"
+	link "Morava"
+	link "Nosaxa"
+	object
+		sprite "star/o0"
+		distance 263
+		period 15
+	object
+		sprite "planet/browndwarf-t-rogue"
+		distance 472
+		period 12
+		offset 180
+	object
+		sprite planet/gas0-b
+		distance 1501
+		period 671
+	object "Whisper"
+		sprite planet/lava7
+		distance 1628
+		period 861
+
+system "Orkaria"
+	pos -10353 -9581
+	government "Uninhabited"
+	arrival 723
+	habitable 734
+	belt 985
+	minables tungsten 11 11
+	minables neodymium 18 6
+	minables titanium 18 8
+	link "Lang-Exster"
+	link "Revati"
+	link "Geminga"
+	link "Fuyue"
+	object
+		sprite "star/m4"
+		distance 121
+		period 13
+		offset 180
+	object
+		sprite "star/m-supergiant"
+		distance 1620
+		period 10
+	object
+		sprite planet/browndwarf-t-rogue
+		distance 1864
+		period 1226
+	object
+		sprite planet/browndwarf-t
+		distance 2117
+		period 844
+	object
+		sprite planet/ice0-b
+		distance 3401
+		period 626
+	object
+		sprite planet/gas1-hot
+		distance 3539
+		period 936
+
+system "Geminga"
+	pos -10452 -9575
+	government "Uninhabited"
+	arrival 1044
+	habitable 986
+	belt 1170
+	minables iron 10 7
+	minables silver 10 7
+	link "Orkaria"
+	link "Fuyue"
+	link "Tarf"
+	link "Illyrian"
+	object
+		sprite "star/a3"
+		period 10
+	object
+		sprite planet/desert6
+		distance 946
+		period 618
+	object
+		sprite planet/desert2-b
+		distance 1034
+		period 1342
+	object
+		sprite planet/lava0-b
+		distance 1192
+		period 586
+	object
+		sprite planet/rock9-b
+		distance 2015
+		period 1383
+	object
+		sprite planet/lava7-b
+		distance 2336
+		period 1036
+
+system "Fuyue"
+	pos -10397 -9492
+	government "Uninhabited"
+	arrival 987
+	habitable 986
+	belt 920
+	minables uranium 13 10
+	minables titanium 14 9
+	minables aluminum 16 10
+	link "Geminga"
+	link "Orkaria"
+	link "Beta Cygni"
+	link "Illyrian"
+	object
+		sprite "star/a5"
+		distance 123
+		period 12
+		offset 120
+	object
+		sprite "star/b8"
+		distance 123
+		period 13
+	object
+		sprite "star/f-giant"
+		distance 280
+		period 10
+		offset 240
+	object
+		sprite planet/ocean1
+		distance 1106
+		period 1378
+	object
+		sprite planet/rock13
+		distance 1190
+		period 1236
+	object "Kastra"
+		sprite planet/vulpa
+		distance 1584
+		period 1067
+	object
+		sprite planet/gas10-hot
+		distance 2845
+		period 731
+
+system "Formosa"
+	pos -10303 -9457
+	government "Uninhabited"
+	arrival 1100
+	habitable 975
+	belt 1519
+	minables neodymium 10 8
+	link "Helvetios"
+	link "Kosjenka"
+	link "Beta Cygni"
+	object
+		sprite "star/k0"
+		distance 107
+		period 12
+	object
+		sprite "star/b-dwarf"
+		distance 119
+		period 10
+		offset 120
+	object
+		sprite "star/g5"
+		distance 122
+		period 11
+		offset 240
+	object
+		sprite planet/browndwarf-t-rogue
+		distance 1393
+		period 1338
+	object
+		sprite planet/lava5
+		distance 1556
+		period 635
+	object
+		sprite planet/ocean9
+		distance 2398
+		period 660
+	object
+		sprite planet/rock13
+		distance 2771
+		period 1165
+	object
+		sprite planet/tethys-b
+		distance 3914
+		period 996
+
+system "Beta Cygni"
+	pos -10369 -9383
+	government "Uninhabited"
+	arrival 991
+	habitable 529
+	belt 1236
+	minables iron 13 9
+	minables gold 11 10
+	link "Fuyue"
+	link "Formosa"
+	link "Absolutno"
+	object
+		sprite "star/k0"
+		distance 136
+		period 14
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 482
+		period 14
+		offset 180
+	object
+		sprite planet/gas7-hot
+		distance 896
+		period 1093
+
+system "Timir"
+	pos -10599 -9748
+	government "Uninhabited"
+	arrival 835
+	habitable 631
+	belt 1223
+	minables aluminum 19 9
+	minables lead 25 8
+	minables platinum 15 9
+	link "Alpha Hydrae"
+	link "Segin"
+	link "Lambda Ophiuchi"
+	link "Koit"
+	link "Delta Cassiopeiae"
+	object
+		sprite "star/a-giant"
+		distance 342
+		period 13
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 446
+		period 10
+		offset 180
+	object "Xanterra"
+		sprite planet/forest1-b
+		distance 790
+		period 1385
+	object
+		sprite planet/gas2-b
+		distance 1046
+		period 1070
+	object
+		sprite planet/forest1-b
+		distance 2252
+		period 955
+
+system "Lambda Ophiuchi"
+	pos -10660 -9827
+	government "Uninhabited"
+	arrival 600
+	habitable 864
+	belt 1090
+	minables titanium 11 12
+	minables copper 25 6
+	link "Timir"
+	link "Segin"
+	link "Beta Aquarii"
+	link "Edasich"
+	link "Koit"
+	object
+		sprite "star/f-dwarf"
+		distance 32
+		period 11
+		offset 120
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 473
+		period 10
+	object
+		sprite "star/a-supergiant"
+		distance 684
+		period 11
+		offset 240
+	object
+		sprite planet/desert8
+		distance 1155
+		period 883
+
+system "Edasich"
+	pos -10759 -9833
+	government "Uninhabited"
+	arrival 886
+	habitable 1095
+	belt 981
+	minables aluminum 23 8
+	minables neodymium 12 6
+	link "Rotanev"
+	link "Lambda Ophiuchi"
+	link "Tevel"
+	link "Koit"
+	object
+		sprite "star/a5"
+		distance 102
+		period 12
+		offset 180
+	object
+		sprite "star/k-supergiant"
+		distance 1120
+		period 11
+	object
+		sprite planet/forest0
+		distance 1836
+		period 510
+	object
+		sprite planet/ice4
+		distance 1954
+		period 1187
+	object
+		sprite planet/gas13
+		distance 3980
+		period 1107
+
+system "Tevel"
+	pos -10858 -9846
+	government "Uninhabited"
+	arrival 560
+	habitable 861
+	belt 1080
+	minables lead 14 5
+	link "Rotanev"
+	link "Edasich"
+	link "Muliphein"
+	link "Alshain"
+	object
+		sprite "star/neutron-small"
+		distance 205
+		period 13
+		offset 120
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 474
+		period 15
+		offset 240
+	object
+		sprite "star/a-supergiant"
+		distance 718
+		period 15
+	object
+		sprite planet/rock7-b
+		distance 959
+		period 978
+	object "Jarvix"
+		sprite planet/gas13
+		distance 1353
+		period 778
+	object
+		sprite planet/rock17-b
+		distance 3383
+		period 575
+	object
+		sprite planet/aera
+		distance 3401
+		period 1011
+	object
+		sprite planet/gas10
+		distance 3585
+		period 741
+
+system "Muliphein"
+	pos -10912 -9930
+	government "Uninhabited"
+	arrival 660
+	habitable 767
+	belt 1564
+	minables uranium 9 7
+	minables tungsten 14 9
+	link "Chertan"
+	link "Tevel"
+	link "Alkes"
+	link "Alrakis"
+	link "Terebellum"
+	object
+		sprite "star/l-dwarf"
+		distance 96
+		period 10
+		offset 120
+	object
+		sprite "star/a8"
+		distance 177
+		period 15
+		offset 240
+	object
+		sprite "star/m-giant"
+		distance 837
+		period 10
+	object
+		sprite planet/browndwarf-t
+		distance 1517
+		period 1105
+	object
+		sprite planet/ocean4
+		distance 2495
+		period 939
+	object
+		sprite planet/rock0-b
+		distance 3431
+		period 1222
+	object
+		sprite planet/gas7-hot
+		distance 3846
+		period 1206
+
+system "Montuno"
+	pos -10244 -9316
+	government "Uninhabited"
+	arrival 1176
+	habitable 802
+	belt 1584
+	minables copper 12 9
+	link "Kosjenka"
+	link "Alpha Aurigae"
+	link "Meissa"
+	link "Absolutno"
+	link "Lusitania"
+	object
+		sprite "star/a3"
+		distance 144
+		period 12
+		offset 240
+	object
+		sprite "star/neutron-small"
+		distance 288
+		period 13
+	object
+		sprite "planet/browndwarf-y-rogue"
+		distance 475
+		period 15
+		offset 120
+	object
+		sprite planet/gas15-b
+		distance 1284
+		period 1317
+	object
+		sprite planet/forest6
+		distance 1589
+		period 1037
+	object
+		sprite planet/rhea
+		distance 2304
+		period 1060
+	object
+		sprite planet/gas16-b
+		distance 3276
+		period 908
+	object
+		sprite planet/gas0-hot
+		distance 3416
+		period 1416
+
+system "Meissa"
+	pos -10289 -9227
+	government "Uninhabited"
+	arrival 937
+	habitable 1136
+	belt 895
+	minables platinum 17 3
+	minables iron 24 10
+	link "Montuno"
+	link "Ebla"
+	link "Absolutno"
+	link "Lusitania"
+	object
+		sprite "star/o-giant"
+		period 14
+	object
+		sprite planet/gas13
+		distance 1597
+		period 1151
+	object
+		sprite planet/gas0-hot
+		distance 1703
+		period 551
+	object "Zircon"
+		sprite planet/aera
+		distance 1781
+		period 551
+	object
+		sprite planet/gas5-b
+		distance 2496
+		period 1398
+	object
+		sprite planet/gas15-b
+		distance 2774
+		period 1375
+
+system "Ebla"
+	pos -10309 -9130
+	government "Uninhabited"
+	arrival 503
+	habitable 1123
+	belt 1382
+	minables tungsten 11 7
+	minables uranium 25 5
+	minables lead 17 3
+	link "Meissa"
+	link "Mouhoun"
+	link "Sansuna"
+	link "Xuange"
+	object
+		sprite "star/m0"
+		distance 96
+		period 14
+		offset 180
+	object
+		sprite "star/f5-old"
+		distance 238
+		period 10
+	object
+		sprite planet/browndwarf-l-rogue
+		distance 2085
+		period 961
+	object
+		sprite planet/cloud5
+		distance 3317
+		period 926
+
+system "Mouhoun"
+	pos -10395 -9080
+	government "Sagittaron"
+	arrival 803
+	habitable 872
+	belt 1444
+	minables titanium 16 4
+	link "Ebla"
+	link "Sansuna"
+	link "Kaewkosin"
+	object
+		sprite "star/a-dwarf"
+		distance 83
+		period 13
+	object
+		sprite "star/giant"
+		distance 260
+		period 14
+		offset 180
+	object
+		sprite planet/gas16
+		distance 1201
+		period 897
+	object
+		sprite planet/desert6-b
+		distance 1791
+		period 1189
+	object
+		sprite planet/rock14
+		distance 2731
+		period 623
+	object "Kraken"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Sagittaron Small Fleet" 1553
+	fleet "Sagittaron Big Fleet" 2402
+
+
+system "Sansuna"
+	pos -10332 -9003
+	government "Uninhabited"
+	arrival 577
+	habitable 1076
+	belt 1353
+	minables titanium 21 8
+	minables platinum 15 8
+	link "Ebla"
+	link "Mouhoun"
+	link "Xuange"
+	link "Biham"
+	object
+		sprite "star/protostar-yellow"
+		period 13
+	object "Rivendell"
+		sprite planet/dust2-b
+		distance 829
+		period 906
+	object
+		sprite planet/ocean3-b
+		distance 923
+		period 1228
+	object
+		sprite planet/cloud5
+		distance 2594
+		period 771
+	object
+		sprite planet/saturn
+		distance 3468
+		period 1241
+
+system "Celaeno"
+	pos -10020 -9292
+	government "Uninhabited"
+	arrival 652
+	habitable 1180
+	belt 1499
+	minables neodymium 11 8
+	minables tungsten 13 8
+	minables lead 11 9
+	link "Alsephina"
+	link "Alpha Aurigae"
+	link "Secunda Hyadum"
+	link "Beta Aquilae"
+	object
+		sprite "star/g5"
+		distance 97
+		period 12
+		offset 240
+	object
+		sprite "star/o5"
+		distance 204
+		period 15
+		offset 120
+	object
+		sprite "star/f-supergiant"
+		distance 759
+		period 14
+	object
+		sprite planet/neptune-b
+		distance 1477
+		period 891
+	object
+		sprite planet/dust1
+		distance 1590
+		period 834
+	object
+		sprite planet/lava4
+		distance 1987
+		period 1397
+	object
+		sprite planet/ice6
+		distance 2019
+		period 1420
+	object
+		sprite planet/dust0-b
+		distance 2550
+		period 794
+
+system "Secunda Hyadum"
+	pos -9978 -9202
+	government "Uninhabited"
+	arrival 779
+	habitable 811
+	belt 1400
+	minables silver 16 9
+	minables silicon 19 5
+	minables uranium 14 8
+	link "Celaeno"
+	link "Beta Aquilae"
+	link "Merope"
+	link "Alpha Carinae"
+	object
+		sprite "star/o-dwarf"
+		distance 33
+		period 10
+	object
+		sprite "planet/rogue-radiating"
+		distance 249
+		period 10
+		offset 240
+	object
+		sprite "star/b-supergiant"
+		distance 591
+		period 12
+		offset 120
+	object
+		sprite planet/dust7-b
+		distance 1126
+		period 1020
+	object
+		sprite planet/lava4-b
+		distance 1485
+		period 662
+	object
+		sprite planet/ice7-b
+		distance 3511
+		period 1445
+	object
+		sprite planet/rock10-b
+		distance 3820
+		period 905
+
+system "Beta Aquilae"
+	pos -10077 -9196
+	government "Uninhabited"
+	arrival 849
+	habitable 508
+	belt 1131
+	minables silicon 13 12
+	minables silver 22 10
+	link "Secunda Hyadum"
+	link "Alpha Aurigae"
+	link "Celaeno"
+	link "Beta Ursae Minoris"
+	link "Alpha Carinae"
+	object
+		sprite "star/f-dwarf"
+		period 14
+	object "Vulcan"
+		sprite planet/ocean8-b
+		distance 818
+		period 515
+	object
+		sprite planet/desert4
+		distance 1978
+		period 780
+	object
+		sprite planet/cloud8-b
+		distance 2075
+		period 1457
+
+system "Beta Ursae Minoris"
+	pos -10131 -9113
+	government "Uninhabited"
+	arrival 529
+	habitable 796
+	belt 1360
+	minables neodymium 19 6
+	minables iron 22 11
+	link "Beta Aquilae"
+	link "Xuange"
+	link "Lusitania"
+	object
+		sprite "star/f-dwarf"
+		distance 91
+		period 10
+		offset 120
+	object
+		sprite "star/b3"
+		distance 215
+		period 14
+		offset 240
+	object
+		sprite "star/f-supergiant"
+		distance 775
+		period 11
+	object
+		sprite planet/dust2-b
+		distance 850
+		period 1319
+	object
+		sprite planet/desert10
+		distance 2144
+		period 697
+	object
+		sprite planet/fog0
+		distance 2245
+		period 817
+	object
+		sprite planet/ocean5
+		distance 2372
+		period 993
+
+system "Xuange"
+	pos -10207 -9049
+	government "Uninhabited"
+	arrival 863
+	habitable 788
+	belt 886
+	minables silicon 10 3
+	minables gold 14 3
+	minables copper 7 9
+	link "Sansuna"
+	link "Beta Ursae Minoris"
+	link "Ebla"
+	link "Epsilon Carinae"
+	object
+		sprite "star/giant"
+		period 13
+	object
+		sprite planet/desert4
+		distance 1527
+		period 1221
+	object
+		sprite planet/gas3
+		distance 1673
+		period 1230
+	object
+		sprite planet/rock5-b
+		distance 2001
+		period 1109
+
+system "Phoenicia"
+	pos -9425 -10033
+	government "Uninhabited"
+	arrival 560
+	habitable 908
+	belt 1128
+	minables uranium 9 3
+	minables tungsten 25 7
+	link "Tupi"
+	link "Beta Bootis"
+	link "Taika"
+	link "Sham"
+	object
+		sprite "star/k-supergiant"
+		period 12
+	object
+		sprite planet/venus-b
+		distance 765
+		period 633
+	object "Genesia"
+		sprite planet/rock14-b
+		distance 795
+		period 1020
+	object
+		sprite planet/rhea-b
+		distance 1057
+		period 1110
+	object
+		sprite planet/ganymede
+		distance 2152
+		period 1238
+	object
+		sprite planet/lava6-b
+		distance 2397
+		period 928
+
+system "Sham"
+	pos -9327 -10048
+	government "Uninhabited"
+	arrival 603
+	habitable 783
+	belt 1259
+	minables uranium 20 4
+	minables iron 7 7
+	minables uranium 14 4
+	minables yottrite 9 11
+	link "Tupi"
+	link "Phoenicia"
+	link "Epsilon Sagittarii"
+	link "Altais"
+	object
+		sprite "star/nova-old"
+		period 15
+	object
+		sprite planet/rhea
+		distance 1366
+		period 993
+	object
+		sprite planet/desert3
+		distance 1911
+		period 939
+
+system "Epsilon Sagittarii"
+	pos -9267 -10127
+	government "Uninhabited"
+	arrival 975
+	habitable 612
+	belt 1569
+	minables uranium 22 5
+	link "Tupi"
+	link "Sham"
+	link "Tangra"
+	link "Rhombus"
+	object
+		sprite "star/k8"
+		period 11
+	object
+		sprite planet/rock18-b
+		distance 2831
+		period 1078
+	object
+		sprite planet/rock8
+		distance 3291
+		period 773
+	object
+		sprite planet/callisto
+		distance 3613
+		period 791
+
+system "Tangra"
+	pos -9259 -10226
+	government "Uninhabited"
+	arrival 724
+	habitable 829
+	belt 1547
+	minables uranium 7 6
+	link "Epsilon Sagittarii"
+	link "Tupi"
+	link "Rhombus"
+	link "Marsic"
+	object
+		sprite "star/m-giant"
+		period 11
+	object "Zanthe"
+		sprite planet/gas12-b
+		distance 1027
+		period 584
+	object
+		sprite planet/dust3-b
+		distance 1582
+		period 921
+	object
+		sprite planet/cloud3
+		distance 1804
+		period 658
+
+system "Rhombus"
+	pos -9161 -10208
+	government "Uninhabited"
+	arrival 889
+	habitable 1188
+	belt 1421
+	minables tungsten 25 12
+	minables copper 11 5
+	minables lead 16 4
+	link "Tangra"
+	link "Epsilon Sagittarii"
+	object
+		sprite "star/m-dwarf"
+		distance 93
+		period 12
+		offset 180
+	object
+		sprite "star/o-supergiant"
+		distance 694
+		period 10
+	object
+		sprite planet/gas1-b
+		distance 1681
+		period 943
+
+system "Angetenar"
+	pos -9356 -10254
+	government "Uninhabited"
+	arrival 611
+	habitable 564
+	belt 1131
+	minables gold 11 6
+	link "Tupi"
+	link "Gar"
+	link "Marsic"
+	object
+		sprite "star/f5"
+		period 10
+	object
+		sprite planet/desert9-b
+		distance 819
+		period 556
+	object
+		sprite planet/rock6
+		distance 1042
+		period 627
+	object
+		sprite planet/gas9-hot
+		distance 1179
+		period 928
+	object
+		sprite planet/dust1
+		distance 1316
+		period 1222
+
+system "Asellus Australis"
+	pos -9521 -10391
+	government "Uninhabited"
+	arrival 954
+	habitable 620
+	belt 1144
+	minables uranium 16 10
+	minables silver 22 10
+	minables gold 14 3
+	link "Alkalurops"
+	link "Moriah"
+	link "Ain"
+	link "Gar"
+	object
+		sprite "star/g5-old"
+		distance 214
+		period 15
+		offset 180
+	object
+		sprite "star/o5"
+		distance 269
+		period 13
+	object
+		sprite planet/desert5-b
+		distance 1369
+		period 688
+	object
+		sprite planet/gas4-hot
+		distance 1466
+		period 849
+	object "Uralis"
+		sprite planet/europa-b
+		distance 1859
+		period 1398
+	object
+		sprite planet/rock13-b
+		distance 1956
+		period 1240
+	object
+		sprite planet/io-b
+		distance 2051
+		period 760
+	object
+		sprite planet/desert3-b
+		distance 2877
+		period 1153
+
+system "Homam"
+	pos -9541 -10489
+	government "Leonis"
+	arrival 1117
+	habitable 736
+	belt 1232
+	minables platinum 9 10
+	link "Theta Eridani"
+	link "Moriah"
+	link "Alpha Ursae Minoris"
+	object
+		sprite "star/o5"
+		period 10
+	object
+		sprite planet/ice6-b
+		distance 1454
+		period 1302
+	object
+		sprite planet/wisp
+		distance 2546
+		period 751
+	object
+		sprite planet/ice4-b
+		distance 3199
+		period 578
+	object "Intrepid"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Leonis Small Fleet" 1426
+	fleet "Leonis Big Fleet" 2910
+
+
+system "Marsic"
+	pos -9269 -10361
+	government "Uninhabited"
+	arrival 954
+	habitable 936
+	belt 846
+	minables iron 11 6
+	minables silicon 12 11
+	link "Shaomin"
+	link "Tangra"
+	link "Angetenar"
+	link "Sulafat"
+	link "Beta Librae"
+	object
+		sprite "star/k3"
+		period 13
+	object
+		sprite planet/rock7-b
+		distance 2237
+		period 822
+	object
+		sprite planet/dust7
+		distance 2912
+		period 1069
+
+system "Sulafat"
+	pos -9171 -10380
+	government "Uninhabited"
+	arrival 985
+	habitable 1155
+	belt 820
+	minables silicon 21 11
+	minables uranium 7 8
+	minables yottrite 9 12
+	link "Marsic"
+	object
+		sprite "star/b0"
+		distance 202
+		period 13
+	object "Kalypso"
+		sprite planet/cloud8-b
+		distance 767
+		period 616
+	object
+		sprite "star/nova-small"
+		distance 1091
+		period 14
+		offset 180
+	object
+		sprite planet/gas5-b
+		distance 1709
+		period 955
+
+system "Beta Librae"
+	pos -9292 -10476
+	government "Uninhabited"
+	arrival 1045
+	habitable 564
+	belt 1513
+	minables uranium 23 6
+	link "Shaomin"
+	link "Alkalurops"
+	link "Marsic"
+	link "Lerna"
+	object
+		sprite "planet/browndwarf-t"
+		distance 485
+		period 13
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 520
+		period 11
+		offset 180
+	object
+		sprite planet/rock8-b
+		distance 1175
+		period 1358
+	object
+		sprite planet/gliese
+		distance 1380
+		period 518
+	object
+		sprite planet/uranus
+		distance 1779
+		period 524
+	object
+		sprite planet/ice8-b
+		distance 2490
+		period 1080
+
+system "Lerna"
+	pos -9227 -10551
+	government "Uninhabited"
+	arrival 1129
+	habitable 513
+	belt 1633
+	minables gold 18 9
+	minables iron 20 6
+	minables copper 22 5
+	link "Beta Librae"
+	link "Gudja"
+	object
+		sprite "star/k-supergiant"
+		period 15
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 913
+		period 1203
+	object
+		sprite planet/rock11
+		distance 2085
+		period 1146
+	object
+		sprite planet/ice6
+		distance 3261
+		period 1053
+
+system "Gudja"
+	pos -9208 -10649
+	government "Uninhabited"
+	arrival 888
+	habitable 1105
+	belt 1247
+	minables copper 22 8
+	minables copper 11 11
+	minables lead 20 8
+	link "Lerna"
+	link "Beta Orionis"
+	link "Rigil Kentaurus"
+	object
+		sprite "star/m0"
+		distance 128
+		period 14
+		offset 120
+	object
+		sprite "star/k0"
+		distance 179
+		period 14
+	object
+		sprite "star/b-supergiant"
+		distance 584
+		period 10
+		offset 240
+	object "Larvatus"
+		sprite planet/gas5-b
+		distance 1057
+		period 1021
+	object
+		sprite planet/desert9
+		distance 2783
+		period 1375
+	object
+		sprite planet/gas7
+		distance 3455
+		period 722
+
+system "Beta Orionis"
+	pos -9273 -10725
+	government "Uninhabited"
+	arrival 587
+	habitable 1157
+	belt 1793
+	minables titanium 25 3
+	link "Gudja"
+	link "Rigil Kentaurus"
+	link "Alterf"
+	object
+		sprite "star/neutron-small"
+		period 15
+	object
+		sprite planet/mars-b
+		distance 1271
+		period 696
+	object
+		sprite planet/gas17
+		distance 1839
+		period 1066
+	object
+		sprite planet/treser
+		distance 2620
+		period 825
+	object
+		sprite planet/desert10-b
+		distance 3723
+		period 1276
+
+system "Rigil Kentaurus"
+	pos -9348 -10658
+	government "Uninhabited"
+	arrival 1048
+	habitable 590
+	belt 1133
+	minables neodymium 6 11
+	minables copper 19 11
+	minables titanium 14 9
+	link "Beta Orionis"
+	link "Gudja"
+	link "Diya"
+	link "Alterf"
+	object
+		sprite "star/b5"
+		distance 164
+		period 14
+		offset 180
+	object
+		sprite "star/giant"
+		distance 321
+		period 15
+	object
+		sprite planet/dust5
+		distance 876
+		period 1029
+	object
+		sprite planet/lava3
+		distance 1231
+		period 1149
+	object
+		sprite planet/gas12
+		distance 2236
+		period 1302
+	object
+		sprite planet/cloud6-b
+		distance 2793
+		period 1045
+	object
+		sprite planet/ganymede
+		distance 2822
+		period 1004
+
+system "Kalausi"
+	pos -9585 -10692
+	government "Uninhabited"
+	arrival 975
+	habitable 932
+	belt 1416
+	minables aluminum 20 6
+	minables titanium 14 11
+	link "Theta Eridani"
+	link "Salm"
+	link "Saclateni"
+	link "Diya"
+	object
+		sprite "star/neutron-small"
+		period 13
+	object
+		sprite planet/oberon-b
+		distance 1014
+		period 1238
+	object "Jorvik"
+		sprite planet/europa
+		distance 1630
+		period 617
+	object
+		sprite planet/lava5-b
+		distance 2171
+		period 1289
+	object
+		sprite planet/gas5
+		distance 3497
+		period 857
+	object
+		sprite planet/lava6-b
+		distance 3881
+		period 1326
+
+system "Saclateni"
+	pos -9502 -10637
+	government "Uninhabited"
+	arrival 1196
+	habitable 977
+	belt 1294
+	minables copper 18 8
+	link "Theta Eridani"
+	link "Kalausi"
+	link "Diya"
+	object
+		sprite "star/f8"
+		distance 107
+		period 12
+	object
+		sprite "star/k-supergiant"
+		distance 1041
+		period 12
+		offset 180
+	object
+		sprite planet/rock18-b
+		distance 1972
+		period 768
+	object
+		sprite planet/ice2
+		distance 2911
+		period 1048
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 2941
+		period 841
+	object
+		sprite planet/ocean7-b
+		distance 3475
+		period 1217
+	object
+		sprite planet/gas1-b
+		distance 3808
+		period 1451
+
+system "Diya"
+	pos -9470 -10731
+	government "Uninhabited"
+	arrival 645
+	habitable 1085
+	belt 1782
+	minables gold 25 4
+	link "Rigil Kentaurus"
+	link "Saclateni"
+	link "Kalausi"
+	link "Eta Ophiuchi"
+	object
+		sprite "star/m8"
+		period 14
+	object
+		sprite planet/ocean0-b
+		distance 962
+		period 1287
+	object
+		sprite planet/fog0-b
+		distance 1142
+		period 1004
+	object
+		sprite planet/dust5
+		distance 1766
+		period 951
+	object
+		sprite planet/gas0
+		distance 2364
+		period 857
+	object
+		sprite planet/gas10
+		distance 3916
+		period 859
+
+system "Alterf"
+	pos -9383 -10779
+	government "Uninhabited"
+	arrival 965
+	habitable 1045
+	belt 1395
+	minables gold 19 9
+	minables titanium 12 10
+	minables gold 18 4
+	link "Beta Orionis"
+	link "Rigil Kentaurus"
+	object
+		sprite "star/o-dwarf"
+		period 14
+	object
+		sprite planet/cloud3-b
+		distance 891
+		period 956
+	object "Arkadia"
+		sprite planet/rock14-b
+		distance 1985
+		period 1053
+	object
+		sprite planet/gas12
+		distance 2234
+		period 790
+	object
+		sprite planet/rock15-b
+		distance 3747
+		period 1308
+
+system "Eta Ophiuchi"
+	pos -9459 -10844
+	government "Uninhabited"
+	arrival 1069
+	habitable 754
+	belt 1216
+	minables iron 11 9
+	minables silver 23 5
+	minables silicon 25 3
+	link "Wasat"
+	link "Diya"
+	link "Nosaxa"
+	object
+		sprite "star/k0"
+		period 12
+	object
+		sprite planet/ganymede
+		distance 2565
+		period 578
+	object
+		sprite planet/rock3
+		distance 2731
+		period 782
+	object
+		sprite planet/desert4-b
+		distance 3643
+		period 789
+	object
+		sprite planet/ice6
+		distance 3644
+		period 1317
+
+system "Mothallah"
+	pos -9403 -9919
+	government "Uninhabited"
+	arrival 619
+	habitable 1193
+	belt 1416
+	minables aluminum 8 5
+	minables lead 18 9
+	minables silicon 22 4
+	link "Hoggar"
+	link "Beta Bootis"
+	link "Epsilon Virginis"
+	link "Altais"
+	link "Libertas"
+	object
+		sprite "star/a5"
+		distance 141
+		period 10
+		offset 180
+	object
+		sprite "star/m-giant"
+		distance 798
+		period 12
+	object
+		sprite planet/dust2-b
+		distance 1343
+		period 1422
+	object
+		sprite planet/rock5-b
+		distance 1986
+		period 1495
+	object
+		sprite planet/gas12-b
+		distance 2779
+		period 1109
+	object
+		sprite planet/miranda-b
+		distance 3997
+		period 1418
+
+system "Altais"
+	pos -9304 -9925
+	government "Uninhabited"
+	arrival 1012
+	habitable 1091
+	belt 1364
+	minables titanium 6 9
+	link "Sham"
+	link "Mothallah"
+	link "Elkurud"
+	object
+		sprite "star/b3"
+		period 15
+	object "Terra Nova"
+		sprite planet/gas13
+		distance 1095
+		period 1396
+	object
+		sprite planet/cloud0
+		distance 2130
+		period 890
+	object
+		sprite planet/dust7-b
+		distance 2662
+		period 848
+
+system "Libertas"
+	pos -9304 -9825
+	government "Uninhabited"
+	arrival 668
+	habitable 963
+	belt 1268
+	minables gold 6 4
+	link "Hoggar"
+	link "Mothallah"
+	link "Elkurud"
+	link "Maia"
+	object
+		sprite "star/g3"
+		distance 176
+		period 13
+		offset 240
+	object
+		sprite "star/o8"
+		distance 189
+		period 13
+		offset 120
+	object
+		sprite "star/k-giant"
+		distance 581
+		period 15
+	object
+		sprite planet/ice4-b
+		distance 1297
+		period 899
+	object
+		sprite planet/aera
+		distance 1763
+		period 956
+	object
+		sprite planet/rock2-b
+		distance 2060
+		period 581
+	object
+		sprite planet/gas8-b
+		distance 3675
+		period 1092
+
+system "Elkurud"
+	pos -9205 -9822
+	government "Uninhabited"
+	arrival 824
+	habitable 942
+	belt 1329
+	minables silver 23 5
+	minables silicon 15 4
+	minables platinum 7 9
+	link "Altais"
+	link "Libertas"
+	link "Beid"
+	link "Tonatiuh"
+	object
+		sprite "star/k0"
+		distance 182
+		period 13
+		offset 180
+	object
+		sprite "star/k5-old"
+		distance 342
+		period 14
+	object
+		sprite planet/rock5-b
+		distance 957
+		period 650
+	object
+		sprite planet/jupiter-b
+		distance 2362
+		period 995
+	object
+		sprite planet/ice6
+		distance 3304
+		period 1208
+	object
+		sprite planet/lava2-b
+		distance 3422
+		period 1261
+
+system "Beid"
+	pos -9129 -9887
+	government "Uninhabited"
+	arrival 799
+	habitable 812
+	belt 913
+	minables iron 13 5
+	minables tungsten 8 3
+	link "Elkurud"
+	object
+		sprite "star/giant"
+		period 15
+	object "Xiphoria"
+		sprite planet/titan
+		distance 608
+		period 750
+	object
+		sprite planet/ocean7
+		distance 1746
+		period 712
+	object
+		sprite planet/mercury-b
+		distance 2155
+		period 678
+
+system "Alruba"
+	pos -9424 -9607
+	government "Canceron"
+	arrival 578
+	habitable 730
+	belt 813
+	minables gold 10 5
+	minables yottrite 10 12
+	link "Acrab"
+	link "Malmok"
+	link "Kaffaljidhma"
+	object
+		sprite "star/f8"
+		distance 110
+		period 15
+	object
+		sprite "star/a-supergiant"
+		distance 760
+		period 15
+		offset 240
+	object
+		sprite planet/vulpa
+		distance 1117
+		period 1056
+	object
+		sprite planet/gas16-b
+		distance 1943
+		period 1041
+	object
+		sprite "star/nova-old"
+		distance 3098
+		period 10
+		offset 120
+	object "Tempest"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Canceron Small Fleet" 2047
+	fleet "Canceron Big Fleet" 2267
+
+
+system "Pipit"
+	pos -9405 -9509
+	government "Canceron"
+	arrival 1139
+	habitable 864
+	belt 977
+	minables silver 14 11
+	minables tungsten 8 4
+	minables neodymium 22 12
+	link "Malmok"
+	link "Alpha Trianguli"
+	link "Alpha Phoenicis"
+	object
+		sprite "star/g-dwarf"
+		distance 101
+		period 13
+	object
+		sprite "star/f5"
+		distance 130
+		period 14
+		offset 180
+	object
+		sprite planet/desert3
+		distance 1884
+		period 755
+	object
+		sprite planet/neptune-b
+		distance 3038
+		period 1250
+	object "Sirius"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Canceron Small Fleet" 2036
+	fleet "Canceron Big Fleet" 2442
+
+
+system "Alpha Phoenicis"
+	pos -9306 -9499
+	government "Canceron"
+	arrival 543
+	habitable 773
+	belt 1752
+	minables lead 7 11
+	link "Malmok"
+	link "Pipit"
+	link "Monch"
+	link "Taiyi"
+	object
+		sprite "star/f8"
+		distance 145
+		period 11
+	object
+		sprite "star/b5"
+		distance 184
+		period 13
+		offset 180
+	object "Kythera"
+		sprite planet/forest2
+		distance 1573
+		period 940
+	object
+		sprite planet/rock8-b
+		distance 3262
+		period 674
+	object "Rhodium"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Canceron Small Fleet" 1753
+	fleet "Canceron Big Fleet" 3341
+
+
+system "Monch"
+	pos -9227 -9560
+	government "Canceron"
+	arrival 724
+	habitable 640
+	belt 1189
+	minables lead 17 7
+	minables silicon 21 7
+	link "Alpha Phoenicis"
+	link "Malmok"
+	link "Anadolu"
+	link "Tonatiuh"
+	object
+		sprite "star/l-dwarf"
+		distance 60
+		period 12
+		offset 180
+	object
+		sprite "star/o-supergiant"
+		distance 679
+		period 15
+	object
+		sprite planet/earth-b
+		distance 831
+		period 1147
+	object
+		sprite planet/jupiter
+		distance 988
+		period 1043
+	object
+		sprite planet/gas9-hot
+		distance 1063
+		period 746
+	object
+		sprite planet/rock5
+		distance 2363
+		period 1086
+	object
+		sprite planet/ice6
+		distance 3983
+		period 622
+	object "Nubia"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Canceron Small Fleet" 1722
+	fleet "Canceron Big Fleet" 2094
+
+
+system "Anadolu"
+	pos -9128 -9552
+	government "Uninhabited"
+	arrival 738
+	habitable 1051
+	belt 1449
+	minables tungsten 22 11
+	minables gold 11 12
+	minables yottrite 13 12
+	link "Monch"
+	link "Tonatiuh"
+	object
+		sprite "star/g8"
+		distance 121
+		period 13
+		offset 240
+	object
+		sprite "star/k3"
+		distance 138
+		period 11
+	object
+		sprite "star/nova-small"
+		distance 1084
+		period 12
+		offset 120
+	object
+		sprite planet/gas10-hot
+		distance 1336
+		period 857
+	object
+		sprite planet/gas15-b
+		distance 1389
+		period 1418
+	object
+		sprite planet/rock20
+		distance 2320
+		period 731
+	object
+		sprite planet/rock3-b
+		distance 2775
+		period 1437
+
+system "Maia"
+	pos -9272 -9720
+	government "Canceron"
+	arrival 920
+	habitable 595
+	belt 1507
+	minables aluminum 7 6
+	minables aluminum 13 5
+	minables tungsten 14 5
+	link "Kaffaljidhma"
+	link "Malmok"
+	link "Libertas"
+	object
+		sprite "star/f-dwarf"
+		distance 44
+		period 13
+	object
+		sprite "star/o0"
+		distance 269
+		period 15
+		offset 180
+	object "Selenia"
+		sprite planet/forest3-b
+		distance 629
+		period 1349
+	object
+		sprite planet/gas9-hot
+		distance 881
+		period 1016
+	object
+		sprite planet/desert0-b
+		distance 2033
+		period 885
+	object
+		sprite planet/cloud2
+		distance 2471
+		period 804
+	object
+		sprite planet/gas1-hot
+		distance 2987
+		period 919
+	object "Ymir"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Canceron Small Fleet" 1599
+	fleet "Canceron Big Fleet" 2852
+
+
+system "Tonatiuh"
+	pos -9177 -9690
+	government "Uninhabited"
+	arrival 1129
+	habitable 1058
+	belt 1719
+	minables platinum 24 4
+	minables uranium 7 10
+	minables tungsten 14 10
+	link "Anadolu"
+	link "Elkurud"
+	link "Monch"
+	object
+		sprite "star/neutron-small"
+		distance 207
+		period 12
+		offset 180
+	object
+		sprite "planet/browndwarf-l"
+		distance 426
+		period 14
+	object
+		sprite planet/earth-b
+		distance 1404
+		period 1212
+	object
+		sprite planet/desert9
+		distance 1892
+		period 1328
+	object
+		sprite planet/rock13
+		distance 1999
+		period 1014
+	object
+		sprite planet/dust4
+		distance 3320
+		period 1143
+
+system "Zaniah"
+	pos -9653 -9291
+	government "Uninhabited"
+	arrival 796
+	habitable 849
+	belt 1313
+	minables platinum 25 9
+	minables titanium 25 5
+	link "Alula Borealis"
+	link "Gamma Pegasi"
+	link "Brachium"
+	link "Alula Australis"
+	object
+		sprite "star/a-dwarf"
+		distance 81
+		period 15
+		offset 240
+	object
+		sprite "star/g-giant"
+		distance 359
+		period 11
+		offset 120
+	object
+		sprite "star/b-supergiant"
+		distance 591
+		period 10
+	object
+		sprite planet/rock6
+		distance 2207
+		period 1187
+	object
+		sprite planet/desert10
+		distance 2431
+		period 1104
+	object
+		sprite planet/desert3-b
+		distance 3361
+		period 1487
+
+system "Alula Australis"
+	pos -9643 -9192
+	government "Uninhabited"
+	arrival 1178
+	habitable 544
+	belt 1606
+	minables silver 15 8
+	minables aluminum 23 5
+	link "Alula Borealis"
+	link "Zaniah"
+	link "Khambalia"
+	object
+		sprite "star/a5"
+		distance 185
+		period 15
+	object
+		sprite "star/g-giant"
+		distance 415
+		period 11
+		offset 180
+	object "Ursa"
+		sprite planet/water0-b
+		distance 1658
+		period 1308
+	object
+		sprite planet/gas14
+		distance 2454
+		period 537
+	object
+		sprite planet/browndwarf-t-rogue
+		distance 2618
+		period 648
+	object
+		sprite planet/lava2
+		distance 2757
+		period 621
+
+system "Khambalia"
+	pos -9621 -9095
+	government "Uninhabited"
+	arrival 1192
+	habitable 1005
+	belt 945
+	minables copper 25 7
+	link "Alula Australis"
+	object
+		sprite "star/g0"
+		distance 122
+		period 10
+		offset 120
+	object
+		sprite "star/g3"
+		distance 131
+		period 14
+	object
+		sprite "star/o8"
+		distance 185
+		period 12
+		offset 240
+	object
+		sprite planet/neptune
+		distance 2615
+		period 645
+	object
+		sprite planet/gas9-hot
+		distance 3242
+		period 1436
+	object
+		sprite planet/wisp
+		distance 3376
+		period 1038
+
+system "Alpha Lyrae"
+	pos -9807 -9181
+	government "Uninhabited"
+	arrival 1049
+	habitable 768
+	belt 1251
+	minables uranium 6 6
+	link "Kurhah"
+	link "Alula Borealis"
+	link "Uklun"
+	link "Merope"
+	object
+		sprite "star/k8"
+		period 12
+	object
+		sprite planet/ice1
+		distance 1419
+		period 1448
+	object
+		sprite planet/ice1
+		distance 1533
+		period 1037
+	object
+		sprite planet/uranus-b
+		distance 1877
+		period 521
+	object
+		sprite planet/cloud3-b
+		distance 2767
+		period 727
+
+system "Uklun"
+	pos -9807 -9081
+	government "Uninhabited"
+	arrival 1147
+	habitable 842
+	belt 1311
+	minables iron 12 8
+	link "Alpha Lyrae"
+	link "Merope"
+	object
+		sprite "star/m0"
+		distance 83
+		period 10
+		offset 240
+	object
+		sprite "star/o0"
+		distance 259
+		period 12
+		offset 120
+	object
+		sprite planet/dust6-b
+		distance 618
+		period 884
+	object
+		sprite "star/protostar-orange"
+		distance 676
+		period 11
+	object "Oracle"
+		sprite planet/gas15-b
+		distance 1937
+		period 354
+	object
+		sprite planet/lava1-b
+		distance 3323
+		period 1217
+
+system "Merope"
+	pos -9907 -9078
+	government "Uninhabited"
+	arrival 868
+	habitable 811
+	belt 1791
+	minables tungsten 7 10
+	minables uranium 20 6
+	minables lead 14 8
+	link "Secunda Hyadum"
+	link "Uklun"
+	link "Alpha Lyrae"
+	link "Grumium"
+	object
+		sprite "star/g5"
+		distance 166
+		period 10
+	object
+		sprite "star/o8"
+		distance 265
+		period 11
+		offset 180
+	object
+		sprite planet/gas5-b
+		distance 938
+		period 1021
+	object
+		sprite planet/gas1
+		distance 2241
+		period 1020
+	object
+		sprite planet/rock8
+		distance 3025
+		period 1243
+	object
+		sprite planet/forest0
+		distance 3510
+		period 712
+
+system "Grumium"
+	pos -9974 -9004
+	government "Uninhabited"
+	arrival 1162
+	habitable 1181
+	belt 1182
+	minables silicon 12 6
+	minables iron 20 10
+	minables uranium 11 10
+	link "Merope"
+	link "Adhil"
+	link "Alpha Carinae"
+	object
+		sprite "star/g3"
+		distance 129
+		period 12
+	object
+		sprite "star/f5"
+		distance 132
+		period 15
+		offset 120
+	object
+		sprite "star/o-giant"
+		distance 590
+		period 14
+		offset 240
+	object
+		sprite planet/rock4
+		distance 1928
+		period 642
+	object
+		sprite planet/gas10
+		distance 3905
+		period 1428
+
+system "Adhil"
+	pos -9932 -8914
+	government "Uninhabited"
+	arrival 1178
+	habitable 630
+	belt 1488
+	minables platinum 11 11
+	minables uranium 21 7
+	minables copper 8 11
+	link "Grumium"
+	object
+		sprite "star/b-dwarf"
+		distance 94
+		period 11
+		offset 120
+	object
+		sprite "star/g8"
+		distance 155
+		period 11
+	object
+		sprite "star/protostar-orange"
+		distance 628
+		period 15
+		offset 240
+	object "Nomad"
+		sprite planet/gas11
+		distance 1248
+		period 1244
+	object
+		sprite planet/ice2
+		distance 1718
+		period 834
+	object
+		sprite planet/rock8
+		distance 1993
+		period 974
+	object
+		sprite planet/ice1-b
+		distance 2881
+		period 1296
+	object
+		sprite planet/callisto-b
+		distance 3199
+		period 1405
+
+system "Minchir"
+	pos -9382 -9404
+	government "Uninhabited"
+	arrival 672
+	habitable 790
+	belt 1536
+	minables aluminum 20 9
+	minables silver 12 3
+	link "Alpha Trianguli"
+	link "Chason"
+	link "Taiyi"
+	object
+		sprite "star/m-dwarf"
+		distance 94
+		period 14
+	object
+		sprite "star/f5-old"
+		distance 229
+		period 10
+		offset 120
+	object
+		sprite "star/o0"
+		distance 287
+		period 10
+		offset 240
+	object
+		sprite planet/ice6
+		distance 777
+		period 1144
+	object
+		sprite planet/gas2
+		distance 1658
+		period 1264
+	object
+		sprite planet/desert5
+		distance 1858
+		period 1104
+	object
+		sprite planet/dust5
+		distance 3814
+		period 1451
+
+system "Taiyi"
+	pos -9289 -9369
+	government "Uninhabited"
+	arrival 1113
+	habitable 1086
+	belt 1390
+	minables tungsten 6 7
+	link "Alpha Phoenicis"
+	link "Minchir"
+	link "Beta Pegasi"
+	object
+		sprite "star/a3"
+		distance 170
+		period 12
+	object
+		sprite "star/protostar-yellow"
+		distance 453
+		period 12
+		offset 120
+	object
+		sprite "star/f-supergiant"
+		distance 808
+		period 14
+		offset 240
+	object
+		sprite planet/callisto
+		distance 1598
+		period 1044
+	object
+		sprite planet/gas8
+		distance 2708
+		period 568
+
+system "Beta Pegasi"
+	pos -9211 -9308
+	government "Uninhabited"
+	arrival 989
+	habitable 1148
+	belt 1340
+	minables silver 24 4
+	minables titanium 8 7
+	link "Taiyi"
+	link "Polaris Australis"
+	link "Alpha Librae"
+	object
+		sprite "star/m4"
+		distance 83
+		period 11
+		offset 180
+	object
+		sprite "star/g5-old"
+		distance 294
+		period 12
+	object "Xantheus"
+		sprite planet/lava7
+		distance 1270
+		period 833
+	object
+		sprite planet/ice3
+		distance 3541
+		period 935
+
+system "Polaris Australis"
+	pos -9187 -9211
+	government "Uninhabited"
+	arrival 1065
+	habitable 633
+	belt 1211
+	minables neodymium 19 4
+	minables iron 9 7
+	link "Beta Pegasi"
+	link "Alpha Librae"
+	link "Gamma Geminorum"
+	object
+		sprite "star/k5"
+		distance 111
+		period 14
+	object
+		sprite "star/o8"
+		distance 264
+		period 14
+		offset 120
+	object
+		sprite "star/o3"
+		distance 284
+		period 12
+		offset 240
+	object
+		sprite planet/desert7
+		distance 618
+		period 1425
+	object
+		sprite planet/ice0
+		distance 2127
+		period 1143
+	object
+		sprite planet/jupiter-b
+		distance 2502
+		period 588
+	object
+		sprite planet/rock7-b
+		distance 2722
+		period 1200
+	object
+		sprite planet/forest1
+		distance 3115
+		period 1265
+
+system "Alpha Librae"
+	pos -9098 -9255
+	government "Uninhabited"
+	arrival 690
+	habitable 738
+	belt 1180
+	minables platinum 8 9
+	minables yottrite 14 12
+	link "Polaris Australis"
+	link "Beta Pegasi"
+	object
+		sprite "star/nova-old"
+		period 14
+	object
+		sprite planet/mars
+		distance 672
+		period 971
+
+system "Alpha Trianguli Australis"
+	pos -9400 -9211
+	government "Uninhabited"
+	arrival 505
+	habitable 1143
+	belt 844
+	minables copper 24 4
+	minables titanium 9 7
+	minables uranium 13 11
+	link "Chason"
+	link "Delta Geminorum"
+	link "Intan"
+	object
+		sprite "star/f8"
+		distance 107
+		period 13
+	object
+		sprite "star/neutron"
+		distance 422
+		period 12
+		offset 180
+	object
+		sprite planet/gas12-b
+		distance 609
+		period 775
+	object "Bastionis"
+		sprite planet/cloud1-b
+		distance 1673
+		period 1498
+
+system "Intan"
+	pos -9387 -9112
+	government "Uninhabited"
+	arrival 639
+	habitable 800
+	belt 1204
+	minables titanium 9 8
+	minables yottrite 8 11
+	link "Alpha Trianguli Australis"
+	link "Chamukuy"
+	object
+		sprite "star/wr"
+		period 13
+	object
+		sprite planet/gas9-b
+		distance 3191
+		period 681
+
+system "Chamukuy"
+	pos -9295 -9075
+	government "Uninhabited"
+	arrival 856
+	habitable 632
+	belt 1285
+	minables silicon 20 5
+	minables platinum 11 6
+	minables neodymium 24 6
+	link "Intan"
+	link "Gamma Geminorum"
+	object
+		sprite "star/o5"
+		period 14
+	object
+		sprite planet/gas8
+		distance 1743
+		period 1027
+	object
+		sprite planet/ocean0
+		distance 2310
+		period 946
+	object
+		sprite planet/forest1
+		distance 2582
+		period 561
+
+system "Gamma Geminorum"
+	pos -9198 -9096
+	government "Uninhabited"
+	arrival 724
+	habitable 823
+	belt 1470
+	minables uranium 12 6
+	minables aluminum 14 12
+	minables silicon 25 6
+	link "Polaris Australis"
+	link "Chamukuy"
+	link "Shama"
+	object
+		sprite "star/giant"
+		distance 315
+		period 15
+		offset 180
+	object
+		sprite "star/o-supergiant"
+		distance 650
+		period 11
+	object
+		sprite planet/tethys
+		distance 994
+		period 920
+	object
+		sprite planet/rock6-b
+		distance 1775
+		period 1235
+	object "Wyvern"
+		sprite planet/ice1-b
+		distance 1953
+		period 648
+	object
+		sprite planet/desert3
+		distance 3878
+		period 1366
+
+system "Shama"
+	pos -9105 -9061
+	government "Uninhabited"
+	arrival 601
+	habitable 1110
+	belt 1251
+	minables silicon 18 4
+	minables tungsten 6 8
+	minables uranium 12 5
+	link "Gamma Geminorum"
+	object
+		sprite "star/b-giant"
+		period 15
+	object
+		sprite planet/ice7-b
+		distance 2536
+		period 579
+	object
+		sprite planet/europa-b
+		distance 3875
+		period 595
+	object
+		sprite planet/gas15-b
+		distance 3975
+		period 1221
+
+system "Zeta Pegasi"
+	pos -10075 -10793
+	government "Uninhabited"
+	arrival 848
+	habitable 613
+	belt 826
+	minables aluminum 25 7
+	minables gold 19 5
+	link "Alkarab"
+	link "21 Tauri"
+	link "17 Tauri"
+	object
+		sprite "star/b-giant"
+		period 11
+	object
+		sprite planet/dust0
+		distance 1989
+		period 1387
+	object
+		sprite planet/cloud2
+		distance 2446
+		period 1075
+
+system "17 Tauri"
+	pos -10100 -10889
+	government "Uninhabited"
+	arrival 591
+	habitable 1124
+	belt 1607
+	minables silicon 16 8
+	minables lead 10 4
+	link "Jishui"
+	link "Zeta Pegasi"
+	link "Zeta Canis Majoris"
+	object
+		sprite "star/a-dwarf"
+		distance 40
+		period 13
+	object
+		sprite "star/g-dwarf"
+		distance 70
+		period 10
+		offset 120
+	object
+		sprite "star/m4"
+		distance 127
+		period 14
+		offset 240
+	object
+		sprite planet/gas12
+		distance 890
+		period 1268
+	object
+		sprite planet/gas16-b
+		distance 959
+		period 783
+	object "Veygar"
+		sprite planet/mercury-b
+		distance 1497
+		period 1260
+	object
+		sprite planet/rock17
+		distance 1978
+		period 1197
+	object
+		sprite planet/gas9-hot
+		distance 2303
+		period 1429
+	object
+		sprite planet/europa-b
+		distance 2429
+		period 1367
+
+system "Zeta Canis Majoris"
+	pos -10173 -10957
+	government "Uninhabited"
+	arrival 1133
+	habitable 882
+	belt 1408
+	minables lead 18 6
+	link "17 Tauri"
+	link "Chalawan"
+	link "Rapeto"
+	object
+		sprite "star/a-giant"
+		period 13
+	object
+		sprite planet/rock10
+		distance 2241
+		period 513
+	object
+		sprite planet/tethys
+		distance 3146
+		period 1394
+	object
+		sprite planet/lava0
+		distance 3992
+		period 1066
+
+system "Chalawan"
+	pos -10249 -11021
+	government "Uninhabited"
+	arrival 985
+	habitable 924
+	belt 1733
+	minables platinum 22 6
+	link "Zeta Canis Majoris"
+	link "Rapeto"
+	object
+		sprite "star/g5-old"
+		distance 270
+		period 11
+		offset 240
+	object
+		sprite "star/o-giant"
+		distance 565
+		period 12
+	object
+		sprite "star/a-supergiant"
+		distance 679
+		period 13
+		offset 120
+	object
+		sprite planet/gliese
+		distance 1245
+		period 918
+
+system "Rapeto"
+	pos -10276 -10924
+	government "Uninhabited"
+	arrival 832
+	habitable 632
+	belt 1001
+	minables lead 9 6
+	link "Chalawan"
+	link "Zeta Canis Majoris"
+	link "Gnomon"
+	link "Furud"
+	object
+		sprite "star/k5-old"
+		period 13
+	object "Candoria"
+		sprite planet/rock9
+		distance 879
+		period 853
+	object
+		sprite planet/gas5-hot
+		distance 1930
+		period 1098
+	object
+		sprite planet/browndwarf-l
+		distance 2925
+		period 1143
+
+system "Karaka"
+	pos -10369 -9827
+	government "Uninhabited"
+	arrival 604
+	habitable 747
+	belt 1384
+	minables aluminum 14 8
+	link "Nashira"
+	link "Beta Crucis"
+	link "Alpha Canis Majoris"
+	object
+		sprite "star/g5"
+		distance 144
+		period 12
+	object
+		sprite "planet/browndwarf-t-rogue"
+		distance 437
+		period 13
+		offset 180
+	object
+		sprite planet/gas1-b
+		distance 990
+		period 1489
+	object
+		sprite planet/ice6
+		distance 2070
+		period 994
+	object
+		sprite planet/gas2-b
+		distance 2472
+		period 1042
+
+system "Alkes"
+	pos -10837 -10027
+	government "Uninhabited"
+	arrival 851
+	habitable 684
+	belt 1227
+	minables gold 6 7
+	minables silicon 23 3
+	link "Muliphein"
+	link "Rotanev"
+	link "Beta Persei"
+	object
+		sprite "star/k-giant"
+		period 14
+	object
+		sprite planet/gas12-b
+		distance 1120
+		period 1254
+	object
+		sprite planet/forest2-b
+		distance 1650
+		period 763
+	object
+		sprite planet/dust1
+		distance 2203
+		period 1078
+	object
+		sprite planet/miranda-b
+		distance 3438
+		period 502
+	object
+		sprite planet/rogue-radiating
+		distance 3446
+		period 1404
+
+system "Añañuca"
+	pos -10996 -10111
+	government "Uninhabited"
+	arrival 892
+	habitable 663
+	belt 1000
+	minables lead 11 6
+	link "Alpha Scorpii"
+	link "Chertan"
+	link "Minelauva"
+	link "Alsafi"
+	object
+		sprite "star/k3"
+		distance 176
+		period 11
+		offset 180
+	object
+		sprite "star/o-supergiant"
+		distance 686
+		period 11
+	object
+		sprite planet/gas3-b
+		distance 1307
+		period 1184
+	object "Ixion"
+		sprite planet/fog0-b
+		distance 1907
+		period 1394
+	object
+		sprite planet/cloud1-b
+		distance 2260
+		period 904
+	object
+		sprite planet/dust7-b
+		distance 2871
+		period 1226
+	object
+		sprite planet/rhea-b
+		distance 3264
+		period 1397
+
+system "Minelauva"
+	pos -11095 -10112
+	government "Uninhabited"
+	arrival 727
+	habitable 738
+	belt 1113
+	minables platinum 22 10
+	link "Añañuca"
+	link "Alsafi"
+	link "Alrakis"
+	link "Rasalas"
+	object
+		sprite "star/f8"
+		distance 118
+		period 10
+		offset 180
+	object
+		sprite "star/neutron"
+		distance 393
+		period 14
+	object
+		sprite planet/ice5
+		distance 1248
+		period 1372
+	object
+		sprite planet/mars-b
+		distance 2393
+		period 643
+	object
+		sprite planet/miranda-b
+		distance 3006
+		period 702
+	object
+		sprite planet/uranus-b
+		distance 3863
+		period 1213
+
+system "Alsafi"
+	pos -11096 -10211
+	government "Uninhabited"
+	arrival 1136
+	habitable 1072
+	belt 975
+	minables aluminum 6 8
+	minables lead 20 9
+	minables tungsten 14 7
+	link "Minelauva"
+	link "Añañuca"
+	object
+		sprite "star/k3"
+		period 13
+	object
+		sprite planet/desert10
+		distance 3797
+		period 1465
+
+system "Alrakis"
+	pos -11037 -9989
+	government "Uninhabited"
+	arrival 824
+	habitable 559
+	belt 1720
+	minables silver 13 5
+	minables silver 20 10
+	minables neodymium 16 7
+	link "Minelauva"
+	link "Chertan"
+	link "Muliphein"
+	link "Terebellum"
+	link "Lucilinburhuc"
+	link "Rasalas"
+	object
+		sprite "star/k5-old"
+		distance 340
+		period 13
+	object
+		sprite "star/f-giant"
+		distance 348
+		period 15
+		offset 240
+	object
+		sprite "planet/browndwarf-t"
+		distance 467
+		period 12
+		offset 120
+	object "Volturnus"
+		sprite planet/callisto-b
+		distance 940
+		period 1150
+	object
+		sprite planet/forest2
+		distance 2000
+		period 1145
+	object
+		sprite planet/dust4
+		distance 3584
+		period 659
+
+system "Terebellum"
+	pos -11050 -9890
+	government "Uninhabited"
+	arrival 728
+	habitable 527
+	belt 1058
+	minables copper 8 9
+	minables yottrite 7 9
+	link "Muliphein"
+	link "Alrakis"
+	link "Lucilinburhuc"
+	link "Asterope"
+	object
+		sprite "star/nova-old"
+		period 10
+	object
+		sprite planet/lava2
+		distance 1717
+		period 1341
+	object
+		sprite planet/desert5
+		distance 2321
+		period 1435
+
+system "Lucilinburhuc"
+	pos -11143 -9925
+	government "Uninhabited"
+	arrival 681
+	habitable 542
+	belt 1509
+	minables titanium 16 5
+	link "Terebellum"
+	link "Alrakis"
+	object
+		sprite "star/a-dwarf"
+		distance 41
+		period 12
+		offset 120
+	object
+		sprite "star/f-dwarf"
+		distance 58
+		period 10
+	object
+		sprite "star/neutron"
+		distance 456
+		period 11
+		offset 240
+	object
+		sprite planet/rock16-b
+		distance 929
+		period 977
+	object
+		sprite planet/luna-b
+		distance 1649
+		period 1465
+	object
+		sprite planet/oberon
+		distance 2452
+		period 1424
+	object
+		sprite planet/gas1-b
+		distance 2833
+		period 647
+
+system "Rasalas"
+	pos -11183 -10016
+	government "Uninhabited"
+	arrival 1031
+	habitable 1039
+	belt 986
+	minables silver 7 9
+	minables iron 21 4
+	link "Minelauva"
+	link "Alrakis"
+	link "Zeta Puppis"
+	object
+		sprite "star/neutron-small"
+		distance 215
+		period 11
+	object
+		sprite "star/o8"
+		distance 246
+		period 15
+		offset 120
+	object "Urion"
+		sprite planet/browndwarf-t-rogue
+		distance 1171
+		period 606
+	object
+		sprite "star/carbon"
+		distance 2086
+		period 12
+		offset 240
+	object
+		sprite planet/cloud1
+		distance 2282
+		period 1178
+
+system "Zeta Puppis"
+	pos -11282 -10007
+	government "Uninhabited"
+	arrival 1068
+	habitable 983
+	belt 1301
+	minables iron 20 12
+	minables titanium 23 6
+	minables silver 24 3
+	link "Rasalas"
+	object
+		sprite "star/g3"
+		distance 168
+		period 10
+	object
+		sprite "planet/browndwarf-l"
+		distance 506
+		period 13
+		offset 180
+	object
+		sprite planet/dust2-b
+		distance 762
+		period 1449
+	object
+		sprite planet/gas1-hot
+		distance 1864
+		period 1257
+	object
+		sprite planet/gas11-b
+		distance 2733
+		period 863
+	object
+		sprite planet/desert0-b
+		distance 3252
+		period 905
+
+system "Yed Posterior"
+	pos -10689 -10361
+	government "Uninhabited"
+	arrival 657
+	habitable 721
+	belt 1571
+	minables silver 23 3
+	link "Ashlesha"
+	link "Deneb Algedi"
+	object
+		sprite "star/g0"
+		distance 139
+		period 13
+		offset 240
+	object
+		sprite "star/f8"
+		distance 175
+		period 14
+		offset 120
+	object
+		sprite "star/protostar-yellow"
+		distance 406
+		period 15
+	object
+		sprite planet/gas5
+		distance 1380
+		period 596
+	object
+		sprite planet/rock1-b
+		distance 1563
+		period 1413
+	object
+		sprite planet/desert0
+		distance 2215
+		period 816
+	object
+		sprite planet/dust6-b
+		distance 3232
+		period 599
+
+system "Alpha Sagittarii"
+	pos -10649 -10564
+	government "Aerilon"
+	arrival 1091
+	habitable 862
+	belt 959
+	minables copper 20 8
+	link "Nikawiy"
+	link "Torcular"
+	link "Alpha Cygni"
+	link "Bosona"
+	object
+		sprite "star/l-dwarf"
+		distance 95
+		period 11
+	object
+		sprite "star/o0"
+		distance 336
+		period 10
+		offset 180
+	object
+		sprite planet/forest5
+		distance 694
+		period 1161
+	object
+		sprite planet/tethys
+		distance 863
+		period 1396
+	object "Dionara"
+		sprite planet/cloud8-b
+		distance 1399
+		period 1380
+	object
+		sprite planet/ice2-b
+		distance 1424
+		period 563
+	object
+		sprite planet/rock12-b
+		distance 3075
+		period 1184
+	object
+		sprite planet/browndwarf-l
+		distance 3414
+		period 647
+	object "Glykon"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Aerilon Small Fleet" 2139
+	fleet "Aerilon Big Fleet" 3060
+
+
+system "Alpha Cygni"
+	pos -10563 -10615
+	government "Uninhabited"
+	arrival 671
+	habitable 787
+	belt 1741
+	minables silicon 17 12
+	link "Alpha Sagittarii"
+	link "Nikawiy"
+	link "Macondo"
+	link "Naledi"
+	object
+		sprite "star/m4"
+		distance 129
+		period 15
+		offset 180
+	object
+		sprite "star/k0"
+		distance 137
+		period 13
+	object
+		sprite planet/ocean9
+		distance 1312
+		period 752
+	object
+		sprite planet/ice2
+		distance 1548
+		period 1143
+	object
+		sprite planet/rock19-b
+		distance 1575
+		period 550
+	object
+		sprite planet/cloud7
+		distance 1589
+		period 685
+	object
+		sprite planet/desert1
+		distance 3763
+		period 1034
+
+system "Naledi"
+	pos -10522 -10706
+	government "Uninhabited"
+	arrival 898
+	habitable 541
+	belt 1357
+	minables uranium 17 11
+	minables uranium 20 11
+	link "Alpha Cygni"
+	link "Delta Ursae Majoris"
+	object
+		sprite "star/f8"
+		period 12
+	object
+		sprite planet/rock20
+		distance 2455
+		period 685
+	object
+		sprite planet/gas2
+		distance 2659
+		period 683
+	object
+		sprite planet/fog0-b
+		distance 3484
+		period 751
+
+system "Delta Ursae Majoris"
+	pos -10502 -10804
+	government "Uninhabited"
+	arrival 514
+	habitable 990
+	belt 1568
+	minables copper 15 12
+	minables titanium 10 5
+	minables silicon 9 11
+	link "Alpha Equulei"
+	link "Naledi"
+	link "Furud"
+	object
+		sprite "star/k5"
+		period 12
+	object "Quantum"
+		sprite planet/ocean1
+		distance 1546
+		period 1256
+	object
+		sprite planet/gas7-b
+		distance 2293
+		period 1093
+
+system "23 Tauri"
+	pos -10873 -10410
+	government "Uninhabited"
+	arrival 590
+	habitable 871
+	belt 1598
+	minables silicon 8 11
+	link "Alpha Ursae Majoris"
+	link "Ashlesha"
+	link "Gamma Ursae Minoris"
+	link "Guahayona"
+	link "Acubens"
+	object
+		sprite "star/f5"
+		distance 113
+		period 10
+		offset 180
+	object
+		sprite "star/a-giant"
+		distance 311
+		period 13
+	object
+		sprite planet/rock15-b
+		distance 1045
+		period 1292
+	object
+		sprite planet/rock2-b
+		distance 1234
+		period 1419
+	object
+		sprite planet/rock2
+		distance 1542
+		period 1016
+	object
+		sprite planet/rock12-b
+		distance 1729
+		period 1321
+	object
+		sprite planet/rock8
+		distance 3442
+		period 773
+
+system "Guahayona"
+	pos -10959 -10360
+	government "Uninhabited"
+	arrival 803
+	habitable 772
+	belt 1439
+	minables platinum 22 3
+	minables tungsten 17 4
+	link "23 Tauri"
+	link "Zavijava"
+	link "Acubens"
+	object
+		sprite "star/b3"
+		distance 223
+		period 14
+		offset 180
+	object
+		sprite "star/giant"
+		distance 266
+		period 11
+	object
+		sprite planet/gliese
+		distance 1621
+		period 1446
+	object
+		sprite planet/ocean7-b
+		distance 1680
+		period 1216
+
+system "Zavijava"
+	pos -11035 -10424
+	government "Uninhabited"
+	arrival 629
+	habitable 809
+	belt 1509
+	minables titanium 17 7
+	minables copper 24 3
+	minables iron 14 9
+	link "Guahayona"
+	link "Acubens"
+	object
+		sprite "star/g5"
+		distance 180
+		period 13
+		offset 120
+	object
+		sprite "star/b8"
+		distance 196
+		period 13
+	object
+		sprite "planet/browndwarf-t-rogue"
+		distance 503
+		period 14
+		offset 240
+	object "Omicron"
+		sprite planet/rock5
+		distance 703
+		period 482
+	object
+		sprite planet/nebula1
+		distance 2126
+		period 650
+	object
+		sprite planet/luna
+		distance 3074
+		period 668
+
+system "Acubens"
+	pos -10970 -10500
+	government "Uninhabited"
+	arrival 598
+	habitable 936
+	belt 1078
+	minables platinum 15 10
+	link "Guahayona"
+	link "Zavijava"
+	link "23 Tauri"
+	link "Beta Ursae Majoris"
+	object
+		sprite "star/m-dwarf"
+		distance 47
+		period 11
+	object
+		sprite "star/k8"
+		distance 152
+		period 15
+		offset 120
+	object
+		sprite "star/g-giant"
+		distance 388
+		period 15
+		offset 240
+	object
+		sprite planet/dust3-b
+		distance 844
+		period 842
+	object
+		sprite planet/ice1-b
+		distance 2955
+		period 1349
+	object
+		sprite planet/luna-b
+		distance 3062
+		period 1008
+
+system "Beta Ursae Majoris"
+	pos -10942 -10596
+	government "Uninhabited"
+	arrival 828
+	habitable 1156
+	belt 921
+	minables aluminum 24 4
+	link "Acubens"
+	link "Gamma Crucis"
+	object
+		sprite "star/k5"
+		period 15
+	object
+		sprite planet/forest0-b
+		distance 747
+		period 867
+	object
+		sprite planet/cloud1-b
+		distance 2340
+		period 1418
+
+system "Gamma Crucis"
+	pos -10799 -10611
+	government "Uninhabited"
+	arrival 986
+	habitable 767
+	belt 1458
+	minables gold 19 4
+	minables silver 20 12
+	link "Beta Ursae Majoris"
+	link "Alpha Ursae Majoris"
+	link "Bosona"
+	link "Emiw"
+	object
+		sprite "star/a3"
+		period 15
+	object
+		sprite planet/water1
+		distance 1052
+		period 1163
+	object "Berithon"
+		sprite planet/tethys
+		distance 1148
+		period 1112
+	object
+		sprite planet/ocean6
+		distance 1192
+		period 705
+	object
+		sprite planet/gas4
+		distance 2825
+		period 696
+	object
+		sprite planet/gas2-b
+		distance 2964
+		period 580
+	object
+		sprite planet/rock17-b
+		distance 3510
+		period 754
+
+system "Bosona"
+	pos -10730 -10684
+	government "Uninhabited"
+	arrival 1070
+	habitable 1170
+	belt 1702
+	minables iron 18 7
+	link "Gamma Crucis"
+	link "Alpha Sagittarii"
+	link "Emiw"
+	object
+		sprite "star/f8"
+		period 15
+	object
+		sprite planet/gas12-b
+		distance 2719
+		period 686
+	object
+		sprite planet/desert9
+		distance 2901
+		period 1463
+	object
+		sprite planet/rock0
+		distance 3018
+		period 713
+
+system "Emiw"
+	pos -10808 -10745
+	government "Uninhabited"
+	arrival 924
+	habitable 1034
+	belt 1560
+	minables tungsten 21 8
+	minables titanium 16 6
+	link "Gamma Crucis"
+	link "Bosona"
+	link "Berehynia"
+	link "Gamma Arietis"
+	object
+		sprite "star/a-dwarf"
+		distance 28
+		period 14
+		offset 240
+	object
+		sprite "star/o-dwarf"
+		distance 110
+		period 13
+		offset 120
+	object
+		sprite "star/a3"
+		distance 161
+		period 11
+	object
+		sprite planet/forest1-b
+		distance 601
+		period 567
+	object
+		sprite planet/desert8
+		distance 665
+		period 868
+	object
+		sprite planet/gas8
+		distance 1210
+		period 978
+	object
+		sprite planet/water0-b
+		distance 2200
+		period 959
+	object
+		sprite planet/gas11-b
+		distance 2768
+		period 578
+
+system "Berehynia"
+	pos -10837 -10840
+	government "Uninhabited"
+	arrival 602
+	habitable 991
+	belt 991
+	minables silicon 6 4
+	link "Emiw"
+	link "Gamma Arietis"
+	object
+		sprite "star/f5-old"
+		distance 208
+		period 13
+		offset 180
+	object
+		sprite "star/a-supergiant"
+		distance 675
+		period 15
+	object
+		sprite planet/rock7-b
+		distance 978
+		period 955
+	object
+		sprite planet/desert10-b
+		distance 1088
+		period 1359
+	object
+		sprite planet/desert7-b
+		distance 1106
+		period 1266
+	object
+		sprite planet/browndwarf-y
+		distance 1822
+		period 855
+	object "Persephone"
+		sprite planet/ocean1
+		distance 1926
+		period 791
+	object
+		sprite planet/rock12
+		distance 2912
+		period 1226
+
+system "Gamma Arietis"
+	pos -10910 -10771
+	government "Uninhabited"
+	arrival 1038
+	habitable 583
+	belt 1301
+	minables aluminum 22 6
+	minables gold 24 11
+	link "Berehynia"
+	link "Emiw"
+	object
+		sprite "star/m-dwarf"
+		period 12
+	object
+		sprite planet/gas13
+		distance 3527
+		period 894
+
+system "Gnomon"
+	pos -10259 -10801
+	government "Uninhabited"
+	arrival 1128
+	habitable 1092
+	belt 888
+	minables aluminum 20 5
+	minables platinum 21 11
+	minables silicon 6 9
+	link "Beta Canum Venaticorum"
+	link "Rapeto"
+	link "Alpha Equulei"
+	object
+		sprite "star/m4"
+		distance 70
+		period 10
+	object
+		sprite "star/a3"
+		distance 138
+		period 15
+		offset 180
+	object
+		sprite planet/cloud7-b
+		distance 1931
+		period 1198
+	object
+		sprite planet/venus
+		distance 2041
+		period 1072
+	object
+		sprite planet/gas9
+		distance 3385
+		period 1340
+	object
+		sprite planet/ocean2-b
+		distance 3632
+		period 655
+	object
+		sprite planet/cloud4
+		distance 3671
+		period 1278
+
+system "Furud"
+	pos -10389 -10882
+	government "Uninhabited"
+	arrival 506
+	habitable 1024
+	belt 1095
+	minables lead 8 8
+	link "Delta Ursae Majoris"
+	link "Alpha Equulei"
+	link "Rapeto"
+	link "Parumleo"
+	object
+		sprite "star/m4"
+		distance 114
+		period 13
+		offset 240
+	object
+		sprite "star/m5"
+		distance 159
+		period 15
+	object
+		sprite "star/a-supergiant"
+		distance 757
+		period 12
+		offset 120
+	object "Lysandra"
+		sprite planet/mars-b
+		distance 915
+		period 920
+	object
+		sprite planet/ocean3
+		distance 2618
+		period 836
+	object
+		sprite planet/desert4-b
+		distance 3180
+		period 843
+
+system "Parumleo"
+	pos -10440 -10967
+	government "Uninhabited"
+	arrival 634
+	habitable 929
+	belt 1065
+	minables gold 16 6
+	minables silicon 8 11
+	minables aluminum 21 5
+	link "Furud"
+	link "Larawag"
+	object
+		sprite "star/k8"
+		distance 162
+		period 13
+	object
+		sprite "star/g-giant"
+		distance 422
+		period 11
+		offset 120
+	object
+		sprite "star/a-supergiant"
+		distance 766
+		period 12
+		offset 240
+	object
+		sprite planet/dust5-b
+		distance 1670
+		period 1188
+	object
+		sprite planet/ice4-b
+		distance 3144
+		period 645
+	object
+		sprite planet/rock7
+		distance 3417
+		period 558
+	object
+		sprite planet/rock3-b
+		distance 3823
+		period 1465
+
+system "Larawag"
+	pos -10535 -10996
+	government "Uninhabited"
+	arrival 668
+	habitable 520
+	belt 1495
+	minables aluminum 12 3
+	minables iron 14 4
+	minables iron 16 6
+	link "Parumleo"
+	link "Mu Bootis"
+	object
+		sprite "star/g-dwarf"
+		distance 50
+		period 14
+		offset 180
+	object
+		sprite "star/m4"
+		distance 126
+		period 14
+	object
+		sprite planet/rock0-b
+		distance 1151
+		period 1328
+	object
+		sprite planet/desert9
+		distance 2982
+		period 1011
+
+system "Mu Bootis"
+	pos -10634 -10994
+	government "Uninhabited"
+	arrival 799
+	habitable 942
+	belt 1787
+	minables iron 13 11
+	minables yottrite 13 8
+	link "Larawag"
+	object
+		sprite "star/k-supergiant"
+		distance 1060
+		period 11
+		offset 180
+	object "Onyxia"
+		sprite planet/ocean6-b
+		distance 1888
+		period 880
+	object
+		sprite planet/desert4
+		distance 2080
+		period 955
+	object
+		sprite planet/rock4
+		distance 2101
+		period 818
+	object
+		sprite planet/ocean5-b
+		distance 2892
+		period 1317
+	object
+		sprite "star/nova-old"
+		distance 3061
+		period 11
+	object
+		sprite planet/dust2
+		distance 3531
+		period 909
+	object
+		sprite planet/luna-b
+		distance 3869
+		period 1083
+
+system "Zeta Ceti"
+	pos -9838 -10909
+	government "Uninhabited"
+	arrival 1083
+	habitable 603
+	belt 1026
+	minables gold 8 7
+	link "Nahn"
+	link "Meleph"
+	object
+		sprite "star/l-dwarf"
+		period 13
+	object
+		sprite planet/ocean3-b
+		distance 2581
+		period 962
+	object
+		sprite planet/fog0-b
+		distance 2777
+		period 910
+	object
+		sprite planet/rogue-radiating
+		distance 2861
+		period 853
+	object
+		sprite planet/forest1-b
+		distance 3648
+		period 1138
+
+system "Liesma"
+	pos -9864 -11005
+	government "Uninhabited"
+	arrival 840
+	habitable 1091
+	belt 836
+	minables silicon 22 9
+	minables gold 22 12
+	link "Meleph"
+	link "Jishui"
+	link "Alkaphrah"
+	object
+		sprite "star/m-dwarf"
+		distance 41
+		period 15
+		offset 240
+	object
+		sprite "star/m4"
+		distance 80
+		period 14
+	object
+		sprite "planet/rogue-radiating"
+		distance 262
+		period 10
+		offset 120
+	object
+		sprite planet/dust0-b
+		distance 1470
+		period 1238
+	object
+		sprite planet/ocean3
+		distance 1728
+		period 751
+	object
+		sprite planet/rock3
+		distance 2294
+		period 1398
+	object
+		sprite planet/rock13-b
+		distance 2369
+		period 1001
+	object
+		sprite planet/rock17-b
+		distance 3248
+		period 1346
+
+system "Alkaphrah"
+	pos -9905 -11096
+	government "Uninhabited"
+	arrival 532
+	habitable 746
+	belt 1736
+	minables neodymium 21 6
+	link "Liesma"
+	link "Alpha Cephei"
+	link "Gamma Virginis"
+	link "Alpha Bootis"
+	object
+		sprite "star/g3"
+		distance 167
+		period 11
+		offset 180
+	object
+		sprite "star/g0"
+		distance 178
+		period 15
+	object "Xolotl"
+		sprite planet/rock12-b
+		distance 655
+		period 645
+	object
+		sprite planet/ocean6
+		distance 1898
+		period 937
+
+system "Alpha Cephei"
+	pos -9893 -11195
+	government "Uninhabited"
+	arrival 1143
+	habitable 716
+	belt 1110
+	minables tungsten 19 9
+	link "Alkaphrah"
+	link "Lambda Orionis"
+	link "Alpha Bootis"
+	object
+		sprite "star/m5"
+		distance 103
+		period 10
+		offset 120
+	object
+		sprite "star/a8"
+		distance 129
+		period 13
+		offset 240
+	object
+		sprite "star/protostar-yellow"
+		distance 492
+		period 13
+	object
+		sprite planet/lava6-b
+		distance 1487
+		period 664
+	object
+		sprite planet/forest5
+		distance 1552
+		period 814
+	object
+		sprite planet/dust1-b
+		distance 3078
+		period 537
+
+system "Lambda Orionis"
+	pos -9970 -11259
+	government "Uninhabited"
+	arrival 774
+	habitable 956
+	belt 967
+	minables iron 10 4
+	link "Alpha Cephei"
+	link "Alpha Bootis"
+	object
+		sprite "star/m5"
+		distance 130
+		period 15
+		offset 240
+	object
+		sprite "star/b8"
+		distance 186
+		period 14
+		offset 120
+	object
+		sprite "star/k-giant"
+		distance 516
+		period 15
+	object
+		sprite planet/rock6
+		distance 631
+		period 585
+	object
+		sprite planet/ocean3
+		distance 2117
+		period 960
+	object
+		sprite planet/rock7
+		distance 2803
+		period 691
+	object
+		sprite planet/titan
+		distance 2822
+		period 1219
+
+system "Gamma Virginis"
+	pos -10013 -11062
+	government "Uninhabited"
+	arrival 671
+	habitable 1058
+	belt 1129
+	minables silver 24 3
+	minables tungsten 13 5
+	minables aluminum 23 8
+	link "Jishui"
+	link "Alkaphrah"
+	object
+		sprite "star/o0"
+		distance 277
+		period 10
+		offset 240
+	object
+		sprite "planet/browndwarf-l"
+		distance 511
+		period 12
+		offset 120
+	object
+		sprite "star/a-supergiant"
+		distance 716
+		period 12
+	object
+		sprite planet/gas3-hot
+		distance 809
+		period 684
+	object "Hexagon"
+		sprite planet/gas2-hot
+		distance 1925
+		period 968
+	object
+		sprite planet/ocean5-b
+		distance 3858
+		period 1067
+
+system "Alpha Bootis"
+	pos -10035 -11159
+	government "Uninhabited"
+	arrival 1096
+	habitable 1028
+	belt 1649
+	minables aluminum 8 3
+	link "Lambda Orionis"
+	link "Alkaphrah"
+	link "Alpha Cephei"
+	link "Skat"
+	object
+		sprite "star/b0"
+		period 11
+	object
+		sprite planet/desert2
+		distance 1748
+		period 1144
+	object
+		sprite planet/dust6-b
+		distance 2404
+		period 521
+	object
+		sprite planet/browndwarf-l
+		distance 2419
+		period 1461
+	object
+		sprite planet/desert10
+		distance 2642
+		period 851
+
+system "Skat"
+	pos -10130 -11189
+	government "Uninhabited"
+	arrival 965
+	habitable 521
+	belt 1487
+	minables aluminum 11 8
+	link "Alpha Bootis"
+	link "Batsu"
+	object
+		sprite "star/g-dwarf"
+		distance 34
+		period 14
+		offset 120
+	object
+		sprite "star/o-dwarf"
+		distance 105
+		period 13
+		offset 240
+	object
+		sprite "star/a3"
+		distance 187
+		period 13
+	object
+		sprite planet/gas15-b
+		distance 2932
+		period 1272
+
+system "Batsu"
+	pos -10178 -11276
+	government "Uninhabited"
+	arrival 508
+	habitable 1142
+	belt 1609
+	minables silver 17 6
+	minables gold 7 12
+	minables iron 7 9
+	link "Skat"
+	link "Propus"
+	object
+		sprite "star/m5"
+		distance 71
+		period 13
+		offset 180
+	object
+		sprite "star/o0"
+		distance 267
+		period 10
+	object "Palladium"
+		sprite planet/gas17
+		distance 994
+		period 826
+	object
+		sprite planet/ice5
+		distance 2201
+		period 1032
+	object
+		sprite planet/lava4-b
+		distance 3138
+		period 1418
+
+system "Propus"
+	pos -10277 -11277
+	government "Uninhabited"
+	arrival 997
+	habitable 809
+	belt 1788
+	minables lead 16 12
+	minables tungsten 10 7
+	link "Batsu"
+	object
+		sprite "star/g-dwarf"
+		distance 61
+		period 13
+		offset 180
+	object
+		sprite "star/b0"
+		distance 193
+		period 15
+	object
+		sprite planet/gas10
+		distance 672
+		period 705
+	object
+		sprite planet/rock20
+		distance 1531
+		period 574
+	object
+		sprite planet/rock8-b
+		distance 2540
+		period 876
+	object
+		sprite planet/forest1
+		distance 2644
+		period 974
+	object
+		sprite planet/gas9-b
+		distance 3258
+		period 1072
+
+system "Atlas"
+	pos -9616 -11106
+	government "Uninhabited"
+	arrival 1183
+	habitable 1035
+	belt 1122
+	minables aluminum 10 5
+	minables uranium 12 5
+	link "Alpha Ophiuchi"
+	link "Tuiren"
+	link "Gamma Eridani"
+	link "Merga"
+	object
+		sprite "star/k5"
+		period 10
+	object
+		sprite planet/gas1-hot
+		distance 2024
+		period 1151
+
+system "Tuiren"
+	pos -9674 -11187
+	government "Uninhabited"
+	arrival 875
+	habitable 586
+	belt 809
+	minables uranium 19 7
+	minables lead 20 10
+	minables uranium 23 12
+	link "Atlas"
+	link "Gamma Eridani"
+	object
+		sprite "star/f5"
+		distance 129
+		period 12
+		offset 180
+	object
+		sprite "star/b-giant"
+		distance 416
+		period 10
+	object "Utopia"
+		sprite planet/forest2-b
+		distance 1529
+		period 799
+	object
+		sprite planet/cloud5
+		distance 3858
+		period 968
+
+system "Gamma Eridani"
+	pos -9576 -11206
+	government "Uninhabited"
+	arrival 663
+	habitable 1108
+	belt 1206
+	minables gold 25 3
+	link "Tuiren"
+	link "Atlas"
+	link "Merga"
+	link "Zeta Sagittarii"
+	object
+		sprite "star/giant"
+		period 15
+	object
+		sprite planet/desert8-b
+		distance 820
+		period 1227
+	object
+		sprite planet/rock2
+		distance 1449
+		period 1452
+	object
+		sprite planet/ocean8-b
+		distance 1686
+		period 1044
+	object
+		sprite planet/desert9-b
+		distance 2434
+		period 692
+	object
+		sprite planet/lava6
+		distance 2613
+		period 842
+
+system "Merga"
+	pos -9497 -11145
+	government "Uninhabited"
+	arrival 1161
+	habitable 581
+	belt 1371
+	minables copper 18 11
+	link "Atlas"
+	link "Gamma Eridani"
+	link "Zeta Sagittarii"
+	link "Morava"
+	object
+		sprite "star/g0"
+		distance 151
+		period 12
+		offset 240
+	object
+		sprite "star/k3"
+		distance 151
+		period 10
+		offset 120
+	object
+		sprite "star/k-giant"
+		distance 608
+		period 11
+	object
+		sprite planet/desert9
+		distance 2604
+		period 601
+	object
+		sprite planet/desert3-b
+		distance 2930
+		period 568
+
+system "Zeta Sagittarii"
+	pos -9465 -11239
+	government "Uninhabited"
+	arrival 881
+	habitable 533
+	belt 1441
+	minables titanium 18 11
+	minables tungsten 25 11
+	link "Gamma Eridani"
+	link "Merga"
+	object
+		sprite "star/f-supergiant"
+		period 14
+	object "Solstice"
+		sprite planet/titan
+		distance 837
+		period 1307
+	object
+		sprite planet/callisto-b
+		distance 1382
+		period 686
+	object
+		sprite planet/forest2
+		distance 1398
+		period 1023
+	object
+		sprite planet/rock16-b
+		distance 1600
+		period 531
+	object
+		sprite planet/ice5
+		distance 2685
+		period 1061
+	object
+		sprite planet/rock8
+		distance 2992
+		period 1252
+
+system "Morava"
+	pos -9479 -11034
+	government "Uninhabited"
+	arrival 1084
+	habitable 1035
+	belt 1391
+	minables copper 17 7
+	link "Wasat"
+	link "Merga"
+	link "Nosaxa"
+	object
+		sprite "star/o5"
+		period 10
+	object
+		sprite planet/desert4-b
+		distance 3280
+		period 1039
+	object
+		sprite planet/desert4
+		distance 3517
+		period 909
+	object
+		sprite planet/rock10
+		distance 3946
+		period 512
+
+system "Nosaxa"
+	pos -9431 -10946
+	government "Uninhabited"
+	arrival 731
+	habitable 564
+	belt 885
+	minables copper 15 4
+	link "Morava"
+	link "Wasat"
+	link "Eta Ophiuchi"
+	link "Arkab Posterior"
+	object
+		sprite "star/g8"
+		distance 104
+		period 13
+	object
+		sprite "star/g8"
+		distance 148
+		period 11
+		offset 180
+	object
+		sprite planet/desert1
+		distance 1459
+		period 1429
+	object
+		sprite planet/ocean6
+		distance 1582
+		period 1381
+	object
+		sprite planet/rhea
+		distance 1926
+		period 1351
+	object
+		sprite planet/rock6-b
+		distance 3689
+		period 914
+	object
+		sprite planet/cloud2
+		distance 3820
+		period 1430
+
+system "Arkab Posterior"
+	pos -9332 -10939
+	government "Caprica"
+	arrival 675
+	habitable 1144
+	belt 1160
+	minables copper 10 12
+	minables iron 11 4
+	minables titanium 7 7
+	link "Nosaxa"
+	link "Ainalrami"
+	object
+		sprite "star/g0"
+		distance 186
+		period 15
+		offset 240
+	object
+		sprite "star/b5"
+		distance 194
+		period 11
+	object
+		sprite "star/b-giant"
+		distance 350
+		period 13
+		offset 120
+	object "Shadowfax"
+		sprite planet/rock11
+		distance 1645
+		period 817
+	object
+		sprite planet/ocean7
+		distance 1720
+		period 1497
+	object
+		sprite planet/io-b
+		distance 2721
+		period 548
+	object
+		sprite planet/oberon
+		distance 3066
+		period 626
+	object
+		sprite planet/ganymede-b
+		distance 3748
+		period 1396
+	object
+		sprite planet/forest6
+		distance 3861
+		period 1463
+	object "Cenarion"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Caprica Small Fleet" 2288
+	fleet "Caprica Big Fleet" 2857
+
+
+system "Ainalrami"
+	pos -9232 -10939
+	government "Caprica"
+	arrival 1128
+	habitable 934
+	belt 893
+	minables lead 24 11
+	minables neodymium 21 5
+	minables lead 9 10
+	link "Arkab Posterior"
+	link "Castula"
+	object
+		sprite "star/k0-old"
+		period 12
+	object
+		sprite planet/gas8
+		distance 1306
+		period 794
+	object
+		sprite planet/gas7-b
+		distance 2962
+		period 786
+	object "Kestrel"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Caprica Small Fleet" 1843
+	fleet "Caprica Big Fleet" 3260
+
+
+system "Castula"
+	pos -9145 -10987
+	government "Caprica"
+	arrival 1081
+	habitable 779
+	belt 1140
+	minables silicon 7 6
+	minables copper 23 11
+	link "Ainalrami"
+	object
+		sprite "star/k8"
+		distance 121
+		period 15
+	object
+		sprite "star/o3"
+		distance 211
+		period 11
+		offset 120
+	object
+		sprite "star/o-giant"
+		distance 586
+		period 14
+		offset 240
+	object
+		sprite planet/forest4-b
+		distance 1499
+		period 850
+	object
+		sprite planet/desert6-b
+		distance 3865
+		period 557
+	object "Baltheon"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Caprica Small Fleet" 1392
+	fleet "Caprica Big Fleet" 3145
+
+
+system "Tarf"
+	pos -10549 -9598
+	government "Uninhabited"
+	arrival 1096
+	habitable 1142
+	belt 1211
+	minables gold 14 5
+	link "Geminga"
+	link "Illyrian"
+	link "Delta Cassiopeiae"
+	object
+		sprite "planet/browndwarf-y"
+		distance 421
+		period 15
+	object
+		sprite "planet/browndwarf-l-rogue"
+		distance 493
+		period 13
+		offset 180
+	object
+		sprite planet/forest6
+		distance 633
+		period 703
+	object "Celestara"
+		sprite planet/forest0-b
+		distance 684
+		period 646
+	object
+		sprite planet/nebula1
+		distance 983
+		period 1283
+	object
+		sprite planet/water0-b
+		distance 2067
+		period 538
+	object
+		sprite planet/rock14-b
+		distance 3263
+		period 1018
+	object
+		sprite planet/rock13
+		distance 3373
+		period 1484
+
+system "Illyrian"
+	pos -10529 -9500
+	government "Uninhabited"
+	arrival 746
+	habitable 587
+	belt 809
+	minables silver 6 6
+	minables platinum 9 10
+	link "Tarf"
+	link "Geminga"
+	link "Fuyue"
+	link "Beta-1 Sagittarii"
+	object
+		sprite "star/m5"
+		period 14
+	object
+		sprite planet/cloud7
+		distance 2187
+		period 682
+
+system "Beta-1 Sagittarii"
+	pos -10548 -9402
+	government "Uninhabited"
+	arrival 1168
+	habitable 817
+	belt 1269
+	minables tungsten 7 12
+	link "Illyrian"
+	link "Flegetonte"
+	object
+		sprite "star/f3"
+		distance 169
+		period 10
+		offset 180
+	object
+		sprite "star/a0"
+		distance 189
+		period 11
+	object
+		sprite planet/dust1-b
+		distance 1680
+		period 677
+	object
+		sprite planet/gas0-b
+		distance 1854
+		period 1095
+	object
+		sprite planet/jupiter-b
+		distance 2310
+		period 535
+
+system "Flegetonte"
+	pos -10527 -9305
+	government "Uninhabited"
+	arrival 550
+	habitable 570
+	belt 1364
+	minables iron 21 3
+	minables iron 11 6
+	link "Beta-1 Sagittarii"
+	link "Nervia"
+	object
+		sprite "star/a-dwarf"
+		distance 54
+		period 11
+		offset 180
+	object
+		sprite "star/a8"
+		distance 138
+		period 14
+	object "Faeon"
+		sprite planet/gas8
+		distance 1093
+		period 1441
+	object
+		sprite planet/gas7-hot
+		distance 1979
+		period 802
+	object
+		sprite planet/ocean5-b
+		distance 3775
+		period 737
+
+system "Nervia"
+	pos -10527 -9205
+	government "Sagittaron"
+	arrival 1008
+	habitable 886
+	belt 1406
+	minables platinum 21 12
+	minables yottrite 15 10
+	link "Flegetonte"
+	link "Kaewkosin"
+	object
+		sprite "star/o-supergiant"
+		distance 639
+		period 11
+	object
+		sprite "star/nova-old"
+		distance 3006
+		period 11
+		offset 180
+	object
+		sprite planet/gas1-b
+		distance 3120
+		period 1356
+	object "Neutronia"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Sagittaron Small Fleet" 1968
+	fleet "Sagittaron Big Fleet" 3457
+
+
+system "Absolutno"
+	pos -10377 -9284
+	government "Uninhabited"
+	arrival 941
+	habitable 564
+	belt 1701
+	minables silicon 24 10
+	link "Meissa"
+	link "Beta Cygni"
+	link "Montuno"
+	object
+		sprite "star/b0"
+		distance 229
+		period 15
+		offset 180
+	object
+		sprite "star/f5-old"
+		distance 235
+		period 12
+	object
+		sprite planet/gas2-hot
+		distance 746
+		period 1498
+	object
+		sprite planet/water1-b
+		distance 3861
+		period 866
+
+system "Koit"
+	pos -10689 -9706
+	government "Uninhabited"
+	arrival 1147
+	habitable 600
+	belt 835
+	minables gold 23 12
+	link "Timir"
+	link "Lambda Ophiuchi"
+	link "Edasich"
+	object
+		sprite "star/g5"
+		period 14
+	object "Tauri"
+		sprite planet/forest4-b
+		distance 826
+		period 1196
+	object
+		sprite planet/fog0-b
+		distance 1110
+		period 1463
+	object
+		sprite planet/browndwarf-y-rogue
+		distance 1506
+		period 857
+	object
+		sprite planet/neptune-b
+		distance 2384
+		period 756
+	object
+		sprite planet/water1
+		distance 3195
+		period 711
+
+system "Delta Cassiopeiae"
+	pos -10654 -9613
+	government "Uninhabited"
+	arrival 1123
+	habitable 684
+	belt 985
+	minables copper 11 7
+	link "Timir"
+	link "Tarf"
+	link "Marfik"
+	object
+		sprite "star/b0"
+		distance 207
+		period 11
+		offset 240
+	object
+		sprite "star/o0"
+		distance 258
+		period 13
+		offset 120
+	object
+		sprite "star/b-supergiant"
+		distance 512
+		period 11
+	object
+		sprite planet/dust4-b
+		distance 1211
+		period 1172
+	object
+		sprite planet/redias
+		distance 1938
+		period 1053
+	object
+		sprite planet/rock3-b
+		distance 2417
+		period 603
+	object
+		sprite planet/rock16-b
+		distance 2556
+		period 1390
+	object
+		sprite planet/lava4-b
+		distance 2858
+		period 1410
+
+system "Marfik"
+	pos -10693 -9521
+	government "Uninhabited"
+	arrival 731
+	habitable 902
+	belt 1039
+	minables iron 20 6
+	minables aluminum 13 8
+	minables platinum 14 12
+	link "Delta Cassiopeiae"
+	link "Beta Leporis"
+	object
+		sprite "star/o5"
+		distance 245
+		period 11
+	object
+		sprite "star/o0"
+		distance 308
+		period 12
+		offset 180
+	object
+		sprite planet/gas2-b
+		distance 2249
+		period 1436
+	object
+		sprite planet/rock12-b
+		distance 3574
+		period 1407
+	object
+		sprite planet/cloud7
+		distance 3698
+		period 1275
+
+system "Beta Leporis"
+	pos -10754 -9443
+	government "Uninhabited"
+	arrival 794
+	habitable 1182
+	belt 1566
+	minables uranium 18 9
+	minables yottrite 11 7
+	link "Marfik"
+	object
+		sprite "star/o8"
+		distance 195
+		period 15
+		offset 240
+	object
+		sprite "star/a-supergiant"
+		distance 701
+		period 10
+	object
+		sprite planet/gas9
+		distance 850
+		period 872
+	object
+		sprite planet/lava4-b
+		distance 935
+		period 1456
+	object "Belvora"
+		sprite planet/lava2-b
+		distance 1493
+		period 799
+	object
+		sprite "star/nova"
+		distance 3044
+		period 10
+		offset 120
+
+system "Alshain"
+	pos -10927 -9775
+	government "Uninhabited"
+	arrival 658
+	habitable 949
+	belt 1719
+	minables uranium 15 6
+	minables neodymium 19 6
+	minables silicon 8 7
+	link "Tevel"
+	link "Hunahpu"
+	link "Asterope"
+	object
+		sprite "star/f-giant"
+		distance 320
+		period 12
+		offset 180
+	object
+		sprite "star/k-supergiant"
+		distance 1114
+		period 10
+	object
+		sprite planet/gas9-b
+		distance 1614
+		period 718
+	object
+		sprite planet/rock10
+		distance 2102
+		period 530
+
+system "Hunahpu"
+	pos -10988 -9697
+	government "Uninhabited"
+	arrival 588
+	habitable 1064
+	belt 1580
+	minables copper 22 11
+	minables copper 15 9
+	link "Alshain"
+	link "Asterope"
+	link "Nganurganity"
+	object
+		sprite "star/m0"
+		distance 95
+		period 12
+	object
+		sprite "star/f-giant"
+		distance 352
+		period 14
+		offset 120
+	object
+		sprite "star/a-supergiant"
+		distance 729
+		period 11
+		offset 240
+	object
+		sprite planet/ocean7-b
+		distance 3805
+		period 1363
+
+system "Asterope"
+	pos -11069 -9755
+	government "Uninhabited"
+	arrival 898
+	habitable 926
+	belt 1352
+	minables lead 9 7
+	minables silver 19 9
+	minables aluminum 24 12
+	link "Hunahpu"
+	link "Terebellum"
+	link "Alshain"
+	link "Nganurganity"
+	object
+		sprite "star/g3"
+		distance 180
+		period 11
+		offset 120
+	object
+		sprite "star/giant"
+		distance 329
+		period 15
+		offset 240
+	object
+		sprite "star/protostar-orange"
+		distance 684
+		period 14
+	object "Equinoxar"
+		sprite planet/rock9-b
+		distance 1680
+		period 809
+	object
+		sprite planet/gas1-b
+		distance 1942
+		period 1154
+	object
+		sprite planet/jupiter-b
+		distance 2661
+		period 717
+	object
+		sprite planet/ocean1
+		distance 2683
+		period 1369
+	object
+		sprite planet/rock3
+		distance 3876
+		period 1288
+
+system "Nganurganity"
+	pos -11109 -9664
+	government "Uninhabited"
+	arrival 1026
+	habitable 709
+	belt 1257
+	minables neodymium 24 5
+	link "Hunahpu"
+	link "Asterope"
+	link "Beta Cassiopeiae"
+	object
+		sprite "star/m8"
+		distance 98
+		period 14
+		offset 180
+	object
+		sprite "star/a8"
+		distance 128
+		period 10
+	object
+		sprite planet/cloud3-b
+		distance 2734
+		period 916
+	object
+		sprite planet/rock2-b
+		distance 3471
+		period 1292
+
+system "Beta Cassiopeiae"
+	pos -11074 -9571
+	government "Uninhabited"
+	arrival 1193
+	habitable 810
+	belt 1452
+	minables aluminum 13 4
+	minables iron 25 4
+	minables tungsten 8 7
+	link "Nganurganity"
+	object
+		sprite "star/a3"
+		distance 131
+		period 12
+	object
+		sprite "star/b3"
+		distance 201
+		period 13
+		offset 180
+	object
+		sprite planet/gas1
+		distance 941
+		period 712
+	object
+		sprite planet/gas6
+		distance 1724
+		period 1209
+
+system "Kaewkosin"
+	pos -10494 -9084
+	government "Sagittaron"
+	arrival 975
+	habitable 761
+	belt 878
+	minables aluminum 22 5
+	minables uranium 11 12
+	minables silver 11 4
+	link "Mouhoun"
+	link "Nervia"
+	link "Iklil"
+	object
+		sprite "star/m4"
+		period 10
+	object "Othello"
+		sprite planet/browndwarf-t-rogue
+		distance 1062
+		period 798
+	object
+		sprite planet/rock12
+		distance 1246
+		period 1189
+	object
+		sprite planet/rock12
+		distance 2550
+		period 841
+	object
+		sprite planet/earth-b
+		distance 3151
+		period 621
+	object "Braxis"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Sagittaron Small Fleet" 1181
+	fleet "Sagittaron Big Fleet" 3277
+
+
+system "Iklil"
+	pos -10545 -8999
+	government "Sagittaron"
+	arrival 582
+	habitable 936
+	belt 1324
+	minables tungsten 21 10
+	minables lead 9 5
+	minables aluminum 24 12
+	link "Kaewkosin"
+	link "Eta Ursae Majoris"
+	link "Beta Columbae"
+	link "Unurgunite"
+	object
+		sprite "star/b-dwarf"
+		distance 61
+		period 13
+	object
+		sprite "star/giant"
+		distance 298
+		period 10
+		offset 180
+	object
+		sprite planet/forest4
+		distance 1182
+		period 1259
+	object
+		sprite planet/rock3-b
+		distance 2403
+		period 594
+	object "Carvex"
+		sprite planet/earth
+		distance 2500
+		period 400
+	fleet "Sagittaron Small Fleet" 1521
+	fleet "Sagittaron Big Fleet" 3211
+
+
+system "Eta Ursae Majoris"
+	pos -10502 -8909
+	government "Uninhabited"
+	arrival 1082
+	habitable 608
+	belt 1493
+	minables uranium 19 9
+	minables aluminum 18 8
+	minables silicon 10 12
+	link "Iklil"
+	link "Beta Columbae"
+	link "Filetdor"
+	object
+		sprite "star/a-dwarf"
+		period 15
+	object
+		sprite planet/gas6
+		distance 831
+		period 522
+	object
+		sprite planet/gas9
+		distance 1996
+		period 712
+	object
+		sprite planet/treser
+		distance 3082
+		period 1223
+	object
+		sprite planet/rock10
+		distance 3650
+		period 1343
+
+system "Beta Columbae"
+	pos -10598 -8884
+	government "Uninhabited"
+	arrival 1092
+	habitable 573
+	belt 863
+	minables neodymium 24 9
+	link "Eta Ursae Majoris"
+	link "Iklil"
+	link "Unurgunite"
+	link "Filetdor"
+	object
+		sprite "star/giant"
+		period 12
+	object
+		sprite planet/tethys
+		distance 810
+		period 1285
+	object "Ursula"
+		sprite planet/gas10
+		distance 945
+		period 1359
+	object
+		sprite planet/rock2-b
+		distance 3020
+		period 963
+	object
+		sprite planet/gas17-b
+		distance 3035
+		period 1364
+
+system "Unurgunite"
+	pos -10656 -8965
+	government "Uninhabited"
+	arrival 1094
+	habitable 1085
+	belt 1741
+	minables silver 12 8
+	minables silicon 24 5
+	link "Beta Columbae"
+	link "Iklil"
+	object
+		sprite "star/g5-old"
+		distance 231
+		period 15
+		offset 180
+	object
+		sprite "star/b-giant"
+		distance 351
+		period 15
+	object
+		sprite planet/callisto-b
+		distance 709
+		period 851
+	object
+		sprite planet/water0
+		distance 2970
+		period 1481
+
+system "Biham"
+	pos -10321 -8904
+	government "Uninhabited"
+	arrival 669
+	habitable 717
+	belt 1617
+	minables titanium 7 7
+	link "Sansuna"
+	link "Dìwo"
+	link "Epsilon Carinae"
+	object
+		sprite "star/k0"
+		distance 107
+		period 15
+		offset 240
+	object
+		sprite "star/b8"
+		distance 202
+		period 14
+		offset 120
+	object
+		sprite "star/m-giant"
+		distance 805
+		period 12
+	object
+		sprite planet/forest0
+		distance 2328
+		period 921
+	object
+		sprite planet/neptune
+		distance 3035
+		period 1316
+	object
+		sprite planet/rock2-b
+		distance 3934
+		period 1160
+
+system "Dìwo"
+	pos -10348 -8808
+	government "Uninhabited"
+	arrival 894
+	habitable 952
+	belt 1275
+	minables lead 24 10
+	minables uranium 7 8
+	minables neodymium 11 4
+	link "Biham"
+	link "Alya"
+	object
+		sprite "star/m0"
+		period 15
+	object "Rigel Kentaurus"
+		sprite planet/ocean4
+		distance 1012
+		period 1368
+	object
+		sprite planet/desert9-b
+		distance 1043
+		period 1183
+	object
+		sprite planet/forest5-b
+		distance 2936
+		period 1254
+	object
+		sprite planet/water1-b
+		distance 3350
+		period 1363
+
+system "Alya"
+	pos -10429 -8751
+	government "Uninhabited"
+	arrival 1067
+	habitable 1039
+	belt 1644
+	minables aluminum 15 7
+	link "Dìwo"
+	link "Filetdor"
+	link "80 Ursae Majoris"
+	object
+		sprite "star/protostar-yellow"
+		period 13
+	object
+		sprite planet/lava5-b
+		distance 1355
+		period 648
+	object
+		sprite planet/desert5-b
+		distance 2684
+		period 527
+	object
+		sprite planet/forest6
+		distance 3667
+		period 1468
+	object
+		sprite planet/gas17
+		distance 3750
+		period 1007
+
+system "Filetdor"
+	pos -10528 -8764
+	government "Uninhabited"
+	arrival 1116
+	habitable 1070
+	belt 999
+	minables platinum 10 5
+	link "Eta Ursae Majoris"
+	link "Alya"
+	link "Beta Columbae"
+	link "80 Ursae Majoris"
+	object
+		sprite "star/f0"
+		period 14
+	object
+		sprite planet/rock9
+		distance 832
+		period 712
+	object
+		sprite planet/dust0-b
+		distance 2165
+		period 1220
+
+system "80 Ursae Majoris"
+	pos -10528 -8664
+	government "Uninhabited"
+	arrival 923
+	habitable 866
+	belt 1479
+	minables silver 16 5
+	link "Alya"
+	link "Filetdor"
+	object
+		sprite "star/a-dwarf"
+		distance 51
+		period 15
+		offset 120
+	object
+		sprite "star/g3"
+		distance 142
+		period 13
+		offset 240
+	object
+		sprite "planet/browndwarf-y"
+		distance 487
+		period 14
+	object "Omnus"
+		sprite planet/dust0-b
+		distance 1013
+		period 715
+	object
+		sprite planet/rock17-b
+		distance 1185
+		period 839
+	object
+		sprite planet/desert4
+		distance 1247
+		period 728
+	object
+		sprite planet/gas11-b
+		distance 2363
+		period 1374
+	object
+		sprite planet/browndwarf-l
+		distance 3263
+		period 1185
+	object
+		sprite planet/ocean8-b
+		distance 3595
+		period 908
+
+system "Lusitania"
+	pos -10176 -9202
+	government "Uninhabited"
+	arrival 597
+	habitable 615
+	belt 1692
+	minables aluminum 10 5
+	minables lead 13 5
+	link "Beta Ursae Minoris"
+	link "Alpha Aurigae"
+	link "Montuno"
+	link "Meissa"
+	object
+		sprite "star/a5"
+		distance 137
+		period 14
+	object
+		sprite planet/forest2-b
+		distance 1346
+		period 517
+	object
+		sprite "star/m-supergiant"
+		distance 1602
+		period 10
+		offset 180
+	object
+		sprite planet/cloud3-b
+		distance 2608
+		period 1212
+	object
+		sprite planet/cloud1-b
+		distance 3922
+		period 631
+
+system "Alpha Carinae"
+	pos -10035 -9084
+	government "Uninhabited"
+	arrival 813
+	habitable 696
+	belt 1780
+	minables silicon 8 6
+	minables uranium 21 4
+	minables aluminum 16 12
+	link "Grumium"
+	link "Secunda Hyadum"
+	link "Beta Aquilae"
+	object
+		sprite "star/b-dwarf"
+		distance 77
+		period 14
+		offset 240
+	object
+		sprite "star/a8"
+		distance 100
+		period 14
+		offset 120
+	object
+		sprite "star/b-giant"
+		distance 355
+		period 15
+	object
+		sprite planet/gas5-hot
+		distance 1359
+		period 1356
+	object
+		sprite planet/gas17-b
+		distance 2860
+		period 663
+	object
+		sprite planet/ocean6-b
+		distance 3440
+		period 1467
+	object
+		sprite planet/lava0-b
+		distance 3781
+		period 877
+
+system "Epsilon Carinae"
+	pos -10187 -8951
+	government "Uninhabited"
+	arrival 649
+	habitable 1085
+	belt 1075
+	minables iron 23 3
+	minables titanium 19 7
+	link "Xuange"
+	link "Biham"
+	object
+		sprite "star/o-giant"
+		period 11
+	object "Utopian"
+		sprite planet/rhea-b
+		distance 934
+		period 857
+	object
+		sprite planet/lava6-b
+		distance 1526
+		period 1123
+	object
+		sprite planet/gas14
+		distance 1955
+		period 1067
+	object
+		sprite planet/uranus-b
+		distance 2174
+		period 665
+	object
+		sprite planet/cloud3
+		distance 2795
+		period 965
+	object
+		sprite planet/water0
+		distance 3498
+		period 881
+
