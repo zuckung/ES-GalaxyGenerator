@@ -1,0 +1,13 @@
+galaxy
+(5000, -5000)
+300
+100
+6
+Sagittarius A*
+3
+6
+4
+messier
+100
+5
+15

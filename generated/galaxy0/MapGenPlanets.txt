@@ -1,0 +1,918 @@
+planet "Xerena"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/hills1
+	description ``
+
+planet "Krios"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/hills6-sfiera
+	description ``
+
+planet "Qamaris"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/beach1
+	description ``
+
+planet "Quercus"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/beach2
+	description ``
+
+planet "Quintessia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sea0
+	description ``
+
+planet "Aquivar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/forest11
+	description ``
+
+planet "Junonia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/badlands7
+	description ``
+
+planet "Odyssey"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/valley4
+	description ``
+
+planet "Fyrestone"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sea8
+	description ``
+
+planet "Rhodium"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain0
+	description ``
+
+planet "Cimmeria"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/badlands1
+	description ``
+
+planet "Elarion"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain18-harro
+	description ``
+
+planet "Niflheim"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain12-sfiera
+	description ``
+
+planet "Draculon"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/snow11-sfiera
+	description ``
+
+planet "Celestara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sea13-sfiera
+	description ``
+
+planet "Karion"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/turra
+	description ``
+
+planet "Lyonesse"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/snow10
+	description ``
+
+planet "Umbriel"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water15
+	description ``
+
+planet "Orionis"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain1
+	description ``
+
+planet "Lorelei"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain0
+	description ``
+
+planet "Persephone"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/fog0
+	description ``
+
+planet "Exilis"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/desert15
+	description ``
+
+planet "Jaspar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/moon0
+	description ``
+
+planet "Corvadia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/lava10
+	description ``
+
+planet "Fornax"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/lava7-sfiera
+	description ``
+
+planet "Typhon"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/myrabella5
+	description ``
+
+planet "Ymir"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/lava13
+	description ``
+
+planet "Arkadia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/clouds_07
+	description ``
+
+planet "Quixia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water15
+	description ``
+
+planet "Quorra"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/clouds_00
+	description ``
+
+planet "Kairon"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sky0
+	description ``
+
+planet "Hyacinth"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sea21
+	description ``
+
+planet "Qalara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sky5
+	description ``
+
+planet "Nocturne"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mars4
+	description ``
+
+planet "Mirandus"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain2
+	description ``
+
+planet "Niraya"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/fog1
+	description ``
+
+planet "Kyros"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/hills2
+	description ``
+
+planet "Zanarkand"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/forest7
+	description ``
+
+planet "Fraxion"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/beach1
+	description ``
+
+planet "Zalara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/beach12-harro
+	description ``
+
+planet "Hydrus"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain4
+	description ``
+
+planet "Ishtar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/canyon05
+	description ``
+
+planet "Othala"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain17-harro
+	description ``
+
+planet "Volturnus"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/dune0
+	description ``
+
+planet "Genesia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/beach6
+	description ``
+
+planet "Irisar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sea23
+	description ``
+
+planet "Quivira"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/canyon12
+	description ``
+
+planet "Ypsilon"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mercury1
+	description ``
+
+planet "Borendor"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/forest6
+	description ``
+
+planet "Utopian"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water25
+	description ``
+
+planet "Thera"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/enceladus_1
+	description ``
+
+planet "Exalia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/lava10
+	description ``
+
+planet "Fornia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/canyon03
+	description ``
+
+planet "Ivoria"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain0
+	description ``
+
+planet "Quantum"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/forest10
+	description ``
+
+planet "Javik"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain3
+	description ``
+
+planet "Nostromo"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/forest5
+	description ``
+
+planet "Luminor"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sky8
+	description ``
+
+planet "Larvatus"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/clouds_08
+	description ``
+
+planet "Astaroth"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/hills4
+	description ``
+
+planet "Icegard"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water5
+	description ``
+
+planet "Titan"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/fog5
+	description ``
+
+planet "Themis"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/clouds_06
+	description ``
+
+planet "Uxor"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/bwerner5
+	description ``
+
+planet "Jardia"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/forest5
+	description ``
+
+planet "Alpharion"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water12
+	description ``
+
+planet "Xandar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain16-striker
+	description ``
+
+planet "Opaline"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain4
+	description ``
+
+planet "Vulcan"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/fog3
+	description ``
+
+planet "Myrth"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/forest3
+	description ``
+
+planet "Krypton"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/snow10-sfiera
+	description ``
+
+planet "Elvaris"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/valley8
+	description ``
+
+planet "Calyptrix"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/snow20
+	description ``
+
+planet "Rivendell"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/moon0
+	description ``
+
+planet "Loxley"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/bwerner5
+	description ``
+
+planet "Ethos"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain3
+	description ``
+
+planet "Hyperion"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/myrabella8
+	description ``
+
+planet "Jotunheim"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/beach4
+	description ``
+
+planet "Centauria"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/fog10
+	description ``
+
+planet "Prisma"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/fog5
+	description ``
+
+planet "Pyrope"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sky1
+	description ``
+
+planet "Pallas"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/dune6-harro
+	description ``
+
+planet "Oberon"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/myrabella4
+	description ``
+
+planet "Borakar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/badlands13
+	description ``
+
+planet "Azimuth"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/dune3
+	description ``
+
+planet "Kynara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sky1
+	description ``
+
+planet "Tropica"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water0
+	description ``
+
+planet "Brontar"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/canyon01
+	description ``
+
+planet "Exotara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/sea21
+	description ``
+
+planet "Freyara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/water15
+	description ``
+
+planet "Rosalind"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/valley5
+	description ``
+
+planet "Jura"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/dune4
+	description ``
+
+planet "Rosetta"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain12-sfiera
+	description ``
+
+planet "Neptara"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/mountain20-harro
+	description ``
+
+planet "Jove"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/igna
+	description ``
+
+planet "Hexagon"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/valley0
+	description ``
+
+planet "Yavanna"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/haze1
+	description ``
+
+planet "Juniper"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/canyon03
+	description ``
+
+planet "Regulus"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/clouds9.
+	description ``
+
+planet "Netheria"
+	attributes uninhabited messier
+	government "Uninhabited"
+	landscape land/myrabella0
+	description ``
+
+planet "Quasar Prime"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Canceron.`
+
+planet "Jaxom"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Canceron.`
+
+planet "Imbria"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Canceron.`
+
+planet "Wildstar"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Canceron.`
+
+planet "Quasarion"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Canceron.`
+
+planet "Blythe"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Leonis.`
+
+planet "Quetzal"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Ixora"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Ganymede"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Solstice"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Leonis.`
+
+planet "Xanthe"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Aerilon.`
+
+planet "Galaxia"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aerilon.`
+
+planet "Yonder"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aerilon.`
+
+planet "Phaedra"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Caprica.`
+
+planet "Rigel"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Sparta"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Caprica.`
+
+planet "Etherea"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Sagittaron.`
+
+planet "Galdor"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Pavor"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Tempest"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Urania"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Sagittaron.`
+
+planet "Umber"
+	attributes messier
+	landscape land/city1
+
+	shipyard "bsg galactica"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Central Outfits Expansion"
+	outfitter "Northern Explorers"
+	outfitter "Deep Sky Basics"
+	outfitter "Deep Sky Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Security"
+	outfitter "Delta V Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicated Security"
+	outfitter "Kraz Basics"
+	outfitter "Kraz Advanced"
+	outfitter "FW Security"
+	outfitter "Pirate Basics"
+	outfitter "Pirate Advanced"
+	outfitter "South Pirate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Stack Core"
+	outfitter "Nuke"
+	spaceport ``
+	description `This is the capital of Aquaria.`
+
+planet "Krynn"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Tesseract"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Windermere"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
+planet "Valar"
+	attributes messier
+	landscape land/city1
+	spaceport ``
+	description `This is a colony of Aquaria.`
+
